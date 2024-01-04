@@ -1,5 +1,5 @@
 const cors = require('cors'); // Agregar al principio del archivo
-var createError = require('http-errors');
+// var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
@@ -12,8 +12,8 @@ var app = express();
 
 // view engine setup
 app.use(cors()); // Agregar después de crear 'app'
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+// app.set('views', path.join(__dirname, 'views'));
+// app.set('view engine', 'jade');
 
 app.use(logger('dev'));
 app.use(express.json());

@@ -1,4 +1,4 @@
-
+import './Home.css';
 
 
 
@@ -26,6 +26,82 @@ He demostrado habilidades sobresalientes al abordar desafíos en el front-end, f
 
 Mis habilidades en arquitectura abarcan diversas áreas, incluyendo diseño arquitectónico, gestión de proyectos, modelado BIM, Revit, AutoCAD, entre otros. Además, he compartido mi conocimiento como profesor adjunto en la Universidad Nacional de Córdoba, Argentina, impartiendo el curso de Arquitectura III</p>
     </div>
+
+    <h2>Design_Thinking</h2>
+    <img
+        src="./fases-del-design-thinking.png"  // Reemplaza con la ruta de tu logo
+        alt="Design Thinking"
+        className="Design_Thinking"
+        style={{ width: '20%', height: 'auto' }}
+        />
+
+
+
+
+  <h4 className='projectos_recientes'>Proyectos recientes</h4>
+<section className="hero-section">
+  <div className="card-grid">
+
+    <a className="card" href="#">
+     <div className="card__background"></div>
+      <div className="card__content">
+       <p className="card__category">Proyecto Grupal</p>
+      <h3 className="card__heading"> OliVino</h3>
+      <img
+        src="./olivino blanco.png"  // Reemplaza con la ruta de tu logo
+        alt="Logo olivino"
+        className="card__logo"
+        style={{ width: '30%', height: 'auto' }}
+        />
+      </div>
+    </a>
+
+    <a className="card" href="#">
+    <div className="card__background"></div>
+      <div className="card__content">
+        <p className="card__category">MVP</p>
+        <h3 className="card__heading">PadresEnsync</h3>
+        <img
+          src="./PadresEnsync logo.png"  // Reemplaza con la ruta de tu logo
+          alt="Logo olivino"
+          className="card__logo"
+         style={{ width: '50%', height: 'auto' }}
+         />
+      </div>
+    </a>
+
+    <a className="card" href="#">
+    <div className="card__background"></div>
+      <div className="card__content">
+        <p className="card__category">Extensión de Funcionalidad</p>
+        <h3 className="card__heading">Bikers</h3>
+        <img
+          src="./BIKER.png"  // Reemplaza con la ruta de tu logo
+          alt="Logo olivino"
+          className="card__logo"
+          style={{ width: '30%', height: 'auto' }}
+        />
+      </div>
+    </a>
+
+    <a className="card" href="#">
+    <div className="card__background"></div>
+      <div className="card__content">
+        <p className="card__category">Diseñador UI/UX</p>
+        <h3 className="card__heading">ROLLXPerience</h3>
+        <img
+          src="./roller_skating 2.png"  // Reemplaza con la ruta de tu logo
+          alt="Logo olivino"
+          className="card__logo"
+          style={{ width: '40%', height: 'auto' }}
+        />
+      </div>
+    </a>
+  
+    </div>
+</section>
+
+
 
     <div>
     <h2>Proyectos recientes</h2>
@@ -76,45 +152,6 @@ React.js, Vue.js | Javascript | HTML, CSS | Node.js /Express | MySQL | Postman
     </div>
 
 
-
-
-
-
-
-
-<section className="hero-section">
-  <div className="card-grid">
-    <a className="card" href="#">
-    <div className="card__background" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)' }}></div>
-      <div className="card__content">
-        <p className="card__category">Category</p>
-        <h3 className="card__heading">Example Card Heading</h3>
-      </div>
-    </a>
-    <a className="card" href="#">
-    <div className="card__background" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)' }}></div>
-      <div className="card__content">
-        <p className="card__category">Category</p>
-        <h3 className="card__heading">Example Card Heading</h3>
-      </div>
-    </a>
-    <a className="card" href="#">
-    <div className="card__background" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)' }}></div>
-      <div className="card__content">
-        <p className="card__category">Category</p>
-        <h3 className="card__heading">Example Card Heading</h3>
-      </div>
-    </a>
-    <a className="card" href="#">
-    <div className="card__background" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)' }}></div>
-      <div className="card__content">
-        <p className="card__category">Category</p>
-        <h3 className="card__heading">Example Card Heading</h3>
-      </div>
-    </a>
-  
-    </div>
-</section>
 </>
         
   );

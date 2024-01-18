@@ -136,7 +136,7 @@ body{
   padding: 0px;
 }
 
-.Resumen {
+.Picture {
   flex: 1; /* Ocupa todo el espacio disponible */
   padding: 15px; 
 }
@@ -153,8 +153,12 @@ body{
   flex-direction: column; /* Alinea los elementos en columna */
   justify-content: flex-start;
   align-items: flex-start;
-  /* background-color: #f5f5f5; */
   margin-left: 20px; /* Ajusta según sea necesario */
   padding: 10px; /* Agregué un poco de relleno */
  
+}
+
+li {
+  display: inline-block;
+  margin-left: 10px; /* Ajusta el espacio entre los elementos de la lista según sea necesario */
 }

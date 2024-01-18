@@ -18,15 +18,9 @@ function App() {
      <nav className="navbar">
         <ul>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/Habilidad">Habilidad</Link></li>
-        <li><Link to="/Educacion">Educacion</Link></li>
-        <li><Link to="/Contacto">Contacto</Link></li>
-
-        <li><a href="mailto:vanicuc@gmail.com"><img src="email.png" alt="Icono de Mail" /></a></li>
-        <li><a href="https://www.linkedin.com/in/vanina-c-90954248"><img src="linkedin.png" alt="Icono de Linkedin" /></a></li>
-        <li><a href="https://github.com/vanicuc/Porfolio_VC"><img src="social.png" alt="Icono de Github" /></a></li>
-        <li><a href="CV  vanina cucchietti  .pdf"><img src="cv.png" alt="Icono de cv" /></a></li>
-
+        <li><Link to="/Habilidad">Skill</Link></li>
+        <li><Link to="/Educacion">Education</Link></li>
+        <li><Link to="/Contacto">Contact</Link></li>
      </ul>
       
     </nav>

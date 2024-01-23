@@ -7,10 +7,10 @@
   --spacing-l: 24px;
   --spacing-xl: 32px;
   --spacing-xxl: 64px;
-  --width-container: 1200px;
+  --width-container: 900px;
 }
 
-*{
+/* *{
   border: 0;
   margin: 0;
   padding: 0;
@@ -21,26 +21,26 @@ html{
   height: 100%;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
-}
+} */
 
-body{
+/* body{
   height: 100%;
-}
+} */
 
 .hero-section{
   align-items: flex-start;
   /* background-image: linear-gradient(15deg, #f5f5f5 0%, #ebecec 150%); */
   display: flex;
-  min-height: 100%;
+  /* min-height: 100%; */
   justify-content: center;
-  padding: var(--spacing-xxl) var(--spacing-l);
+  padding: var(--spacing-m) var(--spacing-m);
 }
 
 .card-grid{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-column-gap: var(--spacing-l);
-  grid-row-gap: var(--spacing-l);
+  grid-column-gap: var(--spacing-m);
+  grid-row-gap: var(--spacing-xl);
   max-width: var(--width-container);
   width: 100%;
 }
@@ -95,50 +95,96 @@ body{
 
 .card__content{
   left: 0;
-  padding: var(--spacing-m);
+  padding: var(--spacing-s);
   position: absolute;
   top: 0;
 }
 
+
 .card__category{
   /* color: var(--text-light); */
   color: rgba(52, 50, 50, 0.9);
-  font-size: 0.9rem;
+  font-size: 16px;
   margin-bottom: var(--spacing-s);
   text-transform: uppercase;
 }
 
 .card__heading{
   color: var(--text-lighter);
-  font-size: 1.9rem;
+  font-size: 24px;
   text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
   line-height: 1.4;
   word-spacing: 100vw;
 }
 .card__logo {
-  width: 50%; /* Ajusta el tamaño del logo según tus necesidades */
+  width: 60%; /* Ajusta el tamaño del logo según tus necesidades */
   height: auto; /* Esto asegura que el aspecto original se mantenga */
   display: flex;
   align-items: center;
   margin: 50px auto 0;
+  padding: auto;
+
+
 }
 
 .Box_Presentation {
   display: flex;
-  justify-content: flex-start; /* Ajusta el valor según sea necesario */
+  /* justify-content: flex-start;  */
+  justify-content: space-between; 
+  /* margin-bottom: 20px; */
+  
+}
+
+.hi {
   align-items: center;
-  padding-top: 1px;
-  /* background-color: #f5f5f5; */
+  padding-top: 60px;
 }
 
 .inf {
-  flex: 0 0 30%; /* Tamaño fijo del 30% */
-  padding: 0px;
+  flex: 0 0 50%;
+  margin-left: 50px;
+  padding-top: 20px;
+
+}
+
+/* .hi.inf {
+  font-size: 400px !important;
+} */
+div.inf.hi {
+  font-size: 40px;
+}
+
+.Resumen{
+  font-size: 16px;
+  padding-top: 20px;
+  padding-right: 100px;
+  text-align: center;
+  /* text-align: left;  */
+  margin-bottom: 40px;
+}
+.box-link{
+  align-items: center; 
+  display: flex;
+  flex-direction: column;
+}
+
+.link-button {
+  display: inline-block; /* Cambia a bloque en línea para que ocupe solo el ancho necesario */
+  margin: 10px auto 0; /* Centra horizontalmente el botón y agrega un margen superior */
+}
+
+.Links {
+  margin-top: 40px; /* Add top margin for space */
+}
+
+.space {
+  margin-bottom: 30px; /* Ajusta el margen inferior del espacio según sea necesario */
 }
 
 .Picture {
-  flex: 1; /* Ocupa todo el espacio disponible */
+  flex: 1; 
   padding: 15px; 
+ 
 }
 
 .Design_Thinking {

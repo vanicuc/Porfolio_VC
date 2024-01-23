@@ -9,6 +9,7 @@ import ROLLXPerience from './pages/ROLLXPerience';
 import AboutMe from './pages/AboutMe';
 import Habilidad from './pages/habilidad';
 import Educacion from './pages/Educacion';
+import Projects from './pages/Projects';
 
 
 
@@ -35,6 +36,8 @@ function App() {
         <Route path="/AboutMe" element={<AboutMe/>} />
         <Route path="/Habilidad" element={<Habilidad/>} />
         <Route path="/Educacion" element={<Educacion/>} />
+        <Route path="/Projects" element={<Projects/>} />
+
 
       </Routes>
     </>

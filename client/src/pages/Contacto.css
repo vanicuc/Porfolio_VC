@@ -45,3 +45,16 @@
   button:hover {
     background-color: #0056b3;
   }
+
+
+ 
+  .form {
+    flex: 1; /* Cambiado de flex: 2; a flex: 1; */
+    padding: 15px;
+  }
+  
+  .Box_contact {
+    flex: 2;
+    margin-left: 50px;
+    padding-top: 20px;
+  }

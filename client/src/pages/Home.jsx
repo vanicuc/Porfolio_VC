@@ -34,16 +34,16 @@ export default function Home() {
                 borderRadius: "10px", // Ajusta el valor según sea necesario
                 textDecoration: "none", // Elimina la línea subrayada
               }}>
-                Project
+                Work experience
               </Link>
             <div className='space'></div>
 
-            <ul className='Links'>       
+            <div className='Links'>       
               <li><a href="mailto:vanicuc@gmail.com"><img src="email.png" alt="Icono de Mail" /></a></li>
               <li><a href="https://www.linkedin.com/in/vanina-c-90954248"><img src="linkedin.png" alt="Icono de Linkedin" /></a></li>
               <li><a href="https://github.com/vanicuc/Porfolio_VC"><img src="social.png" alt="Icono de Github" /></a></li>
               <li><a href="CV  vanina cucchietti  .pdf"><img src="cv.png" alt="Icono de cv" /></a></li>
-            </ul>
+            </div>
            </div>
 
       </div>

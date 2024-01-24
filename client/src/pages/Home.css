@@ -216,3 +216,39 @@ li {
   align-items: center; 
 
 }
+
+
+
+/* Añade estos estilos a tu hoja de estilo CSS para habilidades */
+.Hard_skills_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Hard_skill {
+  text-align: center;
+  margin: 8px;
+  width: 120px; /* Ajusta según sea necesario */
+}
+
+.Skills {
+  width: 50%;
+  height: auto;
+  margin-bottom: 8px; /* Espacio entre el logo y el texto */
+}
+.skill_name{
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.DesckHome_art_2 {
+  width: 30%;
+  height: auto;
+  /* display: block; */
+  justify-content: left;
+  margin: auto;
+  padding-top: 120px;
+  padding-left: 50px;
+}

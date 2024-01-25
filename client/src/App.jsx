@@ -6,10 +6,10 @@ import OliVino from './pages/OliVino';
 import PadresEnsync from './pages/PadresEnsync';
 import Biker from './pages/Biker';
 import ROLLXPerience from './pages/ROLLXPerience';
-import AboutMe from './pages/AboutMe';
 import Habilidad from './pages/habilidad';
 import Educacion from './pages/Educacion';
 import Projects from './pages/Projects';
+// import AboutMe from './pages/AboutMe';
 
 
 
@@ -33,10 +33,10 @@ function App() {
         <Route path="/PadresEnsync" element={<PadresEnsync/>} />
         <Route path="/Biker" element={<Biker/>} />
         <Route path="/ROLLXPerience" element={<ROLLXPerience/>} />
-        <Route path="/AboutMe" element={<AboutMe/>} />
         <Route path="/Habilidad" element={<Habilidad/>} />
         <Route path="/Educacion" element={<Educacion/>} />
         <Route path="/Projects" element={<Projects/>} />
+        {/* <Route path="/AboutMe" element={<AboutMe/>} /> */}
 
 
       </Routes>

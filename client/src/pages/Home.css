@@ -97,8 +97,8 @@
   word-spacing: 100vw;
 }
 .card__logo {
-  width: 60%; /* Ajusta el tamaño del logo según tus necesidades */
-  height: auto; /* Esto asegura que el aspecto original se mantenga */
+  width: 60%; 
+  height: auto;
   display: flex;
   align-items: center;
   margin: 50px auto 0;
@@ -108,9 +108,7 @@
 }
 
 .Box_Presentation {
-  /* display: flex; */
-  /* justify-content: space-between;  */
-  text-align: center;
+    text-align: center;
   display: flex;
 }
 
@@ -118,10 +116,10 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center; /* Cambiado de flex-start a center */
+  align-items: center;
   margin-left: 20px;
   margin-right: 20px;
-  /* padding: 10px; */
+ 
 }
 
 .hi {
@@ -136,28 +134,19 @@
 
 }
 
-/* div.inf.hi {
-  font-size: 40px;
-} */
 
 .Experience {
   font-size: 16px;
   padding-right: 150px;
   padding-left: 150px;
   text-align: center;
-  /* padding-top: 20px; */
-  /* text-align: left;  */
-  /* margin-bottom: 40px; */
-
+ 
 }
 .Resumen{
   font-size: 16px;
   text-align: center;
-  /* padding-top: 20px; */
-  /* padding-right: 100px; */
-  /* text-align: left;  */
-  /* margin-bottom: 40px; */
-}
+ }
+
 .box-link{
   align-items: center; 
   display: flex;
@@ -165,18 +154,15 @@
 }
 
 .link-button {
-  display: inline-block; /* Cambia a bloque en línea para que ocupe solo el ancho necesario */
-  /* margin: 10px auto 0; */
-   /* Centra horizontalmente el botón y agrega un margen superior */
+  display: inline-block; 
+
 }
 
-/* .Links {
-  margin-top: 40px;
-} */
+
 
 .space {
   margin-bottom: 30px;
-   /* Ajusta el margen inferior del espacio según sea necesario */
+   
 }
 
 .Picture {
@@ -186,7 +172,7 @@
 }
 
 .Design_Thinking {
-  flex: 1; /* Ocupa todo el espacio disponible */
+  flex: 1; 
   padding: 20px;
 }
 .Experiencia{
@@ -194,12 +180,11 @@
 }
 .Box_project {
   display: flex;
-  flex-direction: column; /* Alinea los elementos en columna */
+  flex-direction: column; 
   justify-content: flex-start;
   align-items: flex-start;
   padding: 10px; 
-  /* margin-left: 20px;  */
-  /* margin-right: 20px; */
+
   
   /* Ajusta según sea necesario */
  
@@ -208,7 +193,7 @@
 
 li {
   display: inline-block;
-  margin-left: 10px; /* Ajusta el espacio entre los elementos de la lista según sea necesario */
+  margin-left: 10px; 
   margin-right: 10px;
 }
 
@@ -229,13 +214,13 @@ li {
 .Hard_skill {
   text-align: center;
   margin: 8px;
-  width: 120px; /* Ajusta según sea necesario */
+  width: 120px; 
 }
 
 .Skills {
   width: 50%;
   height: auto;
-  margin-bottom: 8px; /* Espacio entre el logo y el texto */
+  margin-bottom: 8px;
 }
 .skill_name{
   flex-wrap: wrap;
@@ -246,7 +231,6 @@ li {
 .DesckHome_art_2 {
   width: 30%;
   height: auto;
-  /* display: block; */
   justify-content: left;
   margin: auto;
   padding-top: 120px;

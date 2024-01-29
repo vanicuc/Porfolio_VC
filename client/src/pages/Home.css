@@ -229,10 +229,11 @@ li {
 }
 
 .DesckHome_art_2 {
-  width: 30%;
+  width: 20%;
   height: auto;
-  justify-content: left;
+  /* justify-content: left; */
   margin: auto;
   padding-top: 120px;
-  padding-left: 50px;
+  padding-left: 40%;
+  
 }

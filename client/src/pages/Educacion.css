@@ -17,7 +17,18 @@
     align-items: center;
     font-family: consolas;
 } */
-
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.language{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 .container{
     /* width: 1000px; */
     /* position: relative; */
@@ -49,7 +60,6 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    
     transform: translateY(50px);
     
 }

@@ -8,8 +8,8 @@ export default function Educacion() {
     return (
       <>
       
-      <div>
-      <h3>Educación:</h3>
+      <div className='education'>
+      <h1>Education:</h1>
       </div>
 
 
@@ -62,10 +62,10 @@ export default function Educacion() {
 </body>
 
 
-    <div>
-    <h3>Idioma:</h3>
-    <p>Español : Nativo</p>
-    <p>Ingles : Nivel Avanzado</p>
+    <div className='language'>
+    <h1>Language:</h1>
+    <p>Spanish Native </p>
+    <p>English: Advanced Level</p>
 
     </div>
     

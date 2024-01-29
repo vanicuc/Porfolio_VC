@@ -36,6 +36,8 @@ export default function Habilidad() {
         alt="DeskHome_art 2"
         className="DesckHome_art_2"
         />
+
+      
     </>
   );
 }

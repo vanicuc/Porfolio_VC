@@ -31,11 +31,12 @@ export default function Habilidad() {
           </div>
         ))}
       </div>
-      <img
+      {/* <img
+      
         src="./Home_art 3.png"
         alt="DeskHome_art 2"
         className="DesckHome_art_2"
-        />
+        /> */}
 
       
     </>

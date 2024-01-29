@@ -1,0 +1,115 @@
+
+
+.hero-section{
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    padding: var(--spacing-m) var(--spacing-m);
+  }
+  
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: var(--spacing-m);
+    grid-row-gap: var(--spacing-xl);
+    max-width: var(--width-container);
+    width: 100%;
+  }
+  
+  @media(min-width: 540px){
+    .card-grid{
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media(min-width: 960px){
+    .card-grid{
+      grid-template-columns: repeat(4, 1fr); 
+    }
+  }
+  
+  .card{
+    list-style: none;
+    position: relative;
+  }
+  
+  .card:before{
+    content: '';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
+  }
+  
+  .card__background{
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--spacing-l);
+    bottom: 0;
+    background-color: #f7f7f7;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: center;
+    /* transition: 
+      filter 200ms linear,
+      transform 200ms linear; */
+  }
+  
+  /* .card:hover .card__background{
+    transform: scale(1.05) translateZ(0);
+  }
+   */
+  /* .card-grid:hover > .card:not(:hover) .card__background{
+    filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+  } */
+
+  .card:hover .card__background,
+  .card:active .card__background {
+    background-color: #b2b0b0; /* Cambia esto al color que prefieras, por ejemplo, blanco o gris más oscuro */
+}
+
+
+  
+  .card__content{
+    left: 0;
+    padding: var(--spacing-s);
+    position: absolute;
+    top: 0;
+  }
+  
+  
+  .card__category{
+     color: rgba(52, 50, 50, 0.9);
+    font-size: 16px;
+    margin-bottom: var(--spacing-s);
+    text-transform: uppercase;
+  }
+  
+  .card__heading{
+    color: var(--text-lighter);
+    font-size: 24px;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    line-height: 1.4;
+    word-spacing: 100vw;
+  }
+  .card__logo {
+    width: 60%; 
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 50px auto 0;
+    padding: auto;
+  
+  
+  }
+  
+  .Work_experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+  }

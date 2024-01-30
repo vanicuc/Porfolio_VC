@@ -1,4 +1,3 @@
-
 /* Estilos para la sección principal del formulario */
 .form_wrap {
   width: 1100px; /* Ancho de la sección principal */
@@ -71,8 +70,8 @@ form.form_contact textarea {
   padding: 0px 0px 5px; /* Relleno de 8px arriba, 0px a los lados, y 5px abajo */
   margin-bottom: 20px; /* Margen inferior de 20px */
   border: none; /* Sin borde */
-  border-bottom: 2px solid #D1D1D1; /* Borde inferior de 2px sólido con color */
-  color: #5A5A5A; /* Color del texto */
+  border-bottom: 2px solid #d1d1d1; /* Borde inferior de 2px sólido con color */
+  color: #5a5a5a; /* Color del texto */
   font-size: 14px; /* Tamaño de fuente de 14px */
   font-weight: 400; /* Grosor de la fuente de 400 */
 }
@@ -113,9 +112,8 @@ form.form_contact input[type="submit"] {
 }
 
 /* Estilos para los íconos de correo y teléfono */
-.fa-envelope, .fa-mobile {
+.fa-envelope,
+.fa-mobile {
   display: flex; /* Utiliza el modelo de caja flexible */
   align-items: center; /* Centra verticalmente los elementos secundarios */
 }
-
-

@@ -1,6 +1,6 @@
-:root{
+:root {
   --background-dark: #2d3548;
-  --text-light: rgba(255,255,255,0.6);
+  --text-light: rgba(255, 255, 255, 0.6);
   --text-lighter: rgba(52, 50, 50, 0.9);
   --spacing-s: 8px;
   --spacing-m: 16px;
@@ -10,20 +10,18 @@
   --width-container: 1000px;
 }
 
-
 .Box_Presentation {
-    text-align: center;
+  text-align: center;
   display: flex;
 }
 
-.Work_experience{
+.Work_experience {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   margin-left: 20px;
   margin-right: 20px;
- 
 }
 
 .hi {
@@ -35,88 +33,74 @@
   flex: 0 0 50%;
   margin-left: 50px;
   padding-top: 20px;
-
 }
-
 
 .Experience {
   font-size: 16px;
   padding-right: 150px;
   padding-left: 150px;
   text-align: center;
- 
 }
-.Resumen{
+.Resumen {
   font-size: 16px;
   text-align: center;
- }
+}
 
-.box-link{
-  align-items: center; 
+.box-link {
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
 
 .link-button {
-  display: inline-block; 
-
-/* }
+  display: inline-block;
+  margin: 15px;
+}
 .link-button:hover {
-  background-color: #392876; /* Cambia esto al color que prefieras al hacer clic */
+  background-color: #392876;
   color: #fff; /* Cambia esto al color que prefieras para el texto al hacer clic */
 }
 
 .link-button:active {
-    background-color: #392876; /* Cambia esto al color que prefieras al hacer clic */
-    color: #fff; /* Cambia esto al color que prefieras para el texto al hacer clic */
-} */
-
-
-
+  background-color: #392876; /* Cambia esto al color que prefieras al hacer clic */
+  color: #fff; /* Cambia esto al color que prefieras para el texto al hacer clic */
+}
 
 .space {
   margin-bottom: 30px;
-   
 }
 
 .Picture {
-  flex: 1; 
-  padding: 15px; 
- 
+  flex: 1;
+  padding: 15px;
 }
 
 .Design_Thinking {
-  flex: 1; 
+  flex: 1;
   padding: 20px;
 }
-.Experiencia{
+.Experiencia {
   padding-top: 10px;
 }
 .Box_project {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 10px; 
+  padding: 10px;
 
-  
   /* Ajusta según sea necesario */
- 
- 
 }
 
 li {
   display: inline-block;
-  margin-left: 10px; 
+  margin-left: 10px;
   margin-right: 10px;
 }
 
-.Hard_skil{
-  align-items: center; 
-
+.Hard_skil {
+  align-items: center;
 }
-
-
 
 /* Añade estos estilos a tu hoja de estilo CSS para habilidades */
 .Hard_skills_container {
@@ -128,7 +112,7 @@ li {
 .Hard_skill {
   text-align: center;
   margin: 8px;
-  width: 120px; 
+  width: 120px;
 }
 
 .Skills {
@@ -136,7 +120,7 @@ li {
   height: auto;
   margin-bottom: 8px;
 }
-.skill_name{
+.skill_name {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
@@ -149,5 +133,4 @@ li {
   margin: auto;
   padding-top: 120px;
   padding-left: 40%;
-  
 }

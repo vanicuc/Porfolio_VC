@@ -26,6 +26,10 @@ export default function Habilidad() {
           </div>
         ))}
       </div>
+         <img src="skill.jpeg"
+           alt="DeskHome_art 2"
+           className="DesckHome_art_2"
+           />
       {/* <img
       
         src="./Home_art 3.png"

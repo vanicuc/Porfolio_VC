@@ -63,3 +63,17 @@
       margin-top: 10px; /* Ajusta el espacio en la parte superior para el botón de cierre de sesión */
     }
   }
+
+
+  body {
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .paragraph-text {
+    font-family: 'Roboto', sans-serif;
+  }
+  

@@ -4,6 +4,9 @@ export default function Educacion() {
   return (
     <>
       <div className="education">
+        <img src="education.jpeg"
+        className="img_education"/>
+
         <h1>Education:</h1>
       </div>
 
@@ -42,6 +45,7 @@ export default function Educacion() {
             <div className="face face1">
               <div className="content">
                 {/* <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true"> */}
+
                 <h3>Arquitectura</h3>
               </div>
             </div>
@@ -57,11 +61,19 @@ export default function Educacion() {
           </div>
         </div>
       </body>
+      <div className="info-container">
+    
+      <img src="contacto.jpeg"
+      className="img_mujer"/>
+     
 
       <div className="language">
+      <div className="text-content">
         <h1>Language:</h1>
         <p>Spanish Native </p>
         <p>English: Advanced Level</p>
+      </div>
+      </div>
       </div>
     </>
   );

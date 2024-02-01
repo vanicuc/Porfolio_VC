@@ -1,19 +1,24 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
-  } */
 
-/* body{
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: consolas;
-} */
+.info-container {
+  display: flex; 
+  justify-content: center;
+
+}
+.text-content {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.img_education{
+  width: 5%;
+}
+.img_mujer{
+  width: 18%;
+
+  /* padding-left: 3px; */
+  display: flex;
+  margin-right: 0;
+}
 .education {
   display: flex;
   flex-direction: column;
@@ -23,34 +28,45 @@
 .language {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center; /* Alineación vertical al centro */
+  align-items: center; /* Alineación horizontal al centro */
+  text-align: center; 
+  margin-right: 0;
 }
 .container {
-  /* width: 1000px; */
-  /* position: relative; */
+  flex-wrap: wrap;
   display: flex;
-  /* justify-content: space-between; */
   margin: 0;
-  justify-content: center; /* Centrar horizontalmente */
+  justify-content: center; 
   align-items: center; /* Centrar verticalmente */
+  /* text-align: center; */
 }
 
 .container .cardStudio {
-  position: relative;
+  /* position: relative; */
   cursor: pointer;
-  margin: 0 10px; /* Agregar margen entre las tarjetas si es necesario */
+  margin: 0 10px; 
+  width: 300px;
+  height: 230px;
+}
+
+
+@media (max-width: 768px) {
+  .container .cardStudio {
+    width: 100%; /* Make the cards take up 100% width on smaller screens */
+    margin: 10px 0; /* Adjust margin for better spacing on smaller screens */
+  }
 }
 
 .container .cardStudio .face {
   width: 300px;
-  height: 200px;
+  height: 120px;
   transition: 0.5s;
 }
 
 .container .cardStudio .face.face1 {
   position: relative;
-  background: #cbc8c8fc;
+  background: #F2F2F7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +75,7 @@
 }
 
 .container .cardStudio:hover .face.face1 {
-  background: #a3a3a3fc;
+  background: #C6C6C8 ;
   transform: translateY(0);
 }
 
@@ -91,8 +107,8 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  box-sizing: border-box;
-  box-shadow: 0 20px 50px rgba(190, 190, 190, 0.8);
+  /* box-sizing: border-box; */
+  /* box-shadow: 0 20px 50px rgba(190, 190, 190, 0.8); */
   transform: translateY(-90px);
 }
 

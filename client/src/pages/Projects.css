@@ -45,7 +45,7 @@
     background-position: center;
     border-radius: var(--spacing-l);
     bottom: 0;
-    background-color: #f7f7f7;
+    background-color: #F2F2F7;
     left: 0;
     position: absolute;
     right: 0;
@@ -66,7 +66,7 @@
 
   .card:hover .card__background,
   .card:active .card__background {
-    background-color: #b2b0b0; /* Cambia esto al color que prefieras, por ejemplo, blanco o gris más oscuro */
+    background-color: #C6C6C8; /* Cambia esto al color que prefieras, por ejemplo, blanco o gris más oscuro */
 }
 
 
@@ -89,7 +89,7 @@
   .card__heading{
     color: var(--text-lighter);
     font-size: 24px;
-    text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    /* text-shadow: 2px 2px 20px rgba(0,0,0,0.2); */
     line-height: 1.4;
     word-spacing: 100vw;
   }

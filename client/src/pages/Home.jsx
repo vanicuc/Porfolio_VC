@@ -34,7 +34,7 @@ export default function Home() {
               style={{
                 backgroundColor: "white",
                 color: "black",
-                border: "solid 0.5px #b0b57de7",
+                border: "solid 0.5px #989898bb",
                 padding: "10px 40px",
                 borderRadius: "10px", // Ajusta el valor según sea necesario
                 textDecoration: "none", // Elimina la línea subrayada
@@ -46,22 +46,22 @@ export default function Home() {
 
             <div className="Links">
               <li>
-                <a href="mailto:vanicuc@gmail.com">
+                <a href="mailto:vanicuc@gmail.com" target="_blank">
                   <img src="email.png" alt="Icono de Mail" />
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/vanina-c-90954248">
+                <a href="https://www.linkedin.com/in/vanina-c-90954248" target="_blank">
                   <img src="linkedin.png" alt="Icono de Linkedin" />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/vanicuc/Porfolio_VC">
+                <a href="https://github.com/vanicuc/Porfolio_VC"target="_blank">
                   <img src="social.png" alt="Icono de Github" />
                 </a>
               </li>
               <li>
-                <a href="CV  vanina cucchietti  .pdf">
+                <a href="CV  vanina cucchietti.pdf" target="_blank">
                   <img src="cv.png" alt="Icono de cv" />
                 </a>
               </li>

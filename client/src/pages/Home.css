@@ -62,7 +62,7 @@
 }
 
 .link-button:active {
-  background-color: #392876; /* Cambia esto al color que prefieras al hacer clic */
+  background-color: #989898bb; /* Cambia esto al color que prefieras al hacer clic */
   color: #fff; /* Cambia esto al color que prefieras para el texto al hacer clic */
 }
 

@@ -1,18 +1,17 @@
 /* Estilos para la sección principal del formulario */
 .form_wrap {
-  width: 1100px; /* Ancho de la sección principal */
-  /* height: 830px; */ /* Altura de la sección principal (comentada para desactivar) */
-  margin: 150px auto; /* Márgenes superior e inferior de 30px, centrado horizontalmente */
+  width: 100%; 
+  /* margin: 10px auto; */
   display: flex; /* Utiliza el modelo de caja flexible */
-  /* border-radius: 10px; */
-  /* overflow: hidden; */
-  /* box-shadow: 0px 0px 20px rgba(188, 185, 185, 0.2); */
+  align-items: center;
+
 }
 
 /* Estilos para la sección de información de contacto */
 .cantact_info {
-  width: 40%; /* Ancho del 40% del contenedor principal */
-  /* position: relative; */ /* Posición relativa (comentada para desactivar) */
+  width: 100%;
+  text-align: center; 
+
   display: flex; /* Utiliza el modelo de caja flexible */
   flex-direction: column; /* Coloca los elementos secundarios en una columna */
   align-items: center; /* Centra horizontalmente los elementos secundarios */
@@ -22,33 +21,35 @@
 /* Estilos para el título en la sección de información */
 .info_title h2 {
   font-size: 35px; /* Tamaño de fuente de 35px */
-  text-align: center; /* Alinea el texto al centro */
+  text-align: center; /* Alinea el texto al 
+  centro */
+  padding-left: 25px;
+ padding-right: 25px; 
+  
 }
 
 /* Estilos para los párrafos en la sección de información */
 .info_items p {
-  /* display: flex; Utiliza el modelo de caja flexible */
 
   align-items: center; /* Centra verticalmente los elementos secundarios */
-  text-align: left; /* Alinea el texto a la izquierda */
+  text-align: center;
   font-size: 16px; /* Tamaño de fuente de 16px */
   font-weight: 600; /* Grosor de la fuente de 600 (negrita) */
   /* margin-bottom: 10px; Margen inferior de 10px */
-  padding-left: 50px;
-  /* padding-bottom: 50px; */
+ padding-left: 25px;
+ padding-right: 25px;
 }
 
 /* Estilos para el formulario de contacto */
 form.form_contact {
-  width: 50%; /* Ancho del formulario del 50% del contenedor principal */
-  padding: 30px 150px; /* Relleno de 30px arriba/abajo y 40px a los lados */
+  width: 80%; /* Ancho del formulario del 50% del contenedor principal */
+  padding: 10%; /* Relleno de 30px arriba/abajo y 40px a los lados */
 }
 
 /* Estilos para el título en el formulario de contacto */
 form.form_contact h2 {
   font-size: 25px; /* Tamaño de fuente de 25px */
   font-weight: 100; /* Grosor de la fuente de 600 (negrita) */
-  color: #303030; /* Color del texto */
   margin-bottom: 30px; /* Margen inferior de 30px */
 }
 
@@ -71,8 +72,8 @@ form.form_contact textarea {
   margin-bottom: 20px; /* Margen inferior de 20px */
   border: none; /* Sin borde */
   border-bottom: 2px solid #d1d1d1; /* Borde inferior de 2px sólido con color */
-  color: #5a5a5a; /* Color del texto */
-  font-size: 14px; /* Tamaño de fuente de 14px */
+  color: #626264; /* Color del texto */
+  font-size: 18px; /* Tamaño de fuente de 14px */
   font-weight: 400; /* Grosor de la fuente de 400 */
 }
 
@@ -80,18 +81,20 @@ form.form_contact textarea {
 form.form_contact textarea {
   max-width: 100%; /* Ancho máximo del 100% del contenedor principal */
   min-width: 100%; /* Ancho mínimo del 100% del contenedor principal */
-  max-height: 90px; /* Altura máxima de 90px */
+  max-height: none;
+  min-height: 100px;
+  max-height: none;
 }
 
 /* Estilos para el botón de envío en el formulario de contacto */
 form.form_contact input[type="submit"] {
-  width: 200px; /* Ancho del botón de envío */
-  background: #838586; /* Fondo del botón de envío */
+  width: 100px; /* Ancho del botón de envío */
+  background: #C6C6C8; /* Fondo del botón de envío */
   padding: 15px; /* Relleno de 10px */
   border: none; /* Sin borde */
   border-radius: 25px; /* Radio de borde de 25px */
   align-self: flex-end; /* Se alinea a la derecha del contenedor principal */
-  color: #fff; /* Color del texto */
+  color: #6a6868; /* Color del texto */
   font-size: 16px; /* Tamaño de fuente de 16px */
   font-weight: 600; /* Grosor de la fuente de 600 (negrita) */
   cursor: pointer; /* Cambia el cursor al pasar sobre el botón */

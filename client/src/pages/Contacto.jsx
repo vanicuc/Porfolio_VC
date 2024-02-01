@@ -24,13 +24,13 @@ export default function Contacto() {
 
   return (
     <>
-      <section className="form_wrap">
-        <section className="cantact_info">
-          <section className="info_title">
+      <div className="form_wrap">
+        <div className="cantact_info">
+          <div className="info_title">
             <span className="fa fa-user-circle"></span>
-            <h2>For More Details Contact Me!</h2>
-          </section>
-          <section className="info_items">
+            <h2>For More Details <br/>Contact Me!</h2>
+          </div>
+          <div className="info_items">
             <p>
               <span className="fa-mobile"></span>Thank you for visiting my
               portfolio
@@ -41,8 +41,10 @@ export default function Contacto() {
               creative collaborations, or if you are looking for new talents for
               your team, I would love to hear from you!
             </p>
-          </section>
-        </section>
+      <img src="porfolio.jpeg" 
+              width={350}/>
+          </div>
+        </div>
 
         <form action="" className="form_contact" onSubmit={handleSubmit}>
           <h2>Send a message</h2>
@@ -90,7 +92,10 @@ export default function Contacto() {
             {/* <input type="button" value="Submit" id="btnSend"/> */}
           </div>
         </form>
-      </section>
+      </div>
+
+    
+              
     </>
   );
 }

@@ -1,0 +1,126 @@
+
+  /* // info de los projectos y videos// */
+/* 
+   imgPlay{
+     width:100%;
+     vertical-align:top;
+    } */
+/*   
+    .sectionPlay{
+        height: 80vh;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 7px 30px;
+        grid-row-gap: 15px;
+        padding: 20px;
+        box-sizing: border-box;
+  
+      }
+      .fila3{
+        display: grid;
+        grid-template-columns: 1fr 3px;
+      }
+      .izquierda{
+        display: grid;
+        grid-template-columns: repeat(5, 30px) 250px;
+        grid-column-gap: 25px;
+        align-items: center;
+      }
+  
+      .barra1{
+        background-color: silver;
+        height: 7px;
+      }
+  
+      
+      .barra2{
+        background-color: crimson;
+        height: 100%;
+        width: 0%;
+      }
+  
+  
+    .img.play .img.siguiente  .img.reiniciar  .img.volumen  .img.velocidad{
+      width: 5px;
+    }
+   */
+
+   /* .sectionPlay {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 7px 30px;
+    grid-row-gap: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  } */
+  
+  /* .fila3 {
+    display: grid;
+    grid-template-columns: repeat(5, 30px) 250px repeat(5, 30px);
+    align-items: center;
+  }
+  
+  .barra1 {
+    background-color: silver;
+    height: 7px;
+  }
+  
+  .barra2 {
+    background-color: crimson;
+    height: 100%;
+    width: 0%;
+  }
+  
+  .play,
+  .reiniciar,
+  .volumen,
+  .velocidad,
+  .reducir {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+} */
+     /* Añadido para indicar que son interactivos */
+  
+  /* Ajuste la posición de los elementos en la fila3 según sus necesidades */
+  /* .play {
+    grid-column: 1;
+  }
+  
+  .reiniciar {
+    grid-column: 2;
+  }
+  
+  .volumen {
+    grid-column: 3;
+  }
+  
+  .velocidad {
+    grid-column: 4;
+  }
+  
+  .reducir {
+    grid-column: 5;
+  }
+   */
+
+  
+
+  .sectionPlay {
+    width: 40%; /* Ajusta según tus preferencias */
+    margin: 0 auto;
+    border: 2px solid #ddd; /* Añade el borde */
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    outline: none;
+  }
+  

@@ -1,13 +1,16 @@
 
 const express = require('express');
-const router = express.Router();
-const { google } = require('googleapis');
+
+const nodemailer = require('nodemailer');
+// const { google } = require('googleapis');
 const bodyParser = require('body-parser');
+
+const router = express.Router();
 
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: true }));
 
-const nodemailer = require('nodemailer');
+
 // Configuración de nodemailer
 const transporter = nodemailer.createTransport({
   service: 'gmail',
@@ -21,12 +24,16 @@ const transporter = nodemailer.createTransport({
 // router.post('/enviar-correo', (req, res) => {
 router.post('/', (req, res) => {
 
-  const { name, email, phone, message, senderEmail } = req.body;
+  // const { name, email, phone, message, senderEmail } = req.body;
+  const { name, email, phone, message } = req.body;
 
   // Configuración del contenido del correo
+  // const mailOptions = {
+  //   from: senderEmail || 'vanicuc@gmail.com',
+  //   to: senderEmail || 'vanicuc@gmail.com',
   const mailOptions = {
-    from: senderEmail || 'vanicuc@gmail.com',
-    to: senderEmail || 'vanicuc@gmail.com',
+    from:'vanicuc@gmail.com',
+    to:'vanicuc@gmail.com',
     subject: 'Nuevo mensaje del formulario de contacto',
     text: `Nombre: ${name}\nCorreo: ${email}\nTeléfono: ${phone}\nMensaje: ${message}`,
   };
@@ -46,3 +53,10 @@ router.post('/', (req, res) => {
 
 // Exportar el router para ser utilizado en tu aplicación principal
 module.exports = router;
+
+
+// 1076926002731-s5up228v4d6tlkpau5s5f1n0bvo5u7aq.apps.googleusercontent.com 
+//id cliente
+
+//secreto cliente
+// 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

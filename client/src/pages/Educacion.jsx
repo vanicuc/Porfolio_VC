@@ -10,7 +10,7 @@ export default function Educacion() {
         <h1>Education:</h1>
       </div>
 
-      <body>
+      <div>
         <div className="container">
           <div className="cardStudio">
             <div className="face face1">
@@ -20,7 +20,7 @@ export default function Educacion() {
               </div>
             </div>
             <div className="face face2">
-              <div class="content">
+              <div className="content">
                 <p>2023</p>
                 <p>CodeOp</p>
                 {/* <a href="#">Read More</a> */}
@@ -60,7 +60,7 @@ export default function Educacion() {
             </div>
           </div>
         </div>
-      </body>
+      </div>
       <div className="info-container">
     
       <img src="contacto.jpeg"

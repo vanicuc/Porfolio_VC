@@ -1,16 +1,15 @@
 /* Estilos para la sección principal del formulario */
 .form_wrap {
-  width: 100%; 
+  width: 100%;
   /* margin: 10px auto; */
   display: flex; /* Utiliza el modelo de caja flexible */
   align-items: center;
-
 }
 
 /* Estilos para la sección de información de contacto */
 .cantact_info {
   width: 100%;
-  text-align: center; 
+  text-align: center;
 
   display: flex; /* Utiliza el modelo de caja flexible */
   flex-direction: column; /* Coloca los elementos secundarios en una columna */
@@ -24,20 +23,18 @@
   text-align: center; /* Alinea el texto al 
   centro */
   padding-left: 25px;
- padding-right: 25px; 
-  
+  padding-right: 25px;
 }
 
 /* Estilos para los párrafos en la sección de información */
 .info_items p {
-
   align-items: center; /* Centra verticalmente los elementos secundarios */
   text-align: center;
   font-size: 16px; /* Tamaño de fuente de 16px */
   font-weight: 600; /* Grosor de la fuente de 600 (negrita) */
   /* margin-bottom: 10px; Margen inferior de 10px */
- padding-left: 25px;
- padding-right: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /* Estilos para el formulario de contacto */
@@ -89,7 +86,7 @@ form.form_contact textarea {
 /* Estilos para el botón de envío en el formulario de contacto */
 form.form_contact input[type="submit"] {
   width: 100px; /* Ancho del botón de envío */
-  background: #C6C6C8; /* Fondo del botón de envío */
+  background: #c6c6c8; /* Fondo del botón de envío */
   padding: 15px; /* Relleno de 10px */
   border: none; /* Sin borde */
   border-radius: 25px; /* Radio de borde de 25px */

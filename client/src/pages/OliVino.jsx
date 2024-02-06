@@ -1,134 +1,155 @@
-// import "./oliVino.css";
-
-// export default function OliVino() {
-//   // img{
-//   //   with:100%;
-//   //   vertical-align:top;
-//   // }
-
-//   function inicio(){
-
-//   }
-//     return (
-//       <>
-//       <h3>Proyecto Grupal ‘OliVino’ </h3>
-//     <p>Desarrollé una aplicación full-stack para crear una plataforma amigable destinada a la comunidad de personas mayores para conectarse. Implementé funciones en Sequelize para optimizar el procesamiento de datos, integré Multer para guardar fotos de usuarios, utilicé Pusher para mensajería en tiempo real y diseñé la estética de la aplicación y su logotipo utilizando CSS.</p>
-
-// <section className="sectionPlay">
-//   <div className="fila1">
-//   <video src="./Olivino - Google Chrome 2023-12-18 09-11-08.mp4" controls></video>
-
-// {/* <video src="./Olivino - Google Chrome 2023-12-18 09-11-08.mp4"></video> */}
-//   </div>
-
-//   <div className="fila2">
-//     <div className="barra1">
-//       <div className="barra2"></div>
-//     </div>
-// </div >
-
-// <div className="fila3">
-//   <div className="izquierda"></div>
-//   <img className="play" src="play.png"/>
-//   <img className="siguiente" src="siguiente.png"/>
-//   <img className="reiniciar" src="reiniciar.png"/>
-//   <img className="volumen" src="volumen1.png"/>
-//   <img className="velocidad" src="rapido.png"/>
-//   <div className="estado"></div>
-
-//   <div className="derecha"></div>
-//   <img className="reducir" src="ampliar.png"/>
-
-// </div>
-// </section>
-
-
-
-
-
-//       </>
-//     )
-// }
-
-
-
+import React from "react";
 import "./oliVino.css";
+import { Link } from "react-router-dom";
 
 export default function OliVino() {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <>
-      <h3>Proyecto Grupal ‘OliVino’ </h3>
-      <p>
-        Desarrollé una aplicación full-stack para crear una plataforma
-        amigable destinada a la comunidad de personas mayores para conectarse.
-        Implementé funciones en Sequelize para optimizar el procesamiento de
-        datos, integré Multer para guardar fotos de usuarios, utilicé Pusher
-        para mensajería en tiempo real y diseñé la estética de la aplicación y
-        su logotipo utilizando CSS.
-      </p>
+      <section className="section1">
 
-      <section className="sectionPlay">
-        <div className="fila1">
-          <video src="./Olivino - Google Chrome 2023-12-18 09-11-08.mp4" controls style={{ width: '100%' }}></video>
+      <div className="section1_rigth">
+        <div className="olivino_explicacion">
+          <div className="text_olivino">
+            <h3 className="Titulo_olivino">Group Project ‘OliVino’ </h3>
+            <h4>Where Moments Matter, Friendships Flourish.</h4>
+          </div>
+
+          <div>
+            <p className="box_Olvivino">
+              Developed a full-stack app to create a friendly platform for the
+              elderly community to connect. Implemented functions in Sequelize
+              to optimize data processing, integrated Multer for saving user
+              photos, utilized Pusher for real-time messaging, and crafted the
+              app's aesthetics and logo using CSS.
+            </p>
+          </div>
+
+            <h4>Design Thinking</h4>
+
+            <div className="contenedor_botton">
+              <a
+                className="Design_Thinking_botton"
+                href="#Empathize"
+                onClick={() => scrollToSection("Empathize")}
+              >
+                Empathize
+              </a>
+              <a
+                className="Design_Thinking_botton"
+                href="#Define"
+                onClick={() => scrollToSection("Define")}
+              >
+                Define
+              </a>
+              <a
+                className="Design_Thinking_botton"
+                href="#Ideate"
+                onClick={() => scrollToSection("Ideate")}
+              >
+                Ideate
+              </a>
+              <a
+                className="Design_Thinking_botton"
+                href="#Prototype"
+                onClick={() => scrollToSection("Prototype")}
+              >
+                Prototype
+              </a>
+              <a
+                className="Design_Thinking_botton"
+                href="#Test"
+                onClick={() => scrollToSection("Test")}
+              >
+                Test
+              </a>
+            </div>
+            <img
+              src="./fases-del-design-thinking.png"
+              alt="Design Thinking"
+              className="Design_Thinking"
+              style={{ width: "75%", height: "auto" }}
+            />
+          </div>
+         </div>
+
+          <div className="sectionPlay">
+            <video
+              src="./Olivino - Google Chrome 2023-12-18 09-11-08.mp4"
+              controls
+              style={{ width: "100%" }}
+            ></video>
+          </div>
+          
+      </section>
+
+      <section className="section2">
+        <div className="text_olivino_2" id="Define">
+          <div className="back_to_top">
+            <a className="BackToTop" href="#" onClick={scrollToTop}>
+              Back to Top
+            </a>
+          </div>
+          <h3 className="Titulo_olivino">Storytelling </h3>
+
+          <p className="box_Olvivino">
+            Laia, a woman with a vibrant and cheerful spirit, found herself
+            alone in her home after the loss of her husband. Solitude settled in
+            like a shadow, dimming the laughter that once filled every corner of
+            her life. One day, she discovered Olívino, an app designed to weave
+            connections among lonely hearts. With doubts but with the hope of
+            rediscovering joy, Laia immersed herself in the platform. As she
+            explored local and virtual events, she realized that Olívino was not
+            just an app but a beacon lighting her path to companionship and
+            friendship. Captivated by the diversity of activities and the warmth
+            of interactions, Laia began attending events and chats. Soon,
+            conversations turned into shared laughter, and events became regular
+            gatherings that filled her calendar and her heart. Olívino not only
+            gave Laia the chance to make new friends but also brought music back
+            into her home. Solitude gradually faded away, replaced by the
+            symphony of laughter and friendships that blossomed in her life
+            thanks to Olívino. Discover the magic of connection in every
+            encounter, as Laia did, and let Olívino be the melody that
+            transforms solitude into companionship.
+          </p>
+          <img src="laidy 1.png" alt="pld woman" />
+          <img src="laidy 2.png" alt="pld woman" />
+          <img src="laidy 3.png" alt="pld woman" />
+          <img src="laidy 4.png" alt="pld woman" />
+        </div>
+      </section>
+      <section className="section3">
+        <div className="text_olivino_2" id="Prototype">
+          <div className="back_to_top">
+            <a className="BackToTop" href="#" onClick={scrollToTop}>
+              Back to Top
+            </a>
+          </div>
+
+          <h3 className="Titulo_olivino">Moodboard oliVino</h3>
+          <img src="Moodboard_olivino.png" alt="Moodboard_olivino" />
+        </div>
+      </section>
+      <section className="section4">
+        <div className="text_olivino_2">
+          <h3 className="Titulo_olivino">Icon Design</h3>
+          <img
+            src="olivino logo.jpg"
+            alt="olivino_logo.jpg"
+            className="logo_olivino"
+          />
         </div>
       </section>
     </>
   );
 }
-
-
-
-
-// import "./oliVino.css";
-
-// export default function OliVino() {
-//   function inicio() {}
-
-//   return (
-//     <>
-//       <h3>Proyecto Grupal ‘OliVino’ </h3>
-//       <p>
-//         Desarrollé una aplicación full-stack para crear una plataforma
-//         amigable destinada a la comunidad de personas mayores para conectarse.
-//         Implementé funciones en Sequelize para optimizar el procesamiento de
-//         datos, integré Multer para guardar fotos de usuarios, utilicé Pusher
-//         para mensajería en tiempo real y diseñé la estética de la aplicación y
-//         su logotipo utilizando CSS.
-//       </p>
-
-//       <section className="sectionPlay">
-//         <div className="fila1">
-//           <video src="./Olivino - Google Chrome 2023-12-18 09-11-08.mp4" controls style={{ width: '100%' }}></video>
-//         </div>
-
-//         <div className="fila2">
-//           <div className="barra1">
-//             <div className="barra2"></div>
-//           </div>
-//         </div>
-
-//         <div className="fila3">
-//           <div className="izquierda"></div>
-//           <button className="play" onClick={() => {  }}>
-//             <img src="play.png" alt="Play" />
-//           </button>
-//           <button className="reiniciar" onClick={() => {  }}>
-//             <img src="reiniciar.png" alt="Reiniciar" />
-//           </button>
-//           <input type="range" className="volumen" onChange={(e) => { }} />
-//           <select className="velocidad" onChange={(e) => {  }}>
-//             <option value="1">Normal</option>
-//             <option value="1.5">1.5x</option>
-//             <option value="2">2x</option>
-//           </select>
-//           <div className="estado"></div>
-
-//           <div className="derecha"></div>
-//           <button className="reducir" onClick={() => {  }}>
-//             <img src="ampliar.png" alt="Reducir/Ampliar" />
-//           </button>
-//         </div>
-//       </section>
-//     </>
-//   );
-// }

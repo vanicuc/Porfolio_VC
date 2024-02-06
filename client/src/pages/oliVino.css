@@ -1,126 +1,150 @@
-
-  /* // info de los projectos y videos// */
-/* 
-   imgPlay{
-     width:100%;
-     vertical-align:top;
-    } */
-/*   
-    .sectionPlay{
-        height: 80vh;
-        display:grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 7px 30px;
-        grid-row-gap: 15px;
-        padding: 20px;
-        box-sizing: border-box;
+.sectionPlay {
+  width: 50%;
+  margin: 0 auto;
+  /* border: 2px solid #ddd; */
+  /* border-radius: 15px; */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+/* .box_rigth {
+  width: 45%;
   
-      }
-      .fila3{
-        display: grid;
-        grid-template-columns: 1fr 3px;
-      }
-      .izquierda{
-        display: grid;
-        grid-template-columns: repeat(5, 30px) 250px;
-        grid-column-gap: 25px;
-        align-items: center;
-      }
-  
-      .barra1{
-        background-color: silver;
-        height: 7px;
-      }
-  
-      
-      .barra2{
-        background-color: crimson;
-        height: 100%;
-        width: 0%;
-      }
-  
-  
-    .img.play .img.siguiente  .img.reiniciar  .img.volumen  .img.velocidad{
-      width: 5px;
-    }
-   */
-
-   /* .sectionPlay {
-    height: 80vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 7px 30px;
-    grid-row-gap: 15px;
-    padding: 20px;
-    box-sizing: border-box;
-    width: 100%;
-  } */
-  
-  /* .fila3 {
-    display: grid;
-    grid-template-columns: repeat(5, 30px) 250px repeat(5, 30px);
-    align-items: center;
-  }
-  
-  .barra1 {
-    background-color: silver;
-    height: 7px;
-  }
-  
-  .barra2 {
-    background-color: crimson;
-    height: 100%;
-    width: 0%;
-  }
-  
-  .play,
-  .reiniciar,
-  .volumen,
-  .velocidad,
-  .reducir {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
 } */
-     /* Añadido para indicar que son interactivos */
+
+.section1_rigth{
+  width: 50%;
+
+
+}
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  outline: none;
+}
+
+.olivino_explicacion {
+  text-align: center; /* Centro el contenido */
+  padding: 20px;
+}
+
+.text_olivino {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  /* padding-top: 5%; */
+}
+.text_olivino_2 {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  padding-top: 5%;
+}
+
+.Titulo_olivino {
+  display: inline-block;/* Para centrar el título */
+  text-align: center; /* Alinea el texto al centro */
+  margin: 0;
+ 
+}
+.box_Olvivino{
+  /* width: 80%; */
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  padding-left: 10%;
+  padding-right: 10%;
+
+
+}
+
+.logo_olivino{
+  width: 30%;
+
+}
+
+    /* Agrega espacio entre las secciones */
+    .espaciador {
+      height: 50px; /* Ajusta la altura según tus necesidades */
+    }
+
+    .section1 {
+      /* background-color: #e0e0e0; */
+      display: flex;
+      justify-content: space-between;
+      padding: auto;
+      margin-top: 5%;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 10%;
   
-  /* Ajuste la posición de los elementos en la fila3 según sus necesidades */
-  /* .play {
-    grid-column: 1;
-  }
-  
-  .reiniciar {
-    grid-column: 2;
-  }
-  
-  .volumen {
-    grid-column: 3;
-  }
-  
-  .velocidad {
-    grid-column: 4;
-  }
-  
-  .reducir {
-    grid-column: 5;
-  }
-   */
+    }
+
+
+
+    /* Estilos para la segunda sección */
+    .section2 {
+      /* background-color: #e0e0e0; */
+      padding: 20px;
+      text-align: center;
+    }
+
+    .section3 {
+      /* background-color: #e0e0e0; */
+      padding: 20px;
+      text-align: center;
+    }
+
+    .section4 {
+      /* background-color: #e0e0e0; */
+      padding: 20px;
+      text-align: center;
+    }
+
+
+
+    /* Agregamos un margin-top para crear el espacio (gap) entre el enlace y la capa uno */
+.BackToTop {
+  display: block;
+  margin-top: 20px; /* Ajusta este valor según tus preferencias */
+  padding: 10px;
+  padding-right: 10%;
+text-align: right;
+  /* text-align: center; */
+  text-decoration: none;
+  color: #333; /* Color del texto */
+}
+
+/* Estilo para cambiar el cursor al pasar el ratón sobre el enlace */
+.BackToTop:hover {
+  background-color: #ddd; /* Cambia el color de fondo al pasar el ratón */
+}
+/* .contenedor_botton{
+  display: flex;
+  justify-content:space-around;
+} */
+
+.Design_Thinking_botton{
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block; /* Hace que el enlace sea un bloque en línea */
+  /* margin-top: 10px;  */
+  /* Ajusta este valor según tus preferencias */
+  padding: 15px 20px; /* Ajusta estos valores para cambiar el tamaño del rectángulo */
+  background-color: #f2f2f2; /* Color gris claro */
+  border: 1px solid #ccc; /* Borde del rectángulo */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none;
+  color: #333; /* Color del texto */
+  font-size: 14px;
+  margin-right: 5px;
+  margin-left: 5px;
 
   
-
-  .sectionPlay {
-    width: 40%; /* Ajusta según tus preferencias */
-    margin: 0 auto;
-    border: 2px solid #ddd; /* Añade el borde */
-    border-radius: 15px;
-    overflow: hidden;
-  }
   
-  video {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-    outline: none;
-  }
-  
+}
+.Design_Thinking_botton :hover {
+  background-color: #ddd; /* Cambia el color de fondo al pasar el ratón */
+}

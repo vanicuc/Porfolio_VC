@@ -51,12 +51,18 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/vanina-c-90954248" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/vanina-c-90954248"
+                  target="_blank"
+                >
                   <img src="linkedin.png" alt="Icono de Linkedin" />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/vanicuc/Porfolio_VC"target="_blank">
+                <a
+                  href="https://github.com/vanicuc/Porfolio_VC"
+                  target="_blank"
+                >
                   <img src="social.png" alt="Icono de Github" />
                 </a>
               </li>

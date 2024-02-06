@@ -34,12 +34,14 @@ export default function Project() {
             <div className="card__content">
               <p className="card__category">Group Project</p>
               <h4 className="card__heading"> OliVino</h4>
+              <div className="card__logo-container">
               <img
                 src="./olivino blanco.png"
                 alt="Logo olivino"
                 className="card__logo"
                 style={{ width: "30%", height: "auto" }}
               />
+            </div>
             </div>
           </a>
 
@@ -48,12 +50,14 @@ export default function Project() {
             <div className="card__content">
               <p className="card__category">MVP</p>
               <h4 className="card__heading">PadresEnsync</h4>
+              <div className="card__logo-container">
               <img
                 src="./PadresEnsync logo.png"
                 alt="PadresEnsync"
                 className="card__logo"
-                //  style={{ width: '50%', height: 'auto' }}
+                style={{ width: '50%', height: 'auto' }}
               />
+              </div>
             </div>
           </a>
 
@@ -62,12 +66,14 @@ export default function Project() {
             <div className="card__content">
               <p className="card__category">Feature Extension</p>
               <h4 className="card__heading">Bikers</h4>
+              <div className="card__logo-container">
               <img
-                src="./BIKER.png"
+                src="./BIKER 1.png"
                 alt="Bikers"
                 className="card__logo"
                 style={{ width: "30%", height: "auto" }}
-              />
+                />
+                </div>
             </div>
           </a>
 
@@ -76,12 +82,14 @@ export default function Project() {
             <div className="card__content">
               <p className="card__category">UI/UX Designer</p>
               <h4 className="card__heading">ROLLXPerience</h4>
+              <div className="card__logo-container">
               <img
-                src="./roller_skating 2.png"
+                src="./roller_skating 2 2.png"
                 alt="ROLLXPerience"
                 className="card__logo"
-                // style={{ width: '60%', height: 'auto'}}
+                  style={{ width: '60%', height: 'auto'}}
               />
+            </div>
             </div>
           </a>
         </div>

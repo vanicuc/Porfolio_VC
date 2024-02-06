@@ -28,7 +28,10 @@ export default function Contacto() {
         <div className="cantact_info">
           <div className="info_title">
             <span className="fa fa-user-circle"></span>
-            <h2>For More Details <br/>Contact Me!</h2>
+            <h2>
+              For More Details <br />
+              Contact Me!
+            </h2>
           </div>
           <div className="info_items">
             <p>
@@ -41,8 +44,7 @@ export default function Contacto() {
               creative collaborations, or if you are looking for new talents for
               your team, I would love to hear from you!
             </p>
-      <img src="porfolio.jpeg" 
-              width={350}/>
+            <img src="porfolio.jpeg" width={350} />
           </div>
         </div>
 
@@ -92,26 +94,10 @@ export default function Contacto() {
             {/* <input type="button" value="Submit" id="btnSend"/> */}
           </div>
         </form>
-
-
-
       </div>
-
-    
-              
     </>
   );
 }
-
-
-
-
-
-
-
-
-
-
 
 // <!-- */
 // para mail puesto nuevo OJO -->
@@ -135,8 +121,7 @@ export default function Contacto() {
 //    const CLIENT_ID = '1076926002731-s5up228v4d6tlkpau5s5f1n0bvo5u7aq.apps.googleusercontent.com ';
 //    const API_KEY = 'OCSPX-3pDHRT_9dNCwFRiVbp9YURjItKT_';
 
-     
-// // 1076926002731-s5up228v4d6tlkpau5s5f1n0bvo5u7aq.apps.googleusercontent.com 
+// // 1076926002731-s5up228v4d6tlkpau5s5f1n0bvo5u7aq.apps.googleusercontent.com
 // //id cliente
 
 // //secreto cliente

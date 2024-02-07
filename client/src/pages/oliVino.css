@@ -1,16 +1,11 @@
 .sectionPlay {
   width: 50%;
   margin: 0 auto;
-  /* border: 2px solid #ddd; */
-  /* border-radius: 15px; */
   overflow: hidden;
   display: flex;
   align-items: center;
 }
-/* .box_rigth {
-  width: 45%;
-  
-} */
+
 
 .section1_rigth{
   width: 50%;
@@ -34,21 +29,24 @@ video {
   display: inline-block;
   text-align: center;
   align-items: center;
-  /* padding-top: 5%; */
 }
-.text_olivino_2 {
-  display: inline-block;
+
+/* .text_olivino_2 {
+
+  justify-items: center;
   text-align: center;
   align-items: center;
   padding-top: 5%;
-}
+  display: flex;
+} */
 
 .Titulo_olivino {
-  display: inline-block;/* Para centrar el título */
-  text-align: center; /* Alinea el texto al centro */
-  margin: 0;
- 
+  display: inline-block;
+  text-align: center; 
+  justify-content: center;
+  margin-top: 1%;
 }
+
 .box_Olvivino{
   /* width: 80%; */
   align-items: center;
@@ -56,18 +54,14 @@ video {
   display: inline-block;
   padding-left: 10%;
   padding-right: 10%;
-
-
 }
 
 .logo_olivino{
   width: 30%;
-
 }
 
-    /* Agrega espacio entre las secciones */
     .espaciador {
-      height: 50px; /* Ajusta la altura según tus necesidades */
+      height: 50px; 
     }
 
     .section1 {
@@ -78,7 +72,8 @@ video {
       margin-top: 5%;
       margin-left: 2%;
       margin-right: 2%;
-      margin-bottom: 10%;
+      margin-bottom: 12%;
+      align-items: flex-start;
   
     }
 
@@ -87,7 +82,7 @@ video {
     /* Estilos para la segunda sección */
     .section2 {
       /* background-color: #e0e0e0; */
-      padding: 20px;
+      /* padding: 10px; */
       text-align: center;
     }
 
@@ -102,13 +97,16 @@ video {
       padding: 20px;
       text-align: center;
     }
+    .section6 {
+      /* background-color: #e0e0e0; */
+      padding: 20px;
+      text-align: center;
+    }
 
 
-
-    /* Agregamos un margin-top para crear el espacio (gap) entre el enlace y la capa uno */
 .BackToTop {
   display: block;
-  margin-top: 20px; /* Ajusta este valor según tus preferencias */
+  margin-top: 10px; 
   padding: 10px;
   padding-right: 10%;
 text-align: right;
@@ -117,21 +115,14 @@ text-align: right;
   color: #333; /* Color del texto */
 }
 
-/* Estilo para cambiar el cursor al pasar el ratón sobre el enlace */
 .BackToTop:hover {
   background-color: #ddd; /* Cambia el color de fondo al pasar el ratón */
 }
-/* .contenedor_botton{
-  display: flex;
-  justify-content:space-around;
-} */
 
 .Design_Thinking_botton{
   padding-left: 10px;
   padding-right: 10px;
-  display: inline-block; /* Hace que el enlace sea un bloque en línea */
-  /* margin-top: 10px;  */
-  /* Ajusta este valor según tus preferencias */
+  display: inline-block; 
   padding: 15px 20px; /* Ajusta estos valores para cambiar el tamaño del rectángulo */
   background-color: #f2f2f2; /* Color gris claro */
   border: 1px solid #ccc; /* Borde del rectángulo */
@@ -139,12 +130,85 @@ text-align: right;
   text-decoration: none;
   color: #333; /* Color del texto */
   font-size: 14px;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
 
   
   
 }
 .Design_Thinking_botton :hover {
   background-color: #ddd; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.Empathize,
+.Empathize_inf {
+  width: 100%; /* Ocupa el 100% del ancho disponible */
+  margin: 0; 
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan cuando no haya suficiente espacio */
+  justify-content: center; /* Centra los elementos horizontalmente */
+   align-items: flex-start;
+}
+
+.Empathize td,
+.Empathize_inf td {
+  flex: 1; /* Hace que las celdas ocupen el mismo espacio dentro del contenedor flex */
+  padding: 10px; /* Ajusta el espacio interno de las celdas según tus preferencias */
+  text-align: center; /* Alinea el contenido al centro en las celdas */
+  margin: 1%;
+
+}
+
+.Empathize_inf td {
+  padding: 20px 10px;
+  text-align: justify; /* Justifica el texto en la segunda celda de Empathize_inf */
+  /* min-height: 800xp; */
+  /* height: 3000xp; */
+}
+.box_Empathize{
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.Empathize_img{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  align-items:flex-end;
+  margin-top: 80xp;
+}
+.contenedor_design{
+  padding-top: 15%;
+}
+
+.titulo{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 5%; */
+}
+
+.Define_img{
+  margin-top: 8%;
+}
+
+.icon_img{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10%;
+  padding-bottom: 30%;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.architectura_img_olivino{
+  margin-bottom: 10%;
+}
+
+.Icon_test{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

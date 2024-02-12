@@ -1,14 +1,22 @@
-.sectionPlay {
-  width: 50%;
+/* .sectionPlay {
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
   display: flex;
-  align-items: center;
+  align-items:flex-end
+} */
+
+.sectionPlay {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; /* Ajusta la dirección de la columna para apilar elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  gap: 20px; /* Agrega espacio entre el video y el texto */
 }
-
-
 .section1_rigth{
-  width: 50%;
+  width: 60%;
 
 
 }
@@ -19,6 +27,7 @@ video {
   border-radius: 10px;
   outline: none;
 }
+
 
 .olivino_explicacion {
   text-align: center; /* Centro el contenido */
@@ -191,20 +200,21 @@ text-align: right;
 
 .Define_img{
   margin-top: 8%;
+  margin-bottom: 10%;
 }
 
 .icon_img{
   display: flex;
   flex-direction: row;
   padding-top: 10%;
-  padding-bottom: 30%;
+  padding-bottom: 1%;
   justify-content: space-between;
   padding-left: 5%;
   padding-right: 5%;
 }
 
 .architectura_img_olivino{
-  margin-bottom: 10%;
+  margin-bottom: 12%;
 }
 
 .Icon_test{

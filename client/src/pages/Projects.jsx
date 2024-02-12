@@ -84,7 +84,7 @@ export default function Project() {
               <h4 className="card__heading">ROLLXPerience</h4>
               <div className="card__logo-container">
               <img
-                src="./roller_skating 2 2.png"
+                src="./roller_skating 2.png"
                 alt="ROLLXPerience"
                 className="card__logo"
                   style={{ width: '60%', height: 'auto'}}

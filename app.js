@@ -1,5 +1,7 @@
 
 
+
+
 const cors = require('cors'); // Agregar al principio del archivo
 
 
@@ -72,6 +74,7 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
+  res.json({ error: err.message });
   res.json({ error: err.message });
 });
 

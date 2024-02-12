@@ -1,8 +1,14 @@
 import React, { useState } from "react";
 import "./Contacto.css";
+import React, { useState } from "react";
+import "./Contacto.css";
 
 export default function Contacto() {
   const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
     name: "",
     email: "",
     phone: "",
@@ -11,6 +17,10 @@ export default function Contacto() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    // manejar la lógica para enviar el formulario, por ejemplo, enviar un correo electrónico o almacenar los datos.
+    console.log("Formulario enviado:", formData);
+    // resetear el estado del formulario después de manejar los datos si es necesario.
+    setFormData({ name: "", email: "", phone: "", message: "" });
     // manejar la lógica para enviar el formulario, por ejemplo, enviar un correo electrónico o almacenar los datos.
     console.log("Formulario enviado:", formData);
     // resetear el estado del formulario después de manejar los datos si es necesario.
@@ -94,7 +104,23 @@ export default function Contacto() {
             {/* <input type="button" value="Submit" id="btnSend"/> */}
           </div>
         </form>
+            <label htmlFor="mensaje">Message *</label>
+            <textarea
+              id="message"
+              name="message"
+              value={formData.message}
+              onChange={handleInputChange}
+              required
+            ></textarea>
+            <input type="submit" value="Submit" id="btnSend" />
+
+            {/* <input type="button" value="Submit" id="btnSend"/> */}
+          </div>
+        </form>
       </div>
+
+    
+              
     </>
   );
 }

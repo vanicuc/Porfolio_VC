@@ -5,6 +5,11 @@
   padding: var(--spacing-m) var(--spacing-m);
 }
 
+.imagen_logo{
+  display: inline-flex;
+  justify-content: center;
+  
+}
 .card-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);

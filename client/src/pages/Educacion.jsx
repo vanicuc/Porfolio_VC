@@ -7,7 +7,7 @@ export default function Educacion() {
         <img src="education.jpeg"
         className="img_education"/>
 
-        <h1>Education:</h1>
+        <h1>Education</h1>
       </div>
 
       <div>
@@ -22,7 +22,7 @@ export default function Educacion() {
             <div className="face face2">
               <div className="content">
                 <p>2023</p>
-                <p>CodeOp</p>
+                <h2>CodeOp</h2>
                 {/* <a href="#">Read More</a> */}
               </div>
             </div>
@@ -37,7 +37,7 @@ export default function Educacion() {
             <div className="face face2">
               <div className="content">
                 <p>2023</p>
-                <p>Coderhouse</p>
+                <h2>Coderhouse</h2>
               </div>
             </div>
           </div>

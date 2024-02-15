@@ -39,7 +39,16 @@ app.listen(port, () => {
 ////////////////////////mail//////////////////
 
 
-app.use(cors()); 
+// app.use(cors()); 
+app.use(cors({
+  origin: 'http://localhost:5173', // o el origen de tu aplicación React
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true,
+  optionsSuccessStatus: 204,
+}));
+
+app.options('/user/email', cors()); // Ajusta la ruta según tus necesidades
+
 
 
 
@@ -59,13 +68,10 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 //   res.sendFile(path.join(__dirname+'/client/build/index.html'));
 // });
 
-
-
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  next(createError(404 ));
+  next(createError(404));
 });
-
 
 // error handler
 app.use(function(err, req, res, next) {
@@ -74,8 +80,26 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.json({ error: err.message });
-  res.json({ error: err.message });
+  const errorMessage = req.app.get('env') === 'development' ? err.message : 'Internal Server Error';
+  res.json({ error: errorMessage });
 });
+
+
+// // catch 404 and forward to error handler
+// app.use(function(req, res, next) {
+//   next(createError(404 ));
+// });
+
+
+// // error handler
+// app.use(function(err, req, res, next) {
+//   res.locals.message = err.message;
+//   res.locals.error = req.app.get('env') === 'development' ? err : {};
+
+  
+//   res.status(err.status || 500);
+//   res.json({ error: err.message });
+//   res.json({ error: err.message });
+// });
 
 module.exports = app;

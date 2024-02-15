@@ -8,7 +8,7 @@ export default function Home() {
       <div className="Box_Presentation">
         <div className="inf">
           <div className="hi">
-            <h3>Hi,</h3>
+            <h1>Hi,</h1>
             <h1>I'm Vanina Cucchietti</h1>
             <h2>Full-stack developer</h2>
             <div className="space"></div>

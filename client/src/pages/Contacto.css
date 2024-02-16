@@ -40,7 +40,7 @@
 /* Estilos para el formulario de contacto */
 form.form_contact {
   width: 80%; /* Ancho del formulario del 50% del contenedor principal */
-  padding: 10%; /* Relleno de 30px arriba/abajo y 40px a los lados */
+  padding: 8%; /* Relleno de 30px arriba/abajo y 40px a los lados */
 }
 
 /* Estilos para el título en el formulario de contacto */

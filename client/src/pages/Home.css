@@ -30,9 +30,10 @@
 }
 
 .inf {
-  flex: 0 0 50%;
-  margin-left: 50px;
-  padding-top: 20px;
+  /* flex: 0 0 50%; */
+  flex: 10%;
+  margin-left: 30px;
+  padding-top: 0px;
 }
 
 .Experience {
@@ -50,6 +51,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+
 }
 
 .link-button {
@@ -57,17 +59,17 @@
   margin: 15px;
 }
 .link-button:hover {
-  background-color: #392876;
-  color: #fff; /* Cambia esto al color que prefieras para el texto al hacer clic */
+  background-color: #7d7c82;
+  color: #fff; 
 }
 
 .link-button:active {
-  background-color: #989898bb; /* Cambia esto al color que prefieras al hacer clic */
-  color: #fff; /* Cambia esto al color que prefieras para el texto al hacer clic */
+  background-color: #989898bb; 
+  color: #fff; 
 }
 
 .space {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .Picture {
@@ -88,8 +90,6 @@
   justify-content: flex-start;
   align-items: flex-start;
   padding: 10px;
-
-  /* Ajusta según sea necesario */
 }
 
 li {
@@ -103,6 +103,7 @@ li {
 }
 
 /* Añade estos estilos a tu hoja de estilo CSS para habilidades */
+
 .Hard_skills_container {
   display: flex;
   flex-wrap: wrap;
@@ -129,8 +130,135 @@ li {
 .DesckHome_art_2 {
   width: 20%;
   height: auto;
-  /* justify-content: left; */
   margin: auto;
   padding-top: 120px;
   padding-left: 40%;
+}
+
+
+
+
+
+/* esto es del project  */
+
+.hero-section {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-m) var(--spacing-m);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: var(--spacing-m);
+  grid-row-gap: var(--spacing-xl);
+  max-width: var(--width-container);
+  width: 100%;
+}
+
+@media (min-width: 540px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .card-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  list-style: none;
+  position: relative;
+  width: 100%; 
+  text-decoration: none;
+}
+
+.card:before {
+  content: "";
+  display: block;
+ 
+}
+
+.card__background {
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--spacing-m);
+  background-color: #f2f2f7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transform-origin: center;
+  transition: background-color 0.3s;
+}
+
+
+.card:hover .card__background,
+.card:active .card__background {
+  background-color: #c6c6c8; 
+}
+
+.card__content {
+
+  position: relative;
+  padding: var(--spacing-s);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__category {
+  /* color: var(--text-lighter); */
+  /* color: rgba(52, 50, 50, 0.9); */
+  font-size: 12px;
+  margin-bottom: var(--spacing-s);
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2a2828;
+  
+  
+}
+
+
+.card__heading {
+   /* color: var(--text-lighter);  */
+  /* color: rgba(52, 50, 50, 0.9);  */
+  color: #b8b8b8;
+  font-size: 18px;
+}
+
+.card:hover .card__heading {
+  /* color: #fff;  */
+  color: #0c0c0c;
+}
+
+.card:hover .card__category {
+  color: #0c0c0c;
+  /* color: #fff; */
+}
+
+.card:hover .card__background {
+  background-color: #C6C6C8; 
+}
+
+
+
+.Work_experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.Links{
+  padding-top: 5%;
 }

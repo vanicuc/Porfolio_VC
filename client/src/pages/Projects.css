@@ -1,4 +1,4 @@
-.hero-section {
+/* .hero-section {
   align-items: flex-start;
   display: flex;
   justify-content: center;
@@ -34,7 +34,7 @@
 .card {
   list-style: none;
   position: relative;
-  width: 100%; /* Ajusta según sea necesario */
+  width: 100%;
   max-width: 300px;
   max-height: 350px;
 }
@@ -62,7 +62,7 @@
 
 .card:hover .card__background,
 .card:active .card__background {
-  background-color: #c6c6c8; /* Cambia esto al color que prefieras, por ejemplo, blanco o gris más oscuro */
+  background-color: #c6c6c8; 
 }
 
 .card__content {
@@ -84,8 +84,6 @@
   color: var(--text-lighter);
   font-size: 24px;
   
-  /* line-height: 1.4; */
-  /* word-spacing: 100vw; */
 }
 
 .card__logo-container {
@@ -96,15 +94,7 @@
 }
 
 .card__logo {
-  /* width: 60%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-items: center;
 
-  padding: auto;
-  margin: auto;
-  */
   max-width: 100%;
   max-height: 100%;
   width: auto;
@@ -118,4 +108,4 @@
   align-items: center;
   margin-left: 20px;
   margin-right: 20px;
-}
+} */

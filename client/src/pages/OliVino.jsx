@@ -20,11 +20,11 @@ export default function OliVino() {
       <section className="section1">
         <div className="section1_rigth">
           <div className="olivino_explicacion">
-      <div className="titulo">
-        <h2 className="Titulo_olivino">Group Project ‘OliVino’ </h2>
+            <div className="titulo">
+              <h2 className="Titulo_olivino">Group Project ‘OliVino’ </h2>
 
-        <h4>Where Moments Matter, Friendships Flourish.</h4>
-      </div>
+              <h4>Where Moments Matter, Friendships Flourish.</h4>
+            </div>
 
             {/* <div className="imagen_logo">
        <img
@@ -148,7 +148,7 @@ export default function OliVino() {
                   elderly population. The overarching aim is to turn isolation
                   into companionship, fostering authentic and meaningful
                   connections through an app, and consequently, improving the
-                  overall quality of life for older adults..
+                  overall quality of life for older adults.
                   <div className="Empathize_img">
                     <img
                       src="laidy5.jpeg"
@@ -221,7 +221,7 @@ export default function OliVino() {
             <img
               src="Olivino  arquitectura.png"
               alt="Olivino  arquitectura"
-              style={{ width: "90%", height: "auto" }}
+              style={{ width: "70%", height: "auto" }}
             />
           </div>
         </div>
@@ -272,13 +272,12 @@ export default function OliVino() {
 
       <section className="section5">
         <div className="text_olivino_2" id="Test">
-
           <div className="back_to_top">
             <a className="BackToTop" href="#" onClick={scrollToTop}>
               Back to Top
             </a>
           </div>
-          
+
           <div className="sectionPlay">
             <iframe
               title="Vimeo Video"
@@ -290,7 +289,6 @@ export default function OliVino() {
               muted
             ></iframe>
           </div>
-
         </div>
       </section>
     </>

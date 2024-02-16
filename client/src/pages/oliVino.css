@@ -32,14 +32,6 @@ video {
   align-items: center;
 }
 
-/* .text_olivino_2 {
-
-  justify-items: center;
-  text-align: center;
-  align-items: center;
-  padding-top: 5%;
-  display: flex;
-} */
 
 .Titulo_olivino {
   display: inline-block;
@@ -61,11 +53,9 @@ video {
 }
 
 .section1 {
-  /* background-color: #e0e0e0; */
   display: flex;
-  /* justify-content: space-between; */
   padding: auto;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 15%;
@@ -97,6 +87,12 @@ video {
   padding: 20px;
   text-align: center;
 }
+.section6 {
+
+  padding: 20px;
+  text-align: center;
+}
+
 
 .BackToTop {
   display: block;
@@ -127,6 +123,10 @@ video {
   font-size: 14px;
   margin-right: 10px;
   margin-left: 10px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px; /* Igual a la altura del botón */
+  
 }
 .Design_Thinking_botton :hover {
   background-color: #ddd; /* Cambia el color de fondo al pasar el ratón */
@@ -195,8 +195,14 @@ video {
 }
 
 .architectura_img_olivino {
+  padding-top: 1%;
   margin-bottom: 12%;
-}
+  /* width: 90%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente */
+} 
 
 .Icon_test {
   display: flex;

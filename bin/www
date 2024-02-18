@@ -15,21 +15,7 @@ const http = require('http');
 const port = normalizePort(process.env.PORT || '5000');
 app.set('port', port);
 
-// const PORT = process.env.PORT || 5000;
-// app.listen(PORT, () => {
-//   console.log(`Servidor backend en ejecución en http://localhost:${PORT}`);
-// });
 
-// const port = process.env.PORT || 4000;
-// app.listen(port, () => {
-//   console.log(`Servidor backend en ejecución en http://localhost:${port}`);
-// });
-
-/**
- * Create HTTP server.
- */
-
-// const server = http.createServer(app);
 const server = http.createServer(app);
 
 /**

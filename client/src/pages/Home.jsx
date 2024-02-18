@@ -123,7 +123,7 @@ export default function Home() {
 
         <div className="Picture">
           <img
-            src="./public/logo.jpg"
+            src="./logo.jpg"
             alt="foto"
             className="foto"
             style={{ width: "100%", height: "auto" }}

@@ -25,12 +25,15 @@ export default function Contacto() {
     console.log("Formulario enviado:", formData);
   
     try {
-      const response = await fetch('http://localhost:4000/user/email', {
+      // const response = await fetch('http://localhost:5000/user/email', {
+        // const response = await fetch('http://localhost:5000/sendEmail', {
+          const response = await fetch('http://localhost:4000/sendEmail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(formData),
+        credentials: 'include', // Incluir credenciales
       });
   
       if (response.ok) {

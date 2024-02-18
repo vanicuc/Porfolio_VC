@@ -1,8 +1,7 @@
-
+//users.js
 const express = require('express');
 
 const nodemailer = require('nodemailer');
-// const { google } = require('googleapis');
 const bodyParser = require('body-parser');
 
 const router = express.Router();
@@ -21,28 +20,14 @@ const transporter = nodemailer.createTransport({
     user:  "vanicuc@gmail.com" , 
     pass: "hjxe hiba zxcq uzbx" , 
   }, 
-  // auth: {
-  //   user: process.env.EMAIL_USER,
-  //   pass: process.env.EMAIL_PASSWORD,
-  // },
+  
 });
 
-// Ruta para manejar el envío del formulario
-
-// router.post('/', (req, res) => {
-
- 
-//   const { name, email, phone, message } = req.body;
 
 
-//   const mailOptions = {
-//     from:'vanicuc@gmail.com',
-//     to:'vanicuc@gmail.com',
-//     subject: 'Nuevo mensaje del formulario de contacto',
-//     text: `Nombre: ${name}\nCorreo: ${email}\nTeléfono: ${phone}\nMensaje: ${message}`,
-//   };
-
-router.post('/email', async (req, res) => {
+// router.post('/user/email', async (req, res) => {
+  
+router.post('/sendEmail', async (req, res) => {
   const { name, email, phone, message } = req.body;
 
   const mailOptions = {
@@ -63,19 +48,8 @@ router.post('/email', async (req, res) => {
 });
 
 
-  // Envío del correo electrónico
-  // transporter.sendMail(mailOptions, (error, info) => {
-  //   if (error) {
-  //     console.error(error);
-  //     res.status(500).send('Error al enviar el correo');
-  //   } else {
-  //     console.log('Correo enviado: ' + info.response);
-  //     res.status(200).send('Correo enviado con éxito');
-  //   }
-  // });
 
 
-// Exportar el router para ser utilizado en tu aplicación principal
 module.exports = router;
 
 

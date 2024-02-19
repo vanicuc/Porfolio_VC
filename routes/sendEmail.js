@@ -1,10 +1,12 @@
 //users.js
 const express = require('express');
+const router = express.Router();
 
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 
-const router = express.Router();
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0; // Desactivar la validación del certificado (solo para desarrollo)
+
 
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: true }));
@@ -22,12 +24,9 @@ const transporter = nodemailer.createTransport({
   }, 
   
 });
-
-
-
 // router.post('/user/email', async (req, res) => {
   
-router.post('/sendEmail', async (req, res) => {
+router.post('/', async (req, res) => {
   const { name, email, phone, message } = req.body;
 
   const mailOptions = {

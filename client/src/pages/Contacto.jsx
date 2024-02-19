@@ -19,15 +19,12 @@ export default function Contacto() {
     
   // };
 
-
   const handleSubmit = async (event) => {
     event.preventDefault();
     console.log("Formulario enviado:", formData);
   
     try {
-      // const response = await fetch('http://localhost:5000/user/email', {
-        // const response = await fetch('http://localhost:5000/sendEmail', {
-          const response = await fetch('http://localhost:4000/sendEmail', {
+      const response = await fetch('http://localhost:5173/api/sendEmail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -39,7 +36,8 @@ export default function Contacto() {
       if (response.ok) {
         console.log('Correo enviado con éxito');
       } else {
-        console.error('Error al enviar el correo');
+        const errorMessage = await response.text();
+        console.error('Error al enviar el correo:', errorMessage);
       }
     } catch (error) {
       console.error('Error al realizar la solicitud:', error);
@@ -47,7 +45,7 @@ export default function Contacto() {
   
     setFormData({ name: "", email: "", phone: "", message: "" });
   };
-
+  
   
 
   const handleInputChange = (event) => {

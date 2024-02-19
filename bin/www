@@ -12,11 +12,18 @@ const http = require('http');
  * Get port from environment and store in Express.
  */
 
-const port = normalizePort(process.env.PORT || '5000');
+
+////////////////////////////////////AQIEEEEEEEEEEEEEE////////////
+
+// const port = normalizePort(process.env.PORT || '5000');
+const port = normalizePort(process.env.PORT || '4000');
 app.set('port', port);
 
+////////////////////////////////////AQIEEEEEEEEEEEEEE////////////
 
 const server = http.createServer(app);
+console.log('Puerto:', port);
+
 
 /**
  * Listen on provided port, on all network interfaces.

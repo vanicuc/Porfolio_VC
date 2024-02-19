@@ -5,22 +5,20 @@ const cors = require('cors');
 const app = express();
 const createError = require('http-errors');
 
+const sendEmailRouter = require('./routes/sendEmail');
 
 const corsOptions = {
   origin: 'http://localhost:5173',
   credentials: true,
 };
+app.use('/api/sendEmail', sendEmailRouter);
 app.use(cors(corsOptions));
+app.options('/api/sendEmail', cors()); // Ajusta la ruta según tus necesidades
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send('Error interno del servidor');
+});
 
-
-// const corsOptions = {
-//   origin: 'http://localhost:5173', // Reemplaza con tu dominio de React
-//   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-//   credentials: true,
-//   optionsSuccessStatus: 204,
-// };
-
-// app.use(cors(corsOptions));
 
 
 const path = require('path');
@@ -34,16 +32,21 @@ const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 const userRouter = require('./routes/sendEmail'); 
 
-const port = process.env.PORT || 4000;
+////////////////////////////////////AQIEEEEEEEEEEEEEE////////////
+// 
+const port = process.env.PORT || 5000;
 
-// app.use(cors());
-
-// app.use('/user', userRouter); 
-app.use('/sendEmail', userRouter); 
+////////////////////////////////////AQIEEEEEEEEEEEEEE////////////
 
 app.listen(port, () => {
   console.log(`Servidor escuchando en http://localhost:${port}`);
 });
+
+// app.use(cors());
+
+// app.use('/user', userRouter); 
+// app.use('/sendEmail', userRouter); 
+
 
 
 
@@ -78,20 +81,20 @@ app.use(cookieParser());
 
 app.use(express.static(path.join(__dirname, 'client/build')));
 
-// app.use(function(req, res, next) {
-//   next(createError(404));
-// });
+app.use(function(req, res, next) {
+  next(createError(404));
+});
 
-// // error handler
-// app.use(function(err, req, res, next) {
-//   res.locals.message = err.message;
-//   res.locals.error = req.app.get('env') === 'development' ? err : {};
+// error handler
+app.use(function(err, req, res, next) {
+  res.locals.message = err.message;
+  res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-//   // render the error page
-//   res.status(err.status || 500);
-//   const errorMessage = req.app.get('env') === 'development' ? err.message : 'Internal Server Error';
-//   res.json({ error: errorMessage });
-// });
+  // render the error page
+  res.status(err.status || 500);
+  const errorMessage = req.app.get('env') === 'development' ? err.message : 'Internal Server Error';
+  res.json({ error: errorMessage });
+});
 
 
 

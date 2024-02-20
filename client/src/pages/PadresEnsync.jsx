@@ -108,33 +108,15 @@ export default function PadresEnsync() {
               <tr className="Empathize_inf">
                 <td className="Empathize">
                 The lack of coordination between separated parents makes it difficult to create a harmonious environment for the growth and development of children.
-                  {/* <div className="Empathize_img">
-                    <img
-                      src="laidy6.jpeg"
-                      alt="pld woman"
-                      style={{ width: "100%", height: "auto" }}
-                    />
-                  </div> */}
+                
                 </td>
                 <td className="Empathize">
                 Restore connection and promote harmony in the lives of the children by providing parents with a tool to synchronize their efforts and co-parent collaboratively.
-                  {/* <div className="Empathize_img">
-                    <img
-                      src="laidy5.jpeg"
-                      alt="pld woman"
-                      style={{ width: "70%", height: "auto" }}
-                    />
-                  </div> */}
+            
                 </td>
                 <td className="Empathize">
                 Synchronize and simplify co-parenting through an intuitive platform that facilitates the management of expenses and tasks, promoting collaborative parenting.
-                  <div className="Empathize_img">
-                    {/* <img
-                      src="feliz.jpeg"
-                      alt="pld woman"
-                      style={{ width: "60%", height: "auto" }}
-                    /> */}
-                  </div>
+        
                 </td>
               </tr>
             </table>
@@ -144,18 +126,17 @@ export default function PadresEnsync() {
 
       {/* <section className="section3">
         <div className="text_olivino_2" id="Define"> */}
-          <h3 className="Titulo_olivino">Storytelling </h3>
+          <h3 className="story_padre">Storytelling </h3>
 
-          <p className="box_Olvivino">
+          <p className="box_padre">
           Sofía, a girl who longed for harmony, saw her life affected by the separation of her parents, Ana and Marcos. In the midst of tensions and challenges, PadresEnsync arrived like a magical balm.
 
           Upon starting to use the platform, the synchronization of efforts between Ana and Marcos transformed the family environment. Sofia, who had previously experienced discord, witnessed how the magic of PadresEnsync restored the lost connection. Not only did it simplify co-parenting, but it became the key to a new chapter full of tranquility in Sofia's life. Discover the magic of synchronization with PadresEnsync!
           </p>
           <div className="Define_img">
-            {/* <img src="laidy 1.png" alt="pld woman" />
-            <img src="laidy 2.png" alt="pld woman" />
-            <img src="laidy 3.png" alt="pld woman" />
-            <img src="laidy 4.png" alt="pld woman" /> */}
+             <img src="padres.jpg" alt="padres"
+             style={{ width: "20%", height: "auto" }} />
+  
           </div>
         {/* </div>
       </section> */}
@@ -165,8 +146,8 @@ export default function PadresEnsync() {
           <h3 className="Titulo_olivino"> Information ARCHITECTURE</h3>
           <div className="architectura_img_olivino">
             <img
-              src="Olivino  arquitectura.png"
-              alt="Olivino  arquitectura"
+              src="padresensyncArq.jpg"
+              alt="padresEnsync arquitectura"
               style={{ width: "90%", height: "auto" }}
             />
           </div>
@@ -177,7 +158,7 @@ export default function PadresEnsync() {
         <div className="text_olivino_2" id="Prototype">
           <h3 className="Titulo_olivino">Moodboard oliVino</h3>
           <div>
-            <img src="Moodboard_olivino.png" alt="Moodboard_olivino" />
+            <img src="padresensync_Imagenes.jpg" alt="Moodboard_padresensync" />
           </div>
         </div>
       </section>

@@ -96,7 +96,7 @@ export default function PadresEnsync() {
      
       </section>
 
-      <section className="section2">
+      {/* <section className="section2">
         <div className="text_olivino_2" id="Empathize">
           <div className="box_Empathize">
             <table>
@@ -124,8 +124,6 @@ export default function PadresEnsync() {
         </div>
       </section>
 
-      {/* <section className="section3">
-        <div className="text_olivino_2" id="Define"> */}
           <h3 className="story_padre">Storytelling </h3>
 
           <p className="box_padre">
@@ -137,7 +135,50 @@ export default function PadresEnsync() {
              <img src="padres.jpg" alt="padres"
              style={{ width: "20%", height: "auto" }} />
   
-          </div>
+          </div> */}
+
+<section className="section2">
+  <div className="text_olivino_2" id="Empathize">
+    <div className="box_Empathize">
+      <table>
+        <thead>
+          <tr className="Empathize">
+            <td>Problem</td>
+            <td>Objective</td>
+            <td>Solution</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="Empathize_inf">
+            <td className="Empathize">
+              The lack of coordination between separated parents makes it difficult to create a harmonious environment for the growth and development of children.
+            </td>
+            <td className="Empathize">
+              Restore connection and promote harmony in the lives of the children by providing parents with a tool to synchronize their efforts and co-parent collaboratively.
+            </td>
+            <td className="Empathize">
+              Synchronize and simplify co-parenting through an intuitive platform that facilitates the management of expenses and tasks, promoting collaborative parenting.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<h3 className="story_padre">Storytelling</h3>
+
+<p className="box_padre">
+  Sofía, a girl who longed for harmony, saw her life affected by the separation of her parents, Ana and Marcos. In the midst of tensions and challenges, PadresEnsync arrived like a magical balm.
+
+  Upon starting to use the platform, the synchronization of efforts between Ana and Marcos transformed the family environment. Sofia, who had previously experienced discord, witnessed how the magic of PadresEnsync restored the lost connection. Not only did it simplify co-parenting, but it became the key to a new chapter full of tranquility in Sofia's life. Discover the magic of synchronization with PadresEnsync!
+</p>
+<div className="Define_img">
+  <img src="padres.jpg" alt="padres" style={{ width: "20%", height: "auto" }} />
+</div>
+
+             {/* <section className="section3">
+               <div className="text_olivino_2" id="Define"> */}
         {/* </div>
       </section> */}
 

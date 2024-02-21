@@ -118,7 +118,7 @@ export default function OliVino() {
     </div> */}
       </section>
 
-      <section className="section2">
+      {/* <section className="section2">
         <div className="text_olivino_2" id="Empathize">
           <div className="box_Empathize">
             <table>
@@ -179,7 +179,72 @@ export default function OliVino() {
             </table>
           </div>
         </div>
-      </section>
+      </section> */}
+      <section className="section2">
+  <div className="text_olivino_2" id="Empathize">
+    <div className="box_Empathize">
+      <table>
+        <tbody>
+          <tr className="Empathize">
+            <td>Problem</td>
+            <td>Objective</td>
+            <td>Solution</td>
+          </tr>
+          <tr className="Empathize_inf">
+            <td className="Empathize">
+              Many older individuals currently grapple with the challenge of
+              loneliness. The lack of social activities and limited
+              interaction with peers of their age significantly contribute
+              to a sense of isolation.
+              <div className="Empathize_img">
+                <img
+                  src="laidy6.jpeg"
+                  alt="pld woman"
+                  style={{ width: "100%", height: "auto" }}
+                />
+              </div>
+            </td>
+            <td className="Empathize">
+              Our primary goal is to tackle the challenge of loneliness by
+              creating a platform that provides a diverse range of local and
+              virtual events, customized to cater to the interests of the
+              elderly population. The overarching aim is to turn isolation
+              into companionship, fostering authentic and meaningful
+              connections through an app, and consequently, improving the
+              overall quality of life for older adults.
+              <div className="Empathize_img">
+                <img
+                  src="laidy5.jpeg"
+                  alt="pld woman"
+                  style={{ width: "70%", height: "auto" }}
+                />
+              </div>
+            </td>
+            <td className="Empathize">
+              Olívino is an app designed with a user-centric and inclusive
+              approach. The platform offers a variety of local and online
+              events tailored to the interests of the older population. The
+              user-friendly interface and accessibility features ensure
+              seamless participation for everyone. Olívino facilitates the
+              formation of new friendships by connecting people with similar
+              interests, creating a space where loneliness transforms into
+              an opportunity to build meaningful relationships and enjoy the
+              company of others in the golden years of life.
+              <div className="Empathize_img">
+                <img
+                  src="feliz.jpeg"
+                  alt="pld woman"
+                  style={{ width: "60%", height: "auto" }}
+                />
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
 
       <section className="section3">
         <div className="text_olivino_2" id="Define">
@@ -281,7 +346,7 @@ export default function OliVino() {
           <div className="sectionPlay">
             <iframe
               title="Vimeo Video"
-              src="https://player.vimeo.com/video/912167217?autoplay=1&loop=1"
+              // src="https://player.vimeo.com/video/912167217?autoplay=1&loop=1"
               allow="fullscreen"
               frameBorder="0"
               width="100%"

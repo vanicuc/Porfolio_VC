@@ -30,12 +30,6 @@ export default function Habilidad() {
            alt="DeskHome_art 2"
            className="DesckHome_art_2"
            />
-      {/* <img
-      
-        src="./Home_art 3.png"
-        alt="DeskHome_art 2"
-        className="DesckHome_art_2"
-        /> */}
     </>
   );
 }

@@ -8,8 +8,7 @@ import Biker from "./pages/Biker";
 import ROLLXPerience from "./pages/ROLLXPerience";
 import Habilidad from "./pages/habilidad";
 import Educacion from "./pages/Educacion";
-// import Projects from "./pages/Projects";
-// import AboutMe from './pages/AboutMe';
+
 
 function App() {
   return (
@@ -32,7 +31,7 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Cambia "/Home" a "/" */}
+        <Route path="/" element={<Home />} /> 
         <Route path="/Contacto" element={<Contacto />} />
         <Route path="/OliVino" element={<OliVino />} />
         <Route path="/PadresEnsync" element={<PadresEnsync />} />
@@ -40,8 +39,6 @@ function App() {
         <Route path="/ROLLXPerience" element={<ROLLXPerience />} />
         <Route path="/Habilidad" element={<Habilidad />} />
         <Route path="/Educacion" element={<Educacion />} />
-        {/* <Route path="/Projects" element={<Projects />} /> */}
-        {/* <Route path="/AboutMe" element={<AboutMe/>} /> */}
       </Routes>
     </>
   );

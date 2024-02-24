@@ -1,5 +1,4 @@
 import React from "react";
-import "./oliVino.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
@@ -17,26 +16,17 @@ export default function OliVino() {
 
   return (
     <>
-      <section className="section1">
-        <div className="section1_rigth">
-          <div className="olivino_explicacion">
+      <section className="section_1">
+        <div className="section_1_rigth">
+          <div className="img_box_logo">
             <div className="titulo">
-              <h2 className="Titulo_olivino">Group Project ‘OliVino’ </h2>
+              <h2 className="titulo_section">Group Project ‘OliVino’ </h2>
 
               <h4>Where Moments Matter, Friendships Flourish.</h4>
             </div>
 
-            {/* <div className="imagen_logo">
-       <img
-           src="./olivino blanco.png"  
-          alt="olivino"
-         className="card__logo"
-        style={{ width: '20%', height: 'auto' }}
-          />
-      </div>  */}
-
             <div>
-              <p className="box_Olvivino">
+              <p className="box_Explication_project">
                 Developed a full-stack app to create a friendly platform for the
                 elderly community to connect. Implemented functions in Sequelize
                 to optimize data processing, integrated Multer for saving user
@@ -97,160 +87,79 @@ export default function OliVino() {
             style={{ width: "50%", height: "auto" }}
           />
         </div>
-
-        {/* <div className="sectionPlay">
-      <iframe
-        title="Vimeo Video"
-  
-        src="https://player.vimeo.com/video/912167217?autoplay=1&loop=1"
-
-        allow="fullscreen"
-        frameBorder="0"
-        width="100%"
-        height="400px" 
-        muted 
-     
-       
-
-        
-      ></iframe>
-  
-    </div> */}
       </section>
 
-      {/* <section className="section2">
-        <div className="text_olivino_2" id="Empathize">
+      <section className="section_2">
+        <div className="text_section" id="Empathize">
           <div className="box_Empathize">
             <table>
-              <tr className="Empathize">
-                <td>Problem</td>
-                <td>Objective</td>
-                <td>Solution</td>
-              </tr>
-              <tr className="Empathize_inf">
-                <td className="Empathize">
-                  Many older individuals currently grapple with the challenge of
-                  loneliness. The lack of social activities and limited
-                  interaction with peers of their age significantly contribute
-                  to a sense of isolation.
-                  <div className="Empathize_img">
-                    <img
-                      src="laidy6.jpeg"
-                      alt="pld woman"
-                      style={{ width: "100%", height: "auto" }}
-                    />
-                  </div>
-                </td>
-                <td className="Empathize">
-                  Our primary goal is to tackle the challenge of loneliness by
-                  creating a platform that provides a diverse range of local and
-                  virtual events, customized to cater to the interests of the
-                  elderly population. The overarching aim is to turn isolation
-                  into companionship, fostering authentic and meaningful
-                  connections through an app, and consequently, improving the
-                  overall quality of life for older adults.
-                  <div className="Empathize_img">
-                    <img
-                      src="laidy5.jpeg"
-                      alt="pld woman"
-                      style={{ width: "70%", height: "auto" }}
-                    />
-                  </div>
-                </td>
-                <td className="Empathize">
-                  Olívino is an app designed with a user-centric and inclusive
-                  approach. The platform offers a variety of local and online
-                  events tailored to the interests of the older population. The
-                  user-friendly interface and accessibility features ensure
-                  seamless participation for everyone. Olívino facilitates the
-                  formation of new friendships by connecting people with similar
-                  interests, creating a space where loneliness transforms into
-                  an opportunity to build meaningful relationships and enjoy the
-                  company of others in the golden years of life.
-                  <div className="Empathize_img">
-                    <img
-                      src="feliz.jpeg"
-                      alt="pld woman"
-                      style={{ width: "60%", height: "auto" }}
-                    />
-                  </div>
-                </td>
-              </tr>
+              <tbody>
+                <tr className="Empathize">
+                  <td>Problem</td>
+                  <td>Objective</td>
+                  <td>Solution</td>
+                </tr>
+                <tr className="Empathize_inf">
+                  <td className="Empathize">
+                    Many older individuals currently grapple with the challenge
+                    of loneliness. The lack of social activities and limited
+                    interaction with peers of their age significantly contribute
+                    to a sense of isolation.
+                    <div className="Empathize_img">
+                      <img
+                        src="laidy6.jpeg"
+                        alt="pld woman"
+                        style={{ width: "100%", height: "auto" }}
+                      />
+                    </div>
+                  </td>
+                  <td className="Empathize">
+                    Our primary goal is to tackle the challenge of loneliness by
+                    creating a platform that provides a diverse range of local
+                    and virtual events, customized to cater to the interests of
+                    the elderly population. The overarching aim is to turn
+                    isolation into companionship, fostering authentic and
+                    meaningful connections through an app, and consequently,
+                    improving the overall quality of life for older adults.
+                    <div className="Empathize_img">
+                      <img
+                        src="laidy5.jpeg"
+                        alt="pld woman"
+                        style={{ width: "70%", height: "auto" }}
+                      />
+                    </div>
+                  </td>
+                  <td className="Empathize">
+                    Olívino is an app designed with a user-centric and inclusive
+                    approach. The platform offers a variety of local and online
+                    events tailored to the interests of the older population.
+                    The user-friendly interface and accessibility features
+                    ensure seamless participation for everyone. Olívino
+                    facilitates the formation of new friendships by connecting
+                    people with similar interests, creating a space where
+                    loneliness transforms into an opportunity to build
+                    meaningful relationships and enjoy the company of others in
+                    the golden years of life.
+                    <div className="Empathize_img">
+                      <img
+                        src="feliz.jpeg"
+                        alt="pld woman"
+                        style={{ width: "60%", height: "auto" }}
+                      />
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
             </table>
           </div>
         </div>
-      </section> */}
-      <section className="section2">
-  <div className="text_olivino_2" id="Empathize">
-    <div className="box_Empathize">
-      <table>
-        <tbody>
-          <tr className="Empathize">
-            <td>Problem</td>
-            <td>Objective</td>
-            <td>Solution</td>
-          </tr>
-          <tr className="Empathize_inf">
-            <td className="Empathize">
-              Many older individuals currently grapple with the challenge of
-              loneliness. The lack of social activities and limited
-              interaction with peers of their age significantly contribute
-              to a sense of isolation.
-              <div className="Empathize_img">
-                <img
-                  src="laidy6.jpeg"
-                  alt="pld woman"
-                  style={{ width: "100%", height: "auto" }}
-                />
-              </div>
-            </td>
-            <td className="Empathize">
-              Our primary goal is to tackle the challenge of loneliness by
-              creating a platform that provides a diverse range of local and
-              virtual events, customized to cater to the interests of the
-              elderly population. The overarching aim is to turn isolation
-              into companionship, fostering authentic and meaningful
-              connections through an app, and consequently, improving the
-              overall quality of life for older adults.
-              <div className="Empathize_img">
-                <img
-                  src="laidy5.jpeg"
-                  alt="pld woman"
-                  style={{ width: "70%", height: "auto" }}
-                />
-              </div>
-            </td>
-            <td className="Empathize">
-              Olívino is an app designed with a user-centric and inclusive
-              approach. The platform offers a variety of local and online
-              events tailored to the interests of the older population. The
-              user-friendly interface and accessibility features ensure
-              seamless participation for everyone. Olívino facilitates the
-              formation of new friendships by connecting people with similar
-              interests, creating a space where loneliness transforms into
-              an opportunity to build meaningful relationships and enjoy the
-              company of others in the golden years of life.
-              <div className="Empathize_img">
-                <img
-                  src="feliz.jpeg"
-                  alt="pld woman"
-                  style={{ width: "60%", height: "auto" }}
-                />
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
+      </section>
 
+      <section className="section_3">
+        <div className="text_section" id="Define">
+          <h3 className="titulo_section">Storytelling </h3>
 
-      <section className="section3">
-        <div className="text_olivino_2" id="Define">
-          <h3 className="Titulo_olivino">Storytelling </h3>
-
-          <p className="box_Olvivino">
+          <p className="box_Explication_project">
             Laia, a woman with a vibrant and cheerful spirit, found herself
             alone in her home after the loss of her husband. Solitude settled in
             like a shadow, dimming the laughter that once filled every corner of
@@ -279,10 +188,10 @@ export default function OliVino() {
         </div>
       </section>
 
-      <section className="section6">
-        <div className="text_olivino_2" id="Ideate">
-          <h3 className="Titulo_olivino"> Information ARCHITECTURE</h3>
-          <div className="architectura_img_olivino">
+      <section className="section_6">
+        <div className="text_section" id="Ideate">
+          <h3 className="titulo_section"> Information ARCHITECTURE</h3>
+          <div className="img_arq_section">
             <img
               src="Olivino  arquitectura.png"
               alt="Olivino  arquitectura"
@@ -292,28 +201,29 @@ export default function OliVino() {
         </div>
       </section>
 
-      <section className="section4">
-        <div className="text_olivino_2" id="Prototype">
-          <h3 className="Titulo_olivino">Moodboard oliVino</h3>
+      <section className="section_4">
+        <div className="text_section" id="Prototype">
+          <h3 className="titulo_section">Moodboard oliVino</h3>
           <div>
             <img src="Moodboard_olivino.png" alt="Moodboard_olivino" />
           </div>
         </div>
       </section>
+
       {/* 
-      <section className="section5">
+      <section className="section_5">
       
 
 <div className="Icon_test"> */}
 
-      {/* <h3 className="Titulo_olivino">Icon Design</h3>
+      {/* <h3 className="titulo_section">Icon Design</h3>
 </div> */}
 
       {/* <div  className="icon_img">
           <img
             src="oliva.jpg"
             alt="olivino_logo.jpg"
-            className="logo_olivino"
+            className="section_logo"
             style={{ width: "30%", height: "auto" }}
           />
           <h1>+</h1>
@@ -321,38 +231,38 @@ export default function OliVino() {
           <img
             src="OIP (1).jpeg"
             alt="olivino_logo.jpg"
-            className="logo_olivino"
+            className="section_logo"
             style={{ width: "30%", height: "auto" }}
           />
           <h1>=</h1>
           <img
             src="olivino logo.jpg"
             alt="olivino_logo.jpg"
-            className="logo_olivino"
+            className="section_logo"
             style={{ width: "10%", height: "auto" }}
           />
           </div> */}
 
       {/* </section> */}
 
-      <section className="section5">
-        <div className="text_olivino_2" id="Test">
+      <section className="section_5">
+        <div className="sectionPlay">
+          <iframe
+            title="Vimeo Video"
+            // src="https://player.vimeo.com/video/912167217?autoplay=1&loop=1"
+            allow="fullscreen"
+            frameBorder="0"
+            width="100%"
+            height="700px"
+            muted
+          ></iframe>
+        </div>
+
+        <div className="text_section" id="Test">
           <div className="back_to_top">
-            <a className="BackToTop" href="#" onClick={scrollToTop}>
+            <a className="BackToTopButton" href="#" onClick={scrollToTop}>
               Back to Top
             </a>
-          </div>
-
-          <div className="sectionPlay">
-            <iframe
-              title="Vimeo Video"
-              // src="https://player.vimeo.com/video/912167217?autoplay=1&loop=1"
-              allow="fullscreen"
-              frameBorder="0"
-              width="100%"
-              height="700px"
-              muted
-            ></iframe>
           </div>
         </div>
       </section>

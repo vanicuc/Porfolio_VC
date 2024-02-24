@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
-// import "./Projects.css";
+import "./Projects.css";
 
 
 export default function Home() {
@@ -27,27 +27,7 @@ export default function Home() {
               insights and translating them effectively into code.
             </p>
           </div>
-        
-          
-
-          {/* <div className="box-link">
-            <Link
-              to="/Projects"
-              className="link-button"
-              style={{
-                backgroundColor: "white",
-                color: "black",
-                border: "solid 0.5px #989898bb",
-                padding: "10px 40px",
-                borderRadius: "10px", // Ajusta el valor según sea necesario
-                textDecoration: "none", // Elimina la línea subrayada
-              }}
-            >
-              Work experience
-            </Link>
-            <div className="space"></div>
-          </div> */}
-
+    
 
 <div className='Work_experience'>
         <h3> Work experience</h3>
@@ -89,8 +69,6 @@ export default function Home() {
   
     </div>
 
-    
-    <div className="space"></div>
  
   
 

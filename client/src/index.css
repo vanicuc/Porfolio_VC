@@ -29,7 +29,6 @@
   }
   
   nav li span {
-    /* padding: 5px 10px; */
     cursor: pointer;
   }
   
@@ -43,7 +42,8 @@
 
   @media (max-width: 768px) {
     nav {
-      padding: 5px; /* Ajusta el relleno para pantallas más pequeñas */
+      padding: 5px; 
+      /* Ajusta el relleno para pantallas más pequeñas */
     }
   
     nav ul {

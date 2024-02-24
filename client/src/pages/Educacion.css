@@ -1,18 +1,16 @@
-
 .info-container {
-  display: flex; 
+  display: flex;
   justify-content: center;
-
 }
 .text-content {
   align-items: center;
   justify-content: flex-start;
 }
 
-.img_education{
+.img_education {
   width: 5%;
 }
-.img_mujer{
+.img_mujer {
   width: 18%;
   display: flex;
   margin-right: 0;
@@ -29,29 +27,28 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center; 
+  text-align: center;
   margin-right: 0;
 }
 .container {
   flex-wrap: wrap;
   display: flex;
   margin: 0;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
 }
 
 .container .cardStudio {
   cursor: pointer;
-  margin: 0 10px; 
+  margin: 0 10px;
   width: 300px;
   height: 230px;
 }
 
-
 @media (max-width: 768px) {
   .container .cardStudio {
-    width: 100%; 
-    margin: 10px 0; 
+    width: 100%;
+    margin: 10px 0;
   }
 }
 
@@ -63,7 +60,7 @@
 
 .container .cardStudio .face.face1 {
   position: relative;
-  background: #F2F2F7;
+  background: #f2f2f7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +70,7 @@
 }
 
 .container .cardStudio:hover .face.face1 {
-  background: #C6C6C8 ;
+  background: #c6c6c8;
   transform: translateY(0);
 }
 

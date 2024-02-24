@@ -1,79 +1,75 @@
-   /* Estilos para la lista de navegación en la barra de navegación */
-   nav {
-   
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; 
-    margin-left: 40px;
-    padding-top: 20px;
-    padding-right: 40px;
+/* Estilos para la lista de navegación en la barra de navegación */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 40px;
+  padding-top: 20px;
+  padding-right: 40px;
+}
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li.logout-button {
+  margin-left: 0;
+}
+
+nav li span {
+  cursor: pointer;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 5px;
+    /* Ajusta el relleno para pantallas más pequeñas */
   }
-  
-   nav ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     display: flex;
-     justify-content: flex-end; 
-    
-   }
-   
-   nav li {
-    display: inline-block;
+
+  nav ul {
+    flex-direction: column; /* Cambia la dirección del diseño a columna en pantallas más pequeñas */
+    align-items: flex-end; /* Alinea los elementos a la derecha en pantallas más pequeñas */
+    margin-left: 0; /* Reinicia el margen izquierdo */
   }
-  
+
+  nav li {
+    margin-left: 0;
+    margin-bottom: 5px; /* Ajusta el espacio entre elementos de la lista en pantallas más pequeñas */
+  }
+
   nav li.logout-button {
     margin-left: 0;
+    margin-top: 10px; /* Ajusta el espacio en la parte superior para el botón de cierre de sesión */
   }
-  
-  nav li span {
-    cursor: pointer;
-  }
-  
-  nav li a {
-    display: block;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-  }
+}
 
-  @media (max-width: 768px) {
-    nav {
-      padding: 5px; 
-      /* Ajusta el relleno para pantallas más pequeñas */
-    }
-  
-    nav ul {
-      flex-direction: column; /* Cambia la dirección del diseño a columna en pantallas más pequeñas */
-      align-items: flex-end; /* Alinea los elementos a la derecha en pantallas más pequeñas */
-      margin-left: 0; /* Reinicia el margen izquierdo */
-      
-    }
-  
-    nav li {
-      margin-left: 0;
-      margin-bottom: 5px; /* Ajusta el espacio entre elementos de la lista en pantallas más pequeñas */
-    }
-  
-    nav li.logout-button {
-      margin-left: 0;
-      margin-top: 10px; /* Ajusta el espacio en la parte superior para el botón de cierre de sesión */
-    }
-  }
+body {
+  font-family: "Roboto", sans-serif;
+}
 
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
 
-  body {
-    font-family: 'Roboto', sans-serif; 
-  }
-  
-  h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .paragraph-text {
-    font-family: 'Roboto', sans-serif;
-  }
-  
+.paragraph-text {
+  font-family: "Roboto", sans-serif;
+}

@@ -4,8 +4,7 @@ export default function Educacion() {
   return (
     <>
       <div className="education">
-        <img src="education.jpeg"
-        className="img_education"/>
+        <img src="education.jpeg" className="img_education" />
 
         <h1>Education</h1>
       </div>
@@ -62,18 +61,15 @@ export default function Educacion() {
         </div>
       </div>
       <div className="info-container">
-    
-      <img src="contacto.jpeg"
-      className="img_mujer"/>
-     
+        <img src="contacto.jpeg" className="img_mujer" />
 
-      <div className="language">
-      <div className="text-content">
-        <h1>Language:</h1>
-        <p>Spanish Native </p>
-        <p>English: Advanced Level</p>
-      </div>
-      </div>
+        <div className="language">
+          <div className="text-content">
+            <h1>Language:</h1>
+            <p>Spanish Native </p>
+            <p>English: Advanced Level</p>
+          </div>
+        </div>
       </div>
     </>
   );

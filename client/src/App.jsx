@@ -9,7 +9,6 @@ import ROLLXPerience from "./pages/ROLLXPerience";
 import Habilidad from "./pages/habilidad";
 import Educacion from "./pages/Educacion";
 
-
 function App() {
   return (
     <>
@@ -31,7 +30,7 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<Home />} /> 
+        <Route path="/" element={<Home />} />
         <Route path="/Contacto" element={<Contacto />} />
         <Route path="/OliVino" element={<OliVino />} />
         <Route path="/PadresEnsync" element={<PadresEnsync />} />

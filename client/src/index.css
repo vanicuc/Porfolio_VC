@@ -1,7 +1,8 @@
 /* Estilos para la lista de navegación en la barra de navegación */
 nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  /* justify-content: flex-end; */
   align-items: center;
   margin-left: 40px;
   padding-top: 20px;
@@ -14,7 +15,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 
 nav li {
@@ -72,4 +73,44 @@ h3 {
 
 .paragraph-text {
   font-family: "Roboto", sans-serif;
+}
+
+.Links {
+  display: flex;
+  align-content: flex-end
+}
+
+.navbar{
+  display: flex;
+}
+
+
+
+nav .navbar_inf ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+nav .navbar_inf li {
+  display: inline-block;
+  margin-right: 20px; /* Ajusta el espacio entre los elementos de la lista */
+}
+
+nav .Links {
+  display: flex;
+}
+
+nav .Links div {
+  margin-left: 20px; /* Ajusta el espacio entre los íconos */
+}
+
+nav .Links img {
+  width: 25px; /* Ajusta el tamaño de los íconos según tus necesidades */
+}
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas más pequeñas si es necesario */
 }

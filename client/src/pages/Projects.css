@@ -57,7 +57,7 @@ video {
   margin-top: 10%;
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
   align-items: flex-start;
   justify-content: center;
 }
@@ -73,13 +73,14 @@ video {
   /* background-color: #e0e0e0; */
   padding: 20px;
   text-align: center;
+
 }
 
 .section_4 {
   /* background-color: #e0e0e0; */
   padding: 20px;
   text-align: center;
-  padding-bottom: 10%;
+ padding-bottom: 50px;
 }
 .section_5 {
   /* background-color: #e0e0e0; */
@@ -89,6 +90,7 @@ video {
 .section_6 {
   padding: 20px;
   text-align: center;
+padding-top: 15%;
 }
 
 .BackToTop {
@@ -176,8 +178,9 @@ video {
 }
 
 .Define_img {
-  margin-top: 8%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  /* margin-bottom: 10%; */
+  /* margin-bottom: 10%; */
 }
 
 .icon_img {
@@ -226,4 +229,55 @@ video {
 
 .BackToTopButton:hover {
   background-color: #ddd; /* Cambia el color al pasar el ratón sobre el botón */
+}
+
+/* padresensync */
+.card_mvp{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  align-items: stretch; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* padding-bottom: 10%; */
+}
+
+.card_mvp_2{
+  display: inline-flex;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  z-index: 1;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+ 
+}
+
+.text_section {
+  text-align: center;
+}
+
+.titulo_section {
+  color: #333;
+}
+
+.card_inf {
+  margin-top: 0px;
+}
+
+.box_Explication_project {
+  list-style-type: none;
+  padding: 0;
+}
+
+.box_Explication_project li {
+  margin-bottom: 0px;
+}
+
+/* You can add more styles based on your design preferences */
+.storytelling-image-row p{
+padding-left: 2%;
+padding-right: 2%;
+
 }

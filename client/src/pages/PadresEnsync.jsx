@@ -139,13 +139,22 @@ export default function PadresEnsync() {
                         full of tranquility in Sofia's life. Discover the magic
                         of synchronization with PadresEnsync!
                       </p>
-                      <div>
+
+                      <div className="Define_img">
+                        <h4>User flow</h4>
+                        <img
+                          src="user_flow.png"
+                          alt="user flow"
+                          style={{ width: "50%", height: "auto" }}
+                        />
+                      </div>
+                      {/* <div>
                         <img
                           src="padres_movil-modified.png"
                           alt="padres"
                           style={{ width: "20%", height: "auto" }}
                         />
-                      </div>
+                      </div> */}
                     </td>
                   </tr>
                 </tbody>
@@ -155,9 +164,132 @@ export default function PadresEnsync() {
         </section>
       </div>
 
+      <section className="section_3">
+        <div className="card_mvp">
+          <div className="card_mvp_2">
+            <div className="text_section" id="Define">
+              <h3 className="titulo_section">MVP 1.0 </h3>
+              <div className="card_inf">
+                <h4>Expense </h4>
+                <ul className="box_Explication_project">
+                  <li>Date</li>
+                  <li>Expense Description</li>
+                  <li>Amount</li>
+                  <li>Approval</li>
+                  <li>Delete Expense</li>
+                  <li>Payment Responsible</li>
+                </ul>
+              </div>
+              <div className="card_inf">
+                <h4>Detail</h4>
+                <ul className="box_Explication_project">
+                  <li>Approval</li>
+                  <li>Expense Zoom</li>
+                  <li>Different URL</li>
+                </ul>
+              </div>
+              <div className="card_inf">
+                <h4>Form </h4>
+                <ul className="box_Explication_project">
+                  <li>Description</li>
+                  <li>Date</li>
+                  <li>Total</li>
+                  <li>Payment Responsible</li>
+                  <li>Add</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="card_mvp_2">
+            <div className="text_section" id="Define">
+              <h3 className="titulo_section">MVP 1.1 </h3>
+              <div className="card_inf">
+                <h4>Expense </h4>
+                <ul className="box_Explication_project">
+                  <li>Display only 15 expenses</li>
+                  <li>Enable pagination to scroll and view all expenses</li>
+                  <li>
+                    Cannot delete an expense that is approved or paid, deletion
+                    requires approval from both users
+                  </li>
+                </ul>
+              </div>
+              <div className="card_inf">
+                <h4>Navigation bar</h4>
+                <ul className="box_Explication_project">
+                  <li>
+                    Custody: Connects with the calendar to indicate who has
+                    custody on a particular day
+                  </li>
+                  <li>
+                    Minor: Connects with the minor's profile to display their
+                    name
+                  </li>
+                </ul>
+              </div>
+              <div className="card_inf">
+                <h4>Details </h4>
+                <ul className="box_Explication_project">
+                  <li>
+                    Display the amount the other user has to pay, indicating if
+                    it's 50% for equal sharing
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="card_mvp_2">
+            <div className="text_section" id="Define">
+              <h3 className="titulo_section">MVP 1.2 </h3>
+              <div className="card_inf">
+                <h4>Expense </h4>
+                <ul className="box_Explication_project">
+                  <li>
+                    Display in a different color once the other user has paid
+                  </li>
+                  <li>
+                    Define how the payment responsibility will be displayed and
+                    how the other user will demonstrate the payment of the
+                    outstanding amount. Consider leaving a space to connect with
+                    a bank card for direct payment through the bank once
+                    accepted.
+                  </li>
+                </ul>
+              </div>
+              <div className="card_inf">
+                <h4>Balance</h4>
+                <ul className="box_Explication_project">
+                  <li>
+                    Create an expense balance for different activities:
+                    clothing, school, extracurricular activities, medical
+                    expenses, and miscellaneous, for each child. This provides a
+                    monthly and yearly control of expenditures
+                  </li>
+                  <li>
+                    Ability to divide the balance between children and show the
+                    total for the entire family
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className="Define_img">
+          <h2>User flow</h2>
+          <img
+            src="user_flow.png"
+            alt="user flow"
+            style={{ width: "60%", height: "auto" }}
+          />
+        </div> */}
+      </section>
+
       <section className="section_6">
         <div className="text_section" id="Ideate">
-          <h3 className="titulo_section"> Information ARCHITECTURE</h3>
+          <h3 className="titulo_section"> Information Architecture</h3>
           <div className="img_arq_section">
             <img
               src="padresensyncArq.png"
@@ -167,7 +299,6 @@ export default function PadresEnsync() {
           </div>
         </div>
       </section>
-
       <section className="section_4">
         <div className="text_section" id="Prototype">
           <h3 className="titulo_section">Moodboard oliVino</h3>

@@ -14,9 +14,9 @@ export default function PadresEnsync() {
 
   return (
     <>
-      <section className="section_1">
+      <section className="section_padres">
         <div className="section_1_rigth_padres">
-          <div className="img_box_logo">
+        <div className="img_box_logo_padres">
             <div className="titulo">
               <h2 className="titulo_section">Group Project ‘PadresEnsync’</h2>
 
@@ -32,10 +32,11 @@ export default function PadresEnsync() {
               </p>
             </div>
 
-            <div className="contenedor_design">
-              <h4>Design Thinking</h4>
+            <div className="contenedor_design_padres">
+              <h4 className="design_title">Design Thinking</h4>
+              
 
-              <div className="contenedor_botton">
+              <div className="contenedor_botton_padres">
                 <a
                   className="Design_Thinking_botton"
                   href="#Empathize"
@@ -73,18 +74,18 @@ export default function PadresEnsync() {
                 </a>
               </div>
             </div>
-          </div>
         </div>
-        <div className="img_box_logo">
-          <div className="img_logo_project">
+        {/* <div className="img_box_logo_padres"> */}
+           <div className="img_logo_project_padreEnsync"> 
             <img
-              src="./PadresEnsync logo.png"
+              src="./PadresEnsync logo 3.png"
               alt="PadresEnsync"
-              className="card__logo"
-              style={{ width: "50%", height: "auto" }}
+              className="logo_padres_corazon"
+              style={{ width: "100%", height: "auto" }}
             />
           </div>
-        </div>
+            </div>
+         {/* </div> */}
       </section>
       <div className="section_2a">
         <section className="section_2">

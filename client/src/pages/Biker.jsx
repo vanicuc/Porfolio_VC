@@ -15,74 +15,71 @@ export default function Biker() {
   return (
     <>
       <section className="section_1">
-        <div className="section_1_rigth_padres">
-        
-            <div className="titulo">
-              <h2 className="titulo_section">
-                Functionality Extension 'Bikers'
-              </h2>
-              <h4>Where are we going today, biker?</h4>
-            </div>
-            <div>
-              <p className="box_Explication_project">
-                I developed a full-stack application specially designed for
-                cyclists. I implemented login authentication, user credential
-                validation, and token functionality. I integrated Leaflet for
-                mapping and ping functionality.
-              </p>
-            </div>
+        <div className="section_1_rigth_biker">
+          <div className="titulo">
+            <h2 className="titulo_section">Functionality Extension 'Bikers'</h2>
+            <h4>Where are we going today, biker?</h4>
+          </div>
+          <div>
+            <p className="box_Explication_project">
+              I developed a full-stack application specially designed for
+              cyclists. I implemented login authentication, user credential
+              validation, and token functionality. I integrated Leaflet for
+              mapping and ping functionality.
+            </p>
+          </div>
 
-            <div className="contenedor_design">
-              {/* <h4>Design Thinking</h4> */}
+          {/* <div className="contenedor_design_biker"> */}
+          {/* <h4>Design Thinking</h4> */}
 
-              <div className="contenedor_botton">
-                <a
-                  className="Design_Thinking_botton"
-                  href="#Define"
-                  onClick={() => scrollToSection("Define")}
-                >
-                  Define
-                </a>
-                <a
-                  className="Design_Thinking_botton"
-                  href="#Ideate"
-                  onClick={() => scrollToSection("Ideate")}
-                >
-                  Ideate
-                </a>
-                {/* <a
+          <div className="contenedor_botton_biker">
+            <a
+              className="Design_Thinking_botton"
+              href="#Define"
+              onClick={() => scrollToSection("Define")}
+            >
+              Define
+            </a>
+            <a
+              className="Design_Thinking_botton"
+              href="#Ideate"
+              onClick={() => scrollToSection("Ideate")}
+            >
+              Ideate
+            </a>
+            {/* <a
                   className="Design_Thinking_botton"
                   href="#Prototype"
                   onClick={() => scrollToSection("Prototype")}
                 >
                   Prototype
                 </a> */}
-                <a
-                  className="Design_Thinking_botton"
-                  href="#Test"
-                  onClick={() => scrollToSection("Test")}
-                >
-                  Test
-                </a>
-            </div>
-            
-            </div>
-            </div>
+            <a
+              className="Design_Thinking_botton"
+              href="#Test"
+              onClick={() => scrollToSection("Test")}
+            >
+              Trip
+            </a>
+          </div>
+        </div>
         <div className="img_box_logo">
           <div className="img_logo_project">
             <img
               src="./BIKER 1.png"
               alt="biker"
               className="card__logo"
-              style={{ width: "90%", height: "auto" }}
-              />
-              </div>
+              style={{ width: "100%", height: "auto" }}
+            />
+          </div>
         </div>
       </section>
 
+      <div className="space"></div>
+
       <section className="section_3">
         <div className="card_mvp_Biker">
-          <div className="card_mvp_biker 2">
+          <div className="card_mvp_biker_2">
             <div className="text_section" id="Define">
               <h3 className="titulo_section">MVP 2.1 </h3>
               <div className="card_inf">
@@ -113,20 +110,26 @@ export default function Biker() {
             </div>
           </div>
 
-          <div className="card_inf">
-            <img
-              src="boton user flow.png"
-              alt="botton user flow"
-              style={{ width: "20%", height: "auto" }}
-            />
-            <img
-              src="user flow bototon biker.png"
-              alt="user flow bototon biker.png"
-              style={{ width: "30%", height: "auto" }}
-            />
+          <div className="card_mvp_biker_2">
+            <div className="card_inf">
+              <h4>Biker user flow</h4>
+              <ul>
+                <img
+                  src="user flow bototon biker.png"
+                  alt="user flow bototon biker.png"
+                  style={{ width: "80%", height: "auto" }}
+                />
+              </ul>
+              <h4>Botton user flow</h4>
+              <ul>
+                <img
+                  src="boton user flow.png"
+                  alt="botton user flow"
+                  style={{ width: "80%", height: "auto" }}
+                />
+              </ul>
+            </div>
           </div>
-
-          <div></div>
         </div>
       </section>
 
@@ -137,13 +140,13 @@ export default function Biker() {
             <img
               src="biker arq.png"
               alt="Biker arquitectura"
-              style={{ width: "60%", height: "auto" }}
+              style={{ width: "50%", height: "auto" }}
             />
           </div>
-          <div className="space"></div>
-          <div className="space"></div>
         </div>
       </section>
+      <div className="space"></div>
+
       <section className="section_5">
         <div className="user_flow">
           <div>

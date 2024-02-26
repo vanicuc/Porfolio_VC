@@ -6,11 +6,7 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  /* padding: 25%; */
-  padding-top: 1%;
-}
-.section_1_rigth {
-  width: 50%;
+   padding-top: 1%;
 }
 
 video {
@@ -51,6 +47,9 @@ video {
   height: 50px;
 }
 
+.section_1_rigth {
+  width: 50%;
+}
 .section_1 {
   display: flex;
   padding: auto;
@@ -64,28 +63,23 @@ video {
 
 /* Estilos para la segunda sección */
 .section_2 {
-  /* background-color: #e0e0e0; */
-  /* padding: 10px; */
   text-align: center;
 }
 
 .section_3 {
-  /* background-color: #e0e0e0; */
   padding: 20px;
   text-align: center;
-
 }
 
 .section_4 {
-  /* background-color: #e0e0e0; */
   padding: 20px;
   text-align: center;
  padding-bottom: 50px;
 }
 .section_5 {
-  /* background-color: #e0e0e0; */
   padding: 20px;
   text-align: center;
+  /* background-color: #e0e0e0; */
 }
 .section_6 {
   padding: 20px;
@@ -99,7 +93,6 @@ padding-top: 15%;
   padding-top: 25px;
   padding-right: 10%;
   text-align: right;
-  /* text-align: center; */
   text-decoration: none;
   color: #333; /* Color del texto */
 }
@@ -173,14 +166,10 @@ padding-top: 15%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-top: 5%; */
-  /* padding-bottom: 1%; */
-}
+  }
 
 .Define_img {
   margin-top: 5%;
-  /* margin-bottom: 10%; */
-  /* margin-bottom: 10%; */
 }
 
 .icon_img {
@@ -196,7 +185,6 @@ padding-top: 15%;
 .img_arq_section {
   padding-top: 1%;
   margin-bottom: 12%;
-  /* width: 90%; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -219,9 +207,7 @@ padding-top: 15%;
   padding: 10px 20px;
   background-color: #f2f2f2; /* Color gris claro */
   border: 1px solid #ccc; /* Borde del rectángulo */
-
   color: #333;
-
   text-decoration: none;
   border-radius: 5px;
   transition: background-color 0.3s ease;
@@ -235,11 +221,9 @@ padding-top: 15%;
 .card_mvp{
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
   align-items: stretch; 
   flex-direction: row;
   flex-wrap: wrap;
-  /* padding-bottom: 10%; */
 }
 
 .card_mvp_2{
@@ -279,5 +263,15 @@ padding-top: 15%;
 .storytelling-image-row p{
 padding-left: 2%;
 padding-right: 2%;
-
+}
+.box_structure{
+  display: flex;
+ padding-bottom: 10%;
+}
+.structure{
+  display: inline;
+  justify-content: flex-end;
+}
+.screen{
+  justify-content: flex-start;
 }

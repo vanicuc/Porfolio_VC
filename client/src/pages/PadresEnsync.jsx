@@ -145,7 +145,7 @@ export default function PadresEnsync() {
                         <img
                           src="user_flow.png"
                           alt="user flow"
-                          style={{ width: "50%", height: "auto" }}
+                          style={{ width: "60%", height: "auto" }}
                         />
                       </div>
                       {/* <div>
@@ -277,14 +277,6 @@ export default function PadresEnsync() {
           </div>
         </div>
 
-        {/* <div className="Define_img">
-          <h2>User flow</h2>
-          <img
-            src="user_flow.png"
-            alt="user flow"
-            style={{ width: "60%", height: "auto" }}
-          />
-        </div> */}
       </section>
 
       <section className="section_6">
@@ -306,8 +298,37 @@ export default function PadresEnsync() {
             <img
               src="padresensync_Imagenes.png"
               alt="Moodboard_padresensync"
+              style={{ width: "90%", height: "auto" }}
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="section_5">
+            <h3 className="titulo_section">Structure</h3>
+        <div className="box_structure">
+          <div className="screen">
+            <img
+              src="pantalla_padresensync.png"
+              alt="pantalla app PadresEnsync"
               style={{ width: "80%", height: "auto" }}
             />
+          </div>
+
+          <div className="structure">
+            <img
+              src="PadresEnsync.png"
+              alt="structure"
+              style={{ width: "90%", height: "auto" }}
+            />
+          </div>
+
+        </div>
+        <div className="text_section" id="Test">
+          <div className="back_to_top">
+            <a className="BackToTopButton" href="#" onClick={scrollToTop}>
+              Back to Top
+            </a>
           </div>
         </div>
       </section>

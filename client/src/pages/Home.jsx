@@ -57,13 +57,14 @@ export default function Home() {
               </div>
             </a>
 
-            <a className="card" href="/ROLLXPerience">
+           
+            {/* <a className="card" href="/ROLLXPerience">
               <div className="card__background"></div>
               <div className="card__content">
                 <p className="card__category">UI/UX Designer</p>
                 <h4 className="card__heading">ROLLXPerience</h4>
               </div>
-            </a>
+            </a> */}
           </div>
 
           {/* <div className="Links">

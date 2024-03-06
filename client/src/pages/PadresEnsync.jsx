@@ -83,8 +83,8 @@ export default function PadresEnsync() {
               className="logo_padres_corazon"
               style={{ width: "100%", height: "auto" }}
             />
-          </div>
             </div>
+          </div>
          {/* </div> */}
       </section>
       <div className="section_2a">

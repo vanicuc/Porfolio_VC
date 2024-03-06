@@ -69,7 +69,7 @@ video {
 .section_1_rigth_padres {
   display: flex;
   align-items: center;
-  width: 80%;
+  width: 95%;
 }
 .section_padres {
   display: flex;
@@ -358,4 +358,7 @@ video {
 }
 .space{
   padding-bottom: 8%;
+}
+.img_logo_project_padreEnsync{
+  padding-left: 60px;
 }

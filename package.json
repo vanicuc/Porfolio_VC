@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
-    "migrate": "node model/database.js"
+    "migrate": "node model/database.js",
+    "build": "npm start"
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.41.3",

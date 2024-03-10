@@ -1,6 +1,6 @@
 # netlify.toml
 
 [build]
-  
-  command = "npm run build"
-  publish = "client/build"
+  base = "/opt/build/repo/client"
+  command = "CI=false npm run build"
+  publish = "client/build"  # o ajusta esto según el directorio correcto de construcción

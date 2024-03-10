@@ -1,6 +1,6 @@
 # netlify.toml
 
 [build]
-  base = "/opt/build/repo/client"
+  base = "/opt/build/repo"
   command = "npm run build"
   publish = "client/build"

@@ -1,0 +1,8 @@
+# _headers
+
+/*
+  Content-Type: application/javascript
+  Access-Control-Allow-Origin: *
+  Cache-Control: public, max-age=0, must-revalidate
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'

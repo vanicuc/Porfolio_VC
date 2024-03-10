@@ -1,14 +1,15 @@
 import React from "react";
 import { Route, Routes, BrowserRouter, Link, Outlet } from "react-router-dom";
-// import Home from "./pages/Home";
+
 import Contacto from "./pages/Contacto";
 import OliVino from "./pages/OliVino";
 import PadresEnsync from "./pages/PadresEnsync";
 import Biker from "./pages/Biker";
 import ROLLXPerience from "./pages/ROLLXPerience";
-// import Habilidad from "./pages/habilidad";
+
 import Educacion from "./pages/Educacion";
 import Home from "./pages/Home";
+import Habilidad from "./pages/Habilidad"
 
 function App() {
   return (
@@ -16,12 +17,12 @@ function App() {
       <nav  className="navbar">
         <div className="navbar_inf">
           <ul>
-            {/* <li>
+            <li>
               <Link to="/">Home</Link>
-            </li> */}
-            {/* <li>
+            </li>
+            <li>
               <Link to="/Habilidad">Skill</Link>
-            </li> */}
+            </li>
             <li>
               <Link to="/Educacion">Education</Link>
             </li>
@@ -65,7 +66,7 @@ function App() {
         <Route path="/PadresEnsync" element={<PadresEnsync />} />
         <Route path="/Biker" element={<Biker />} />
         <Route path="/ROLLXPerience" element={<ROLLXPerience />} />
-        {/* <Route path="/Habilidad" element={<Habilidad />} /> */}
+        <Route path="/Habilidad" element={<Habilidad />} />
         <Route path="/Educacion" element={<Educacion />} />
       </Routes>
     </>

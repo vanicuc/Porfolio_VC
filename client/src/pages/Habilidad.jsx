@@ -4,7 +4,7 @@ const skills = [
   { name: "Javascript", image: "./Javascript.png" },
   { name: "HTML", image: "./html5-original.png" },
   { name: "CSS", image: "./css3-original.png" },
-  { name: "Node.js", image: "./Nodejs.png" },
+  // { name: "Node.js", image: "./Nodejs.png" },
   { name: "MySQL", image: "./mysql-original-wordmark.png" },
   { name: "Sequelize", image: "./sequelize-plain.png" },
   { name: "Postman", image: "./Postman.png" },

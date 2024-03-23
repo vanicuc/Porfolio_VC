@@ -81,6 +81,8 @@ app.use(cookieParser());
 
 app.use(express.static(path.join(__dirname, 'client/build')));
 
+
+
 app.use(function(req, res, next) {
   next(createError(404));
 });
@@ -89,7 +91,7 @@ app.use(function(req, res, next) {
 app.use(function(err, req, res, next) {
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
-
+  
   // render the error page
   res.status(err.status || 500);
   const errorMessage = req.app.get('env') === 'development' ? err.message : 'Internal Server Error';
@@ -97,5 +99,8 @@ app.use(function(err, req, res, next) {
 });
 
 
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/client/dist/index.html"));
+});
 
 module.exports = app;

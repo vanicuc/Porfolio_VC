@@ -12,8 +12,12 @@ const http = require('http');
  * Get port from environment and store in Express.
  */
 
-// const port = normalizePort(process.env.PORT || '4000');
-const port = process.env.PORT || 5000; // Usar el puerto proporcionado por Heroku o 3000 como puerto predeterminado
+const port = normalizePort(process.env.port || '3000');
+// const port = process.env.port || 5000; 
+// const port = process.env.port || 3000;
+app.listen(port, () => {
+    console.log(`Our app is running on port ${ port }`);
+});
 
 
 
@@ -24,8 +28,10 @@ const server = http.createServer(app);
 /**
  * Listen on provided port, on all network interfaces.
  */
-
-server.listen(port);
+server.listen(port, '0.0.0.0', () => {
+  console.log(`Servidor escuchando en el puerto ${port}`);
+});
+// server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
 
@@ -60,7 +66,7 @@ function onError(error) {
 
   const bind = typeof port === 'string'
     ? 'Pipe ' + port
-    : 'Port ' + port;
+    : 'port ' + port;
 
   // handle specific listen errors with friendly messages
   switch (error.code) {

@@ -21,6 +21,8 @@ const corsOptions = {
   origin: 'http://localhost:5173',
   credentials: true,
 };
+// const indexRouter = require('./routes/index');
+// const usersRouter = require('./routes/users');
 // app.use(cors(corsOptions));
 
 app.use('/api/sendEmail', sendEmailRouter);
@@ -30,6 +32,8 @@ app.options('/api/sendEmail', cors());
 
 app.options('/user/email', cors()); 
 
+// app.use('/', indexRouter);
+
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -37,10 +41,6 @@ app.use(cookieParser());
 
 
 
-const indexRouter = require('./routes/index');
-// const usersRouter = require('./routes/users');
-
-app.use('/', indexRouter);
 
 app.use(cors({
   origin: 'http://localhost:5173', 
@@ -55,14 +55,14 @@ app.use(cors({
 app.use(express.static(path.join(__dirname, 'client/build')));
 
 
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/client/dist/index.html"));
+});
 
 app.use(function(req, res, next) {
   next(createError(404));
 });
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname + "/client/dist/index.html"));
-});
 
 app.use(function(err, req, res, next) {
   res.locals.message = err.message;

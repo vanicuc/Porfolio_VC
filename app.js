@@ -11,6 +11,15 @@ const corsOptions = {
   origin: 'http://localhost:5173',
   credentials: true,
 };
+// app.use(cors()); 
+app.use(cors({
+  origin: 'http://localhost:5173', 
+  // o el origen de tu aplicación React
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true,
+  optionsSuccessStatus: 204,
+}));
+
 app.use('/api/sendEmail', sendEmailRouter);
 app.use(cors(corsOptions));
 app.options('/api/sendEmail', cors()); // Ajusta la ruta según tus necesidades
@@ -20,13 +29,9 @@ app.use((err, req, res, next) => {
 });
 
 
-
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-
-
-
 
 const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
@@ -53,21 +58,7 @@ const port = process.env.PORT || 5000;
 const indexRouter = require('./routes/index');
 // const usersRouter = require('./routes/users');
 
-
-
-// app.use(cors()); 
-app.use(cors({
-  origin: 'http://localhost:5173', 
-  // o el origen de tu aplicación React
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true,
-  optionsSuccessStatus: 204,
-}));
-
 app.options('/user/email', cors()); // Ajusta la ruta según tus necesidades
-
-
-
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -75,9 +66,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use('/', indexRouter);
-
-
-
 
 app.use(express.static(path.join(__dirname, 'client/build')));
 

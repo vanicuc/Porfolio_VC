@@ -50,7 +50,7 @@ const port = process.env.PORT || 5000;
 
 
 
-// const indexRouter = require('./routes/index');
+const indexRouter = require('./routes/index');
 // const usersRouter = require('./routes/users');
 
 
@@ -74,7 +74,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-// app.use('/', indexRouter);
+app.use('/', indexRouter);
 
 
 

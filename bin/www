@@ -19,8 +19,6 @@ const port = normalizePort(process.env.PORT || '4000');
 //     console.log(`Our app is running on port ${ port }`);
 // });
 
-
-
 app.set('port', port);
 
 const server = http.createServer(app);

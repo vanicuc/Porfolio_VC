@@ -94,10 +94,10 @@ app.use(function(err, req, res, next) {
   
   // render the error page
   res.status(err.status || 500);
-  const errorMessage = req.app.get('env') === 'development' ? err.message : 'Internal Server Error';
+  const errorMessage = err.message ;
   res.json({ error: errorMessage });
 });
-
+//req.app.get('env') === 'development' ? err.message : 'Internal Server Error';
 
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname + "/client/dist/index.html"));

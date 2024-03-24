@@ -8,52 +8,6 @@ const bodyParser = require('body-parser');
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0; // Desactivar la validación del certificado (solo para desarrollo)
 
 
-// exports.handler = async (event, context) => {
-//   try {
-//     const { name, email, phone, message } = JSON.parse(event.body);
-
-//     // Configuración de nodemailer
-//     const transporter = nodemailer.createTransport({
-//       service: 'gmail',
-//       host: "smtp.gmail.com",
-//       port: 465,
-//       secure: true,
-//       auth: {
-//         user: "vanicuc@gmail.com",
-//         pass: "hjxe hiba zxcq uzbx",
-//       },
-//     });
-
-//     const mailOptions = {
-//       from: 'vanicuc@gmail.com',
-//       to: 'vanicuc@gmail.com',
-//       subject: 'Nuevo mensaje del formulario de contacto',
-//       text: `Nombre: ${name}\nCorreo: ${email}\nTeléfono: ${phone}\nMensaje: ${message}`,
-//     };
-
-//     const info = await transporter.sendMail(mailOptions);
-//     console.log('Correo enviado:', info.response);
-
-//     return {
-//       statusCode: 200,
-//       body: JSON.stringify({ message: 'Correo enviado con éxito' }),
-//     };
-//   } catch (error) {
-//     console.error('Error al enviar el correo:', error);
-
-//     return {
-//       statusCode: 500,
-//       body: JSON.stringify({ error: 'Error al enviar el correo' }),
-//     };
-//   }
-// };
-
-
-
-
-
-
-
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: true }));
 

@@ -34,13 +34,13 @@ const userRouter = require('./routes/sendEmail');
 
 ////////////////////////////////////AQIEEEEEEEEEEEEEE////////////e
 // 
-const port = process.env.PORT || 5000;
+// const port = process.env.PORT || 5000;
 
-////////////////////////////////////AQIEEEEEEEEEEEEEE////////////
+// ////////////////////////////////////AQIEEEEEEEEEEEEEE////////////
 
-app.listen(port, () => {
-  console.log(`Servidor escuchando en http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//   console.log(`Servidor escuchando en http://localhost:${port}`);
+// });
 
 // app.use(cors());
 

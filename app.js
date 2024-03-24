@@ -60,6 +60,9 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname + "/client/dist/index.html"));
+});
 
 app.use(function(err, req, res, next) {
   res.locals.message = err.message;
@@ -70,9 +73,6 @@ app.use(function(err, req, res, next) {
   res.json({ error: errorMessage });
 });
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname + "/client/dist/index.html"));
-});
 
 
 

@@ -34,7 +34,7 @@ const userRouter = require('./routes/sendEmail');
 
 ////////////////////////////////////AQIEEEEEEEEEEEEEE////////////e
 // 
-// const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 
 // ////////////////////////////////////AQIEEEEEEEEEEEEEE////////////
 

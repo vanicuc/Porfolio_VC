@@ -1,12 +1,12 @@
 
 const express = require('express');
 const cors = require('cors'); 
+const path = require('path');
 const app = express();
 
 
 const createError = require('http-errors');
 const sendEmailRouter = require('./routes/sendEmail');
-const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
@@ -15,7 +15,7 @@ const nodemailer = require('nodemailer');
 const bodyParser = require('body-parser');
 const userRouter = require('./routes/sendEmail'); 
 
-// const port = process.env.PORT || 5000;
+
 
 const corsOptions = {
   origin: 'http://localhost:5173',
@@ -24,6 +24,15 @@ const corsOptions = {
 // const indexRouter = require('./routes/index');
 // const usersRouter = require('./routes/users');
 // app.use(cors(corsOptions));
+
+///cambios ultimos bult//////
+// Configura la carpeta de construcción de React
+const reactBuildPath = path.join(__dirname, 'client/build');
+// Configura Express para servir la aplicación React
+app.use(express.static(reactBuildPath));
+
+///cambios ultimos bult//////
+
 
 app.use('/api/sendEmail', sendEmailRouter);
 app.use(cors(corsOptions));
@@ -54,19 +63,15 @@ app.use(cors({
 
 // app.use(express.static(path.join(__dirname, 'client/build')));
 
-app.use(express.static(path.join(__dirname, 'client/build'), {
-  setHeaders: (res, path, stat) => {
-    if (path.endsWith('.js')) {
-      res.set('Content-Type', 'application/javascript');
-    }
-  }
-}));
-
-
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname + "/client/dist/index.html"));
+///cambio tres lineas !!!
+// Configura Express para redirigir todas las demás solicitudes a tu aplicación React
+app.get('*', (req, res) => {
+  res.sendFile(path.join(reactBuildPath, 'index.html'));
 });
+
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname + "/client/dist/index.html"));
+// });
 
 app.use(function(req, res, next) {
   next(createError(404));

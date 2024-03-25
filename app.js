@@ -52,7 +52,16 @@ app.use(cors({
 
 
 
-app.use(express.static(path.join(__dirname, 'client/build')));
+// app.use(express.static(path.join(__dirname, 'client/build')));
+
+app.use(express.static(path.join(__dirname, 'client/build'), {
+  setHeaders: (res, path, stat) => {
+    if (path.endsWith('.js')) {
+      res.set('Content-Type', 'application/javascript');
+    }
+  }
+}));
+
 
 
 app.get("*", (req, res) => {

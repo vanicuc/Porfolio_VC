@@ -1,23 +1,16 @@
-# netlify.toml
-
 [build]
-   base = "/"
-  command = "CI=false npm run -C client build"
-  publish = "client/build" 
- 
+base = "/"
+command = "CI=false npm run -C client build"
+publish = "client/build" 
 
-
- [build.environment]
-  NODE_VERSION = "14"  # Versión de Node.js para el backend
+[build.environment]
+NODE_VERSION = "14"  # Versión de Node.js para el backend
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"  # Plugin para aplicaciones Next.js (si es aplicable)
+package = "@netlify/plugin-nextjs"  # Plugin para aplicaciones Next.js (si es aplicable)
 
 [[plugins]]
-  package = "@netlify/plugin-react"  # Plugin para aplicaciones React (si es aplicable)
+package = "@netlify/plugin-react"  # Plugin para aplicaciones React (si es aplicable)
 
 [[plugins]]
-  package = "@netlify/plugin-functions-core"  # Plugin para funciones Netlify (si es aplicable)
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"  # Plugin para aplicaciones Next.js (si es aplicable)
+package = "@netlify/plugin-functions-core"  # Plugin para funciones Netlify (si es aplicable)

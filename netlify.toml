@@ -20,4 +20,4 @@
   package = "@netlify/plugin-functions-core"  # Plugin para funciones Netlify (si es aplicable)
 
 [[plugins]]
-  package = "@netlify/plugin-nextjs"  # Plugin para aplicaciones Next.js (si es aplicable
+  package = "@netlify/plugin-nextjs"  # Plugin para aplicaciones Next.js (si es aplicable)

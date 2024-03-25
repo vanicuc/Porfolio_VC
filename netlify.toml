@@ -2,6 +2,6 @@
 
 [build]
    base = "/"
-  command = "CI=false npm run build"
+  command = "CI=false npm run -C client build"
   publish = "client/build" 
  

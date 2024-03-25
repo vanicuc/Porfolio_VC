@@ -1,5 +1,5 @@
 [build]
 base = "/"
-command = "CI=false npm run -C client build"
+command = "CI=false npm run build"
 publish = "client/build" 
 

@@ -2,5 +2,6 @@
 
 [build]
    base = "/"
-  command = "CI=false npm run build"
-  publish = "client/build"  # o ajusta esto según el directorio correcto de construcción
+  command = "CI=false npm run -C client build"
+  publish = "client/build" 
+ 

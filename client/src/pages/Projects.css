@@ -373,7 +373,8 @@ video {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-size: cover; /* Añade esta línea */
+  /* background-size: cover; */
+ 
 }
 
 

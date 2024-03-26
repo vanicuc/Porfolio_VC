@@ -92,8 +92,9 @@ export default function OliVino() {
 
       <section className="section_4">
         <div className="text_section" id="Prototype">
-          <h3 className="titulo_section">Moodboard oliVino</h3>
           <div className="Moodboard_olivino">
+          <h2 className="titulo_section">Moodboard oliVino</h2>
+      
           </div>
         </div>
       </section>
@@ -270,6 +271,11 @@ export default function OliVino() {
           </div> */}
 
       {/* </section> */}
+
+      
+      <div>
+          <br></br>
+        </div>
 
       <section className="section_5">
         <div className="sectionPlay">

@@ -93,7 +93,7 @@ export default function OliVino() {
       <section className="section_4">
         <div className="text_section" id="Prototype">
           <div className="Moodboard_olivino">
-          <h2 className="titulo_section">Moodboard oliVino</h2>
+          <h2 className="titulo_section">Moodboard</h2>
       
           </div>
         </div>
@@ -272,7 +272,7 @@ export default function OliVino() {
 
       {/* </section> */}
 
-      
+
       <div>
           <br></br>
         </div>

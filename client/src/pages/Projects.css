@@ -366,8 +366,8 @@ video {
 }
 
 .Moodboard_olivino {
+  background-image: url(public/Moodboard_olivino.png);
   /* background-image: url("./Moodboard_olivino.png"); */
-  background-image: url("./Moodboard_olivino.png");
   height: 300px;
   width: 100%;
   background-repeat: no-repeat;

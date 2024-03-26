@@ -221,7 +221,7 @@ export default function OliVino() {
         </div>
       </section>
 
-      <section className="section_6">
+      {/* <section className="section_6">
         <div className="text_section" id="Ideate">
           <h3 className="titulo_section"> Information ARCHITECTURE</h3>
           <div className="img_arq_section">
@@ -232,7 +232,7 @@ export default function OliVino() {
             /> 
           </div> 
          </div>
-      </section>
+      </section> */}
 
     
 
@@ -240,7 +240,7 @@ export default function OliVino() {
       <section className="section_5">
       
 
-<div className="Icon_test"> */}
+<div className="Icon_test">
 
       {/* <h3 className="titulo_section">Icon Design</h3>
 </div> */}

@@ -29,9 +29,8 @@ const corsOptions = {
 
 app.use('/api/sendEmail', sendEmailRouter);
 app.use(cors(corsOptions));
+
 app.options('/api/sendEmail', cors()); 
-
-
 app.options('/user/email', cors()); 
 
 // app.use('/', indexRouter);

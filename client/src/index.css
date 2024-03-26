@@ -1,4 +1,33 @@
 /* Estilos para la lista de navegación en la barra de navegación */
+
+body {
+  font-family: "Roboto", sans-serif;
+ 
+} 
+h1, h2, 
+ h3 {
+  font-family: "Roboto", sans-serif;
+}
+p{
+  font-size: 12px;
+}
+h4{
+  font-size: 12px;
+}
+h3{
+  font-size: 16px;
+}
+h2{
+  font-size: 18px;
+}
+h1{
+  font-size: 24px;
+}
+.paragraph-text {
+  font-family: "Roboto", sans-serif;
+}
+
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -35,7 +64,10 @@ nav li a {
   color: black;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 13px;
+}
+nav li a:active {
+  color: rgb(220, 226, 224); /* Cambia 'red' al color que prefieras */
 }
 
 @media (max-width: 768px) {
@@ -61,19 +93,6 @@ nav li a {
   }
 }
 
-/* body {
-  font-family: "Roboto", sans-serif;
-} */
-
-/* h1, */
-/* h2, */
-/* h3 {
-  font-family: "Roboto", sans-serif;
-} */
-
-/* .paragraph-text {
-  font-family: "Roboto", sans-serif;
-} */
 
 .Links {
   display: flex;

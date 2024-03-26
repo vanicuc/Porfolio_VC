@@ -15,8 +15,9 @@ video {
   display: block;
   border-radius: 10px;
   outline: none;
+  /* Cambio realizado aquí */
+  -webkit-media-controls-play-button: state(webkit-media-controls-play-button);
 }
-
 .img_box_logo {
   text-align: center;
   /* width: 1%; */
@@ -54,9 +55,9 @@ video {
   align-items: center;
   text-align: center;
   display: inline-block;
-  padding-left: 10%;
-  padding-right: 10%;
-  /* width: 80%; */
+  /* padding-left: 20%; */
+  /* padding-right: 20%; */
+  width: 80%;
 }
 
 .espaciador {
@@ -87,7 +88,7 @@ video {
 .section_1 {
   display: flex;
   /* padding: auto; */
-  margin-top: 10%;
+  margin-top: 5%;
   /* margin-left: 2%; */
   /* margin-right: 50%; */
   margin-bottom: 10%;
@@ -107,9 +108,9 @@ video {
 }
 
 .section_4 {
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 .section_5 {
   padding: 20px;
@@ -119,7 +120,7 @@ video {
 .section_6 {
   padding: 20px;
   text-align: center;
-  padding-top: 15%;
+  /* padding-top: 1%; */
 }
 .section_1_rigth_biker {
   width: 50%;
@@ -218,6 +219,15 @@ video {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+.Design_Thinking_botton:hover {
+  background-color:  #8c8b8b; /* Cambia '#f00' al color que prefieras */
+}
+
+.Design_Thinking_botton:active {
+  background-color: #8c8b8b;
+  color: #fff;
+}
+
 .design_title {
   display: flex;
   /* display: inline; */
@@ -331,14 +341,6 @@ video {
   margin-top: 0px;
 }
 
-.box_Explication_project {
-  list-style-type: none;
-  padding: 0;
-}
-
-.box_Explication_project li {
-  margin-bottom: 0px;
-}
 
 /* You can add more styles based on your design preferences */
 .storytelling-image-row p {
@@ -362,3 +364,72 @@ video {
 .img_logo_project_padreEnsync{
   padding-left: 60px;
 }
+
+.Moodboard_olivino {
+  background-image: url(./Moodboard_olivino.png);
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; /* Añade esta línea */
+}
+
+
+ /* empathis efecto  */
+.imghvr-zoom-out-up {
+  position: relative;
+  height: auto;
+}
+
+.hover-image {
+  width: 100%;
+  transition: opacity 1s ease-in-out;
+}
+
+.hover-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.imghvr-zoom-out-up:hover .hover-image {
+  opacity: 0;
+}
+
+.imghvr-zoom-out-up:hover .hover-text {
+  opacity: 1;
+}
+@media (max-width: 600px) {
+  .hover-text {
+    font-size: 14px; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
+  }
+}
+.hover-text {
+  overflow-y: auto; /* Añade un desplazamiento vertical si es necesario */
+  max-height: 300px; /* Ajusta este valor según tus necesidades */
+}
+
+
+ /* empathis efecto  */
+
+ /* paralace fotos conjuntas efecto  */
+
+ /* .parallax-container {
+  background-image: url(./mujeres_cambio_estado.png);
+  height: 250px;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover; /* Añade esta línea }*/
+
+  
+
+
+
+
+
+

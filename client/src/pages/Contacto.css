@@ -1,14 +1,15 @@
 /* Estilos para la sección principal del formulario */
 .form_wrap {
-  width: 100%;
+  width: 90%;
   /* margin: 10px auto; */
   display: flex; /* Utiliza el modelo de caja flexible */
   align-items: center;
+  margin-top: 1%;
 }
 
 /* Estilos para la sección de información de contacto */
 .cantact_info {
-  width: 100%;
+  width: 80%;
   text-align: center;
 
   display: flex; /* Utiliza el modelo de caja flexible */
@@ -19,7 +20,7 @@
 
 /* Estilos para el título en la sección de información */
 .info_title h2 {
-  font-size: 35px; /* Tamaño de fuente de 35px */
+  font-size: 25px; /* Tamaño de fuente de 35px */
   text-align: center; /* Alinea el texto al 
   centro */
   padding-left: 25px;
@@ -30,8 +31,8 @@
 .info_items p {
   align-items: center; /* Centra verticalmente los elementos secundarios */
   text-align: center;
-  font-size: 16px; /* Tamaño de fuente de 16px */
-  font-weight: 600; /* Grosor de la fuente de 600 (negrita) */
+   font-size: 14px; 
+  font-weight: 400; /* Grosor de la fuente de 600 (negrita) */
   /* margin-bottom: 10px; Margen inferior de 10px */
   padding-left: 25px;
   padding-right: 25px;
@@ -39,7 +40,7 @@
 
 /* Estilos para el formulario de contacto */
 form.form_contact {
-  width: 80%; /* Ancho del formulario del 50% del contenedor principal */
+  width: 90%; /* Ancho del formulario del 50% del contenedor principal */
   padding: 8%; /* Relleno de 30px arriba/abajo y 40px a los lados */
 }
 
@@ -64,20 +65,20 @@ form.form_contact label {
 /* Estilos para los campos de entrada y área de texto en el formulario de contacto */
 form.form_contact input,
 form.form_contact textarea {
-  width: 100%; /* Ancho del 100% del contenedor principal */
+  width: 90%; /* Ancho del 100% del contenedor principal */
   padding: 0px 0px 5px; /* Relleno de 8px arriba, 0px a los lados, y 5px abajo */
   margin-bottom: 20px; /* Margen inferior de 20px */
   border: none; /* Sin borde */
   border-bottom: 2px solid #d1d1d1; /* Borde inferior de 2px sólido con color */
   color: #626264; /* Color del texto */
-  font-size: 18px; /* Tamaño de fuente de 14px */
+  font-size: 16px; /* Tamaño de fuente de 14px */
   font-weight: 400; /* Grosor de la fuente de 400 */
 }
 
 /* Estilos adicionales para el área de texto en el formulario de contacto */
 form.form_contact textarea {
-  max-width: 100%; /* Ancho máximo del 100% del contenedor principal */
-  min-width: 100%; /* Ancho mínimo del 100% del contenedor principal */
+  max-width: 90%; /* Ancho máximo del 100% del contenedor principal */
+  min-width: 90%; /* Ancho mínimo del 100% del contenedor principal */
   max-height: none;
   min-height: 100px;
   max-height: none;

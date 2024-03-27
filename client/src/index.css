@@ -132,4 +132,40 @@ nav .Links img {
 
 @media (max-width: 768px) {
   /* Estilos para pantallas más pequeñas si es necesario */
+ 
+   /* Estilo específico para el select "Work" */
+   #work-experience-dropdown {
+    position: initial; /* Establece la posición absoluta */
+    /* right: 0;  */
+  }
+  nav {
+    justify-content: flex-start;
+    position: initial;
+  }
+  
+}
+
+
+/* Estilos para el select */
+#work-experience-dropdown {
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Sin borde */
+  font-family: "Roboto", sans-serif; /* Fuente */
+  font-size: 14px; /* Tamaño de la letra */
+  cursor: pointer;
+  color: black; /* Color del texto */
+  -webkit-appearance: none; /* Elimina los estilos nativos del navegador */
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Estilo para las opciones del select */
+#work-experience-dropdown option {
+  background-color: white; /* Fondo blanco */
+  color: black; /* Color del texto */
+}
+
+/* Estilo para el texto "Select Work Experience" */
+#work-experience-dropdown option[disabled] {
+  color: gray; /* Color del texto en modo deshabilitado */
 }

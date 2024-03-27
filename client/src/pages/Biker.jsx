@@ -14,14 +14,24 @@ export default function Biker() {
 
   return (
     <>
-      <section className="section_1">
-        <div className="section_1_rigth_biker">
+      <section className="section_7">
+            <div className="section_1_rigth_biker">
+
+      <div className="img_box_logo">
+          <div className="img_logo_project">
+            <img
+              src="./BIKER 1.png"
+              alt="biker"
+              className="card__logo"
+              style={{ width: "10%", height: "auto" }}
+            />
+          </div>
+        </div>
           <div className="titulo">
             <h2 className="titulo_section">Functionality Extension 'Bikers'</h2>
             <h4>Where are we going today, biker?</h4>
-          </div>
-          <div>
-            <p className="box_Explication_project">
+                 
+            <p >
               I developed a full-stack application specially designed for
               cyclists. I implemented login authentication, user credential
               validation, and token functionality. I integrated Leaflet for
@@ -29,10 +39,7 @@ export default function Biker() {
             </p>
           </div>
 
-          {/* <div className="contenedor_design_biker"> */}
-          {/* <h4>Design Thinking</h4> */}
-
-          <div className="contenedor_botton_biker">
+                  {/* <div className="contenedor_botton_biker">
             <a
               className="Design_Thinking_botton"
               href="#Define"
@@ -47,70 +54,82 @@ export default function Biker() {
             >
               Ideate
             </a>
-            {/* <a
-                  className="Design_Thinking_botton"
-                  href="#Prototype"
-                  onClick={() => scrollToSection("Prototype")}
-                >
-                  Prototype
-                </a> */}
-            <a
+            
+                   <a
               className="Design_Thinking_botton"
               href="#Test"
               onClick={() => scrollToSection("Test")}
             >
               Trip
             </a>
-          </div>
+          </div> */}
+
         </div>
-        <div className="img_box_logo">
-          <div className="img_logo_project">
+        
+      </section>
+
+      <section className="section_4">
+        <div className="text_section" id="Prototype">
+          <h3 className="titulo_section">Moodboard oliVino</h3>
+          <div>
             <img
-              src="./BIKER 1.png"
-              alt="biker"
-              className="card__logo"
-              style={{ width: "100%", height: "auto" }}
+              src="bicycle-3045580_1280.jpg"
+              alt="Moodboard_padresensync"
+              style={{ width: "90%", height: "auto" }}
             />
           </div>
         </div>
       </section>
 
-      <div className="space"></div>
-
-      <section className="section_3">
-        <div className="card_mvp_Biker">
-          <div className="card_mvp_biker_2">
-            <div className="text_section" id="Define">
-              <h3 className="titulo_section">MVP 2.1 </h3>
-              <div className="card_inf">
-                <h4>Login</h4>
-                <ul className="box_Explication_project">
-                  <li>Setting up the frontend:</li>
-                  <li>
-                    implementing login authentication validating the user’s
-                    credentials protecting routes and pages tokens
-                  </li>
-                  <li></li>
-                  <li>MYsql:</li>
-                  <li>user table</li>
-                </ul>
-              </div>
-              <div className="card_inf">
-                <h4>Button</h4>
-                <ul className="box_Explication_project">
-                  <li>play/tsop/continuo:</li>
-                </ul>
-              </div>
-              <div className="card_inf">
-                <h4>Map</h4>
-                <ul className="box_Explication_project">
-                  <li>marck route -ping</li>
-                </ul>
-              </div>
-            </div>
+      <section className="section_8">
+        <div className="text_section" id="Ideate">
+          <h3 className="titulo_section"> Information Architecture</h3>
+          <div className="img_arq_section">
+            <img
+              src="biker arq.png"
+              alt="Biker arquitectura"
+              style={{ width: "50%", height: "auto" }}
+            />
           </div>
+        </div>
+      </section>
 
-          <div className="card_mvp_biker_2">
+      <div className="bike_mpv">
+
+      <section className="section_mvp_biker">
+  <div className="mvp_container_biker">
+    <div className="mvp-biker">
+      <h3 className="titulo_section_mvp-biker">MVP 2.2</h3>
+      <div class="img-container">
+        <img src="BIKER.png" alt="foto familia" className="img-mvp-biker" 
+        style={{ width: "50%", height: "auto" }}/>
+        <div class="text-overlay">
+          <h4>Login</h4>
+          <ul class="box-explication-mvp_biker">
+            <li>Setting up the frontend:</li>
+            <li>implementing login authentication validating the user’s credentials protecting routes and pages tokens</li>
+            <li>MYsql:</li>
+            <li>user table</li>
+          </ul>
+          <div class="card-info-mvp_biker">
+            <h4>Button</h4>
+            <ul class="box-explication-mvp_biker">
+              <li>play/tsop/continuo:</li>
+            </ul>
+          </div>
+          <div class="card-info-mvp_biker">
+            <h4>Map</h4>
+            <ul class="box-explication-mvp_biker">
+              <li>marck route -ping</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <div className="card_mvp_biker_2">
             <div className="card_inf">
               <h4>Biker user flow</h4>
               <ul>
@@ -130,24 +149,12 @@ export default function Biker() {
               </ul>
             </div>
           </div>
-        </div>
-      </section>
 
-      <section className="section_6">
-        <div className="text_section" id="Ideate">
-          <h3 className="titulo_section"> Information Architecture</h3>
-          <div className="img_arq_section">
-            <img
-              src="biker arq.png"
-              alt="Biker arquitectura"
-              style={{ width: "50%", height: "auto" }}
-            />
           </div>
-        </div>
-      </section>
-      <div className="space"></div>
-
-      <section className="section_5">
+                  
+   
+      <section className="section_9">
+        <div className="mapa_box">
         <div className="user_flow">
           <div>
             <img
@@ -164,7 +171,19 @@ export default function Biker() {
               style={{ width: "70%", height: "auto" }}
             />
           </div>
+          </div>
+
+        <div>
+          <img
+              src="Bike19.png"
+              alt="botton user flow"
+              style={{ width: "50%", height: "auto" }}
+            />
+
         </div>
+      
+        </div>
+
         <div className="text_section" id="Test">
           <div className="back_to_top">
             <a className="BackToTopButton" href="#" onClick={scrollToTop}>

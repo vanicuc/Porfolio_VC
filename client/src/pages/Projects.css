@@ -19,23 +19,12 @@ video {
   /* Cambio realizado aquí */
   -webkit-media-controls-play-button: state(webkit-media-controls-play-button);
 }
+
 .img_box_logo {
   text-align: center;
   /* width: 1%; */
 }
 
-.img_box_logo_padres {
-  /* display: flex; */
-  /* text-align:end; */
-  width: 60%;
-  margin-bottom: 5%;
-  /* justify-content: end; */
-  /* padding-right: 20%; */
-}
-.logo_padres_corazon {
-  justify-self: center;
-
-}
 
 /* .card__logo_padres{
   width: 30%;
@@ -46,12 +35,20 @@ video {
   text-align: center;
   align-items: center;
 }
+.titulo {
+  text-align: center; /* Centra todo el contenido dentro del div */
+}
 
 .titulo_section {
   display: inline-block;
   text-align: center;
   justify-content: center;
   margin-top: 1%;
+}
+
+.titulo p {
+  width: 60%; /* Ancho del párrafo */
+  margin: 0 auto; /* Centra el párrafo */
 }
 
 .box_Explication_project {
@@ -61,7 +58,17 @@ video {
   vertical-align: auto;
 }
 .box_Explication_project_padres{
-  text-align:justify;
+  text-align:center;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+
+}
+.box_Explication_project_padres p{
+  text-align:center;
+    align-items: center;
+  justify-content: center;
+  margin-left: 30%;
 
 }
 .espaciador {
@@ -74,19 +81,32 @@ video {
 .section_1_rigth {
   width: 50%;
 }
-.section_1_rigth_padres {
+
+/* .img_box_logo_padres{
   display: flex;
-  /* align-items: center; */
-  width: 95%;
-  align-content: center;
-}
+
+} */
 .section_padres {
   display: flex;
-  margin-top: 10%;
-  margin-bottom: 3%;
+  margin-top: 2%;
+  margin-bottom: 5%;
   justify-content: center;
   align-items: center;
 }
+.section_1_rigth_padres {
+  display: flex;
+  /* align-items: center; */
+  width: 80%;
+  align-content: center;
+}
+.img_logo_project_padreEnsync{
+  display: flex;
+  padding-bottom: 5%;
+  justify-content: center;
+}
+
+
+
 
 .section_1 {
   display: flex;
@@ -117,8 +137,31 @@ video {
  
 }
 .section_6 {
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
+}
+
+.section_7 {
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_8{
+  margin-top: 5%;
+}
+
+.section_9 {
+  
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: 2%;
+  justify-content: center;
+
+
+ 
 }
 .section_1_rigth_biker {
   width: 50%;
@@ -344,17 +387,7 @@ video {
   /* flex-wrap: wrap; */
 }
 
-.card_mvp_biker_2 {
-  display: inline-flex;
-  border: 1px solid #ccc;
-  padding: 30px;
-  width: 400px;
-  z-index: 1;
-  border: none;
-  background-color: #f2f2f2;
-  border-radius: 10px;
-  /* justify-content: space-between; */
-}
+
 .text_section {
   text-align: center;
 }
@@ -403,9 +436,7 @@ video {
 .space{
   padding-bottom: 8%;
 }
-.img_logo_project_padreEnsync{
-  padding-left: 60px;
-}
+
 
 .Moodboard_olivino{
   background-image: url(public/Moodboard_olivino.png);
@@ -622,6 +653,98 @@ video {
 
 
 
+/* /// para mvp bike /// */
+
+.bike_mpv{
+  display: flex;
+  justify-content: center;
+}
+
+.section_mvp_biker {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Opcional: altura completa de la ventana */
+}
+
+.mvp_container_biker {
+  text-align: center; /* Alinea el texto al centro */
+}
+
+.mvp-biker {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-mvp-biker {
+  width: 20%; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.img-container:hover .img-mvp-biker {
+  transform: scale(1.1);
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  width: 80%;
+}
+
+.img-container:hover .text-overlay {
+  opacity: 1;
+}
+
+.text-overlay h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.text-overlay ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.text-overlay li {
+  margin-bottom: 5px;
+}
+
+.card_mvp_biker_2 {
+  display: inline-flex;
+
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 5%;
+}
 
 
-
+@media (max-width: 600px) {
+  .card_mvp_biker_2 {
+    
+    display: none;
+  }
+  
+  }
+.mapa_box{
+  display: flex;
+  justify-content: center;
+ 
+}

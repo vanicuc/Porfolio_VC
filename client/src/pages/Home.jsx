@@ -40,7 +40,7 @@ export default function Home() {
                 <h4 className="card__heading"> OliVino</h4>
               </div>
             </a>
-
+            
             <a className="card" href="/PadresEnsync">
               <div className="card__background"></div>
               <div className="card__content">
@@ -93,6 +93,7 @@ export default function Home() {
             </li>
           </div> */}
         </div>
+        
 
         <div className="Picture">
           <img

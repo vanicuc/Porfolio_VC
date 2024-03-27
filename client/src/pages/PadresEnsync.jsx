@@ -17,20 +17,28 @@ export default function PadresEnsync() {
       <section className="section_padres">
         <div className="section_1_rigth_padres">
         <div className="img_box_logo_padres">
+
+                  <div className="img_logo_project_padreEnsync"> 
+                      <img
+                        src="./PadresEnsync logo 4.png"
+                        alt="PadresEnsync"
+                        style={{ width: "10%", height: "60%" }}
+                        
+                         />
+                  </div>
                   <div className="titulo">
                     <h2 className="titulo_section">Group Project ‘PadresEnsync’</h2>
 
                     <h4>Syncs and simplifies coparenting.</h4>
-                  </div>
+                  
 
-                  <div>
-                    <p className="box_Explication_project_padres">
+                    <p>
                       I developed a full-stack application designed to synchronize and
                       simplify co-education. I implemented expense tracking features:
                       Expense Description, Amount, Approval, Expense Deletion, Expense
                       Expansion, Different URL, and Form.
                     </p>
-                  </div>
+                    </div>
 
                   <div className="contenedor_design_padres">
                     <h4 className="design_title">Design Thinking</h4>
@@ -75,17 +83,17 @@ export default function PadresEnsync() {
                     </div>
                   </div>
               </div>
-              {/* <div className="img_box_logo_padres"> */}
-                <div className="img_logo_project_padreEnsync"> 
+             
+                {/* <div className="img_logo_project_padreEnsync"> 
                       <img
-                        src="./PadresEnsync logo 3.png"
+                        src="./PadresEnsync logo 4.png"
                         alt="PadresEnsync"
-                        className="logo_padres_corazon"
-                        style={{ width: "120%", height: "auto" }}
-                      />
-                  </div>
+                        style={{ width: "60%", height: "60%" }}
+                        
+                         />
+                  </div> */}
           </div>
-         {/* </div> */}
+        
       </section>
 
       <section className="section_4">
@@ -181,8 +189,8 @@ export default function PadresEnsync() {
                 <section className="section_storytelling">
                   <table>
                     <tbody>
-                      <tr class="storytelling-image-row">
-                        <td colspan="2">
+                      <tr className="storytelling-image-row">
+                        <td colSpan="2">
                           <h3>Storytelling</h3>
                           <br></br>
                           <p>
@@ -202,7 +210,7 @@ export default function PadresEnsync() {
                 </section>
 
 
-                <section className="section_mvp">
+ <section className="section_mvp">
   <div className="mvp_container">
     {/* <!-- MVP 1.0 --> */}
     <div className="mvp">

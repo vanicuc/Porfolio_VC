@@ -74,13 +74,14 @@ export default function Contacto() {
               you. If you are interested in discussing potential projects,
               creative collaborations, or if you are looking for new talents for
               your team, I would love to hear from you!
-            </p>
-
-            <li>
+              <br></br>
             <a href="mailto:vanicuc@gmail.com" target="_blank">
               <img src="email.png" alt="Icono de Mail" />
             </a>
-          </li>
+         
+            </p>
+
+           
 
 
             <img src="porfolio.jpeg" width={350} className="porfolio_img" />

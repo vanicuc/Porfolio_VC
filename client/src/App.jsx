@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react"; // Importa React y useEffect juntos
+
 import { Route, Routes, BrowserRouter, Link, Outlet } from "react-router-dom";
+
+
 
 import Contacto from "./pages/Contacto";
 import OliVino from "./pages/OliVino";
@@ -11,7 +14,17 @@ import Educacion from "./pages/Educacion";
 import Home from "./pages/Home";
 import Habilidad from "./pages/Habilidad"
 
+import { redirectOnChange } from "./components/DropdownRedirect";
+
+
+
 function App() {
+
+  useEffect(() => {
+    redirectOnChange(); // Llama a la función para establecer el redireccionamiento
+  }, []);
+
+
   return (
     <>
       <nav  className="navbar">
@@ -29,6 +42,15 @@ function App() {
             <li>
               <Link to="/Contacto">Contact</Link>
             </li>
+             <li>
+             <select defaultValue="" id="work-experience-dropdown">
+                <option value="" disabled>Work</option>
+                <option value="/OliVino">OliVino</option>
+                <option value="/PadresEnsync">PadresEnsync</option>
+                <option value="/Biker">Bikers</option>
+                <option value="/ROLLXPerience">ROLLXPerience</option>
+              </select>
+            </li> 
           </ul>
         </div>
 

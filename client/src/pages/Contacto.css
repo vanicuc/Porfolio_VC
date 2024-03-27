@@ -5,6 +5,7 @@
   display: flex; /* Utiliza el modelo de caja flexible */
   align-items: center;
   margin-top: 1%;
+  justify-content: center;
 }
 
 /* Estilos para la sección de información de contacto */
@@ -124,5 +125,5 @@ form.form_contact input[type="submit"] {
   .porfolio_img{
     display: none;
   }
-  
   }
+

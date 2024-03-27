@@ -159,6 +159,22 @@ li {
   .foto {
     display: none;
   }
+
+  .DesckHome_art_2 {
+    display: none;
+    }
+
+  .Box_Presentation {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+  .inf {
+   margin-left: 25%;
+  }
+  
 }
 
 @media (min-width: 540px) {

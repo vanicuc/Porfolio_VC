@@ -177,6 +177,7 @@ export default function Biker() {
           <img
               src="Bike19.png"
               alt="botton user flow"
+              className="mapa_mobil"
               style={{ width: "50%", height: "auto" }}
             />
 

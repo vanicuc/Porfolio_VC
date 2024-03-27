@@ -48,7 +48,7 @@
 @media (max-width: 768px) {
   .container .cardStudio {
     width: 100%;
-    margin: 10px 0;
+    /* margin: 10px 0; */
   }
 }
 

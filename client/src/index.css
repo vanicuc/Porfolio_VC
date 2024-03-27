@@ -142,6 +142,13 @@ nav .Links img {
     justify-content: flex-start;
     position: initial;
   }
+   #work-experience-dropdown p a  {
+        text-align: right;
+    
+  }
+  select#work-experience-dropdown{
+    text-align: right;
+  }
   
 }
 

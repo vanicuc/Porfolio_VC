@@ -52,8 +52,10 @@ export default function Educacion() {
               <div className="content">
                 <p>(1999 - 2006)</p>
                 <p>
-                  Facultad de Arquitectura, Diseño y Urbanismo, universidad
-                  Nacional Córdoba
+                  Facultad de Arquitectura, 
+                  <br />Diseño y Urbanismo, 
+                  <br />universidad Nacional
+                  <br /> Córdoba Argentina
                 </p>
               </div>
             </div>

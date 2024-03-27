@@ -156,12 +156,10 @@ video {
 .section_9 {
   
   text-align: center;
-  margin-top: 15%;
+  margin-top: 5%;
   margin-bottom: 2%;
   justify-content: center;
 
-
- 
 }
 .section_1_rigth_biker {
   width: 50%;
@@ -325,7 +323,7 @@ video {
 
 .img_arq_section {
   padding-top: 1%;
-  margin-bottom: 12%;
+  margin-bottom: 5%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -664,7 +662,8 @@ video {
   display: flex;
   justify-content: center; /* Centra horizontalmente */
   align-items: center; /* Centra verticalmente */
-  height: 100vh; /* Opcional: altura completa de la ventana */
+  /* height: 50vh;  */
+  /* Opcional: altura completa de la ventana */
 }
 
 .mvp_container_biker {
@@ -700,7 +699,7 @@ video {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgb(255, 255, 255);
   padding: 20px;
   border-radius: 5px;
   text-align: center;
@@ -742,9 +741,28 @@ video {
     display: none;
   }
   
+  .mapa_mobil{
+    display: none;
+  }
+   
   }
 .mapa_box{
   display: flex;
   justify-content: center;
- 
+}
+
+
+
+/* ////////////////rollxoernce////////// */
+
+.box_figma_video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.figma_video{
+  align-items: center;
+  justify-content: center;
 }

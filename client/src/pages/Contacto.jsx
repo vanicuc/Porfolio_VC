@@ -16,8 +16,7 @@ export default function Contacto() {
 
   //   console.log("Formulario enviado:", formData);
   //   setFormData({ name: "", email: "", phone: "", message: "" });
-    
-  // };
+      // };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -47,7 +46,6 @@ export default function Contacto() {
   };
   
   
-
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setFormData({ ...formData, [name]: value });
@@ -82,10 +80,9 @@ export default function Contacto() {
             </p>
 
            
-
-
             <img src="porfolio.jpeg" width={350} className="porfolio_img" />
           </div>
+        </div>
         </div>
 
          {/* <form action="" className="form_contact" onSubmit={handleSubmit}>
@@ -132,7 +129,6 @@ export default function Contacto() {
             <input type="submit" value="Submit" id="btnSend" />
           </div>
         </form>  */}
-      </div>
 
    
 

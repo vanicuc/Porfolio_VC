@@ -43,8 +43,10 @@
   text-align: center;
 }
 .Resumen {
-  font-size: 16px;
-  text-align: center;
+  /* font-size: 16px; */
+  text-align: justify;
+  width: 90%;
+ padding-left: 2%;
 }
 
 .box-link {

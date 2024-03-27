@@ -17,160 +17,207 @@ export default function PadresEnsync() {
       <section className="section_padres">
         <div className="section_1_rigth_padres">
         <div className="img_box_logo_padres">
-            <div className="titulo">
-              <h2 className="titulo_section">Group Project ‘PadresEnsync’</h2>
+                  <div className="titulo">
+                    <h2 className="titulo_section">Group Project ‘PadresEnsync’</h2>
 
-              <h4>Syncs and simplifies coparenting.</h4>
-            </div>
+                    <h4>Syncs and simplifies coparenting.</h4>
+                  </div>
 
-            <div>
-              <p className="box_Explication_project">
-                I developed a full-stack application designed to synchronize and
-                simplify co-education. I implemented expense tracking features:
-                Expense Description, Amount, Approval, Expense Deletion, Expense
-                Expansion, Different URL, and Form.
-              </p>
-            </div>
+                  <div>
+                    <p className="box_Explication_project_padres">
+                      I developed a full-stack application designed to synchronize and
+                      simplify co-education. I implemented expense tracking features:
+                      Expense Description, Amount, Approval, Expense Deletion, Expense
+                      Expansion, Different URL, and Form.
+                    </p>
+                  </div>
 
-            <div className="contenedor_design_padres">
-              <h4 className="design_title">Design Thinking</h4>
-              
+                  <div className="contenedor_design_padres">
+                    <h4 className="design_title">Design Thinking</h4>
+                    
 
-              <div className="contenedor_botton_padres">
-                <a
-                  className="Design_Thinking_botton"
-                  href="#Empathize"
-                  onClick={() => scrollToSection("Empathize")}
-                >
-                  Empathize
-                </a>
-                <a
-                  className="Design_Thinking_botton"
-                  href="#Define"
-                  onClick={() => scrollToSection("Define")}
-                >
-                  Define
-                </a>
-                <a
-                  className="Design_Thinking_botton"
-                  href="#Ideate"
-                  onClick={() => scrollToSection("Ideate")}
-                >
-                  Ideate
-                </a>
-                <a
-                  className="Design_Thinking_botton"
-                  href="#Prototype"
-                  onClick={() => scrollToSection("Prototype")}
-                >
-                  Prototype
-                </a>
-                <a
-                  className="Design_Thinking_botton"
-                  href="#Test"
-                  onClick={() => scrollToSection("Test")}
-                >
-                  Test
-                </a>
+                    <div className="contenedor_botton_padres">
+                      <a
+                        className="Design_Thinking_botton"
+                        href="#Empathize"
+                        onClick={() => scrollToSection("Empathize")}
+                      >
+                        Empathize
+                      </a>
+                      <a
+                        className="Design_Thinking_botton"
+                        href="#Define"
+                        onClick={() => scrollToSection("Define")}
+                      >
+                        Define
+                      </a>
+                      <a
+                        className="Design_Thinking_botton"
+                        href="#Ideate"
+                        onClick={() => scrollToSection("Ideate")}
+                      >
+                        Ideate
+                      </a>
+                      <a
+                        className="Design_Thinking_botton"
+                        href="#Prototype"
+                        onClick={() => scrollToSection("Prototype")}
+                      >
+                        Prototype
+                      </a>
+                      <a
+                        className="Design_Thinking_botton"
+                        href="#Test"
+                        onClick={() => scrollToSection("Test")}
+                      >
+                        Test
+                      </a>
+                    </div>
+                  </div>
               </div>
-            </div>
-        </div>
-        {/* <div className="img_box_logo_padres"> */}
-           <div className="img_logo_project_padreEnsync"> 
-            <img
-              src="./PadresEnsync logo 3.png"
-              alt="PadresEnsync"
-              className="logo_padres_corazon"
-              style={{ width: "100%", height: "auto" }}
-            />
-            </div>
+              {/* <div className="img_box_logo_padres"> */}
+                <div className="img_logo_project_padreEnsync"> 
+                      <img
+                        src="./PadresEnsync logo 3.png"
+                        alt="PadresEnsync"
+                        className="logo_padres_corazon"
+                        style={{ width: "120%", height: "auto" }}
+                      />
+                  </div>
           </div>
          {/* </div> */}
       </section>
-      <div className="section_2a">
+
+      <section className="section_4">
+        <div className="text_section" id="Prototype">
+          <h3 className="titulo_section">Moodboard oliVino</h3>
+          <div>
+            <img
+              src="padresensync_Imagenes.png"
+              alt="Moodboard_padresensync"
+              style={{ width: "90%", height: "auto" }}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* <div className="section_2a"> */}
         <section className="section_2">
           <div className="text_section" id="Empathize">
             <div className="box_Empathize">
-              <table>
-                <thead>
-                  <tr className="Empathize">
-                    <td>
-                      <h4>Problem</h4>
-                    </td>
-                    <td>
-                      <h4>Objective</h4>
-                    </td>
-                    <td>
-                      <h4>Solution</h4>
-                    </td>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="Empathize_inf">
-                    <td className="Empathize">
-                      The lack of coordination between separated parents makes
-                      it difficult to create a harmonious environment for the
-                      growth and development of children.
-                    </td>
-                    <td className="Empathize">
-                      Restore connection and promote harmony in the lives of the
-                      children by providing parents with a tool to synchronize
-                      their efforts and co-parent collaboratively.
-                    </td>
-                    <td className="Empathize">
-                      Synchronize and simplify co-parenting through an intuitive
-                      platform that facilitates the management of expenses and
-                      tasks, promoting collaborative parenting.
-                    </td>
-                  </tr>
-                  <tr className="storytelling-image-row">
-                    <td colSpan="2">
-                      <h4>Storytelling</h4>
-                      <p>
-                        Sofía, a girl who longed for harmony, saw her life
-                        affected by the separation of her parents, Ana and
-                        Marcos. In the midst of tensions and challenges,
-                        PadresEnsync arrived like a magical balm. Upon starting
-                        to use the platform, the synchronization of efforts
-                        between Ana and Marcos transformed the family
-                        environment. Sofia, who had previously experienced
-                        discord, witnessed how the magic of PadresEnsync
-                        restored the lost connection. Not only did it simplify
-                        co-parenting, but it became the key to a new chapter
-                        full of tranquility in Sofia's life. Discover the magic
-                        of synchronization with PadresEnsync!
-                      </p>
 
-                      <div className="Define_img">
+
+            <h3 className="titulo_section">Empathize</h3>
+            <table>
+              <tbody>
+                
+                <tr className="Empathize_inf">
+                  
+                   <td className="Empathize">
+                    
+                   <figure className="imghvr-zoom-out-up">
+                  <img src="padres etapa1a.png" alt="foto familia" className="hover-image" />
+                  <figcaption className="hover-text">
+                    <h2>Problem</h2>
+                     <h3>
+                     The lack of coordination between separated parents makes
+                    it difficult to create a harmonious environment for the
+                    growth and development of children
+                    </h3>
+                  </figcaption>
+                </figure>
+                </td> 
+
+
+                <td className="Empathize">
+                   <figure className="imghvr-zoom-out-up">
+                  <img src="padres etapa2a.png" alt="foto familia" className="hover-image" />
+                  <figcaption className="hover-text">
+                  <h2>Objective</h2>
+                     <h3>
+                     Restore connection and promote harmony in the lives of the
+                    children by providing parents with a tool to synchronize
+                    their efforts and co-parent collaboratively.
+                    </h3>
+                  </figcaption>
+                </figure>
+                </td>
+
+
+                <td className="Empathize">
+                   <figure className="imghvr-zoom-out-up">
+                  <img src="padres etapa 4a.png" alt="foto familia" className="hover-image" />
+                  <figcaption className="hover-text">
+                  <h2>Solution</h2>
+                     <h3>
+                     Synchronize and simplify co-parenting through an intuitive
+                    platform that facilitates the management of expenses and
+                    tasks, promoting collaborative parenting
+                    </h3>
+                  </figcaption>
+                </figure>
+                </td>
+              </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+
+               <div className="Define_img">
+                
                         <h4>User flow</h4>
                         <img
                           src="user_flow.png"
                           alt="user flow"
+                          className="user_flor_img"
                           style={{ width: "60%", height: "auto" }}
-                        />
-                      </div>
-                      {/* <div>
-                        <img
-                          src="padres_movil-modified.png"
-                          alt="padres"
-                          style={{ width: "20%", height: "auto" }}
-                        />
-                      </div> */}
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-      </div>
+                          />
 
-      <section className="section_3">
-        <div className="card_mvp">
-          <div className="card_mvp_2">
-            <div className="text_section" id="Define">
-              <h3 className="titulo_section">MVP 1.0 </h3>
-              <div className="card_inf">
+              
+                </div>
+                <section className="section_storytelling">
+                  <table>
+                    <tbody>
+                      <tr class="storytelling-image-row">
+                        <td colspan="2">
+                          <h3>Storytelling</h3>
+                          <br></br>
+                          <p>
+                            Sofía, a girl who longed for harmony, saw her life affected by the separation of her parents, Ana and Marcos. In the midst of tensions and challenges, PadresEnsync arrived like a magical balm. Upon starting to use the platform, the synchronization of efforts between Ana and Marcos transformed the family environment. Sofia, who had previously experienced discord, witnessed how the magic of PadresEnsync restored the lost connection. Not only did it simplify co-parenting, but it became the key to a new chapter full of tranquility in Sofia's life. Discover the magic of synchronization with PadresEnsync!
+                          </p>
+                          <br></br>
+                          <img
+                              src="padres.jpg"
+                              alt="padres"
+                              style={{ width: "20%", height: "auto" }}
+                            />
+
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </section>
+
+
+
+
+
+        <section className="section_3">
+          <div className="text_section" id="Define">
+
+               <tr className="Empathize_inf">
+              <td className="Empathize">
+
+                
+                <h3 className="titulo_section">MVP 1.0 </h3>
+                   <figure className="imghvr-zoom-out-up">
+                  <img src="movil_padres.png" alt="foto familia" className="hover-image" />
+                  <figcaption className="hover-text">
+
+                <div className="card_inf">
                 <h4>Expense </h4>
                 <ul className="box_Explication_project">
                   <li>Date</li>
@@ -199,13 +246,19 @@ export default function PadresEnsync() {
                   <li>Add</li>
                 </ul>
               </div>
-            </div>
-          </div>
+                  
+              </figcaption>
+              </figure>
+              </td>
+       
+              <td className="Empathize">
+                 
+                <h3 className="titulo_section">MVP 1.1 </h3>
+                   <figure className="imghvr-zoom-out-up">
+                  <img src="movil_padres.png" alt="foto familia" className="hover-image" />
+                  <figcaption className="hover-text">
 
-          <div className="card_mvp_2">
-            <div className="text_section" id="Define">
-              <h3 className="titulo_section">MVP 1.1 </h3>
-              <div className="card_inf">
+                <div className="card_inf">
                 <h4>Expense </h4>
                 <ul className="box_Explication_project">
                   <li>Display only 15 expenses</li>
@@ -238,13 +291,19 @@ export default function PadresEnsync() {
                   </li>
                 </ul>
               </div>
-            </div>
-          </div>
+                  
+              </figcaption>
+              </figure>
+              </td>
+           
+              <td className="Empathize">
+                 
+                <h3 className="titulo_section">MVP 1.1 </h3>
+                   <figure className="imghvr-zoom-out-up">
+                  <img src="movil_padres.png" alt="foto familia" className="hover-image" />
+                  <figcaption className="hover-text">
 
-          <div className="card_mvp_2">
-            <div className="text_section" id="Define">
-              <h3 className="titulo_section">MVP 1.2 </h3>
-              <div className="card_inf">
+                <div className="card_inf">
                 <h4>Expense </h4>
                 <ul className="box_Explication_project">
                   <li>
@@ -273,12 +332,15 @@ export default function PadresEnsync() {
                     total for the entire family
                   </li>
                 </ul>
+            
               </div>
-            </div>
-          </div>
-        </div>
-
-      </section>
+                  
+              </figcaption>
+              </figure>
+              </td>
+              </tr>
+           </div>
+        </section>
 
       <section className="section_6">
         <div className="text_section" id="Ideate">
@@ -292,18 +354,7 @@ export default function PadresEnsync() {
           </div>
         </div>
       </section>
-      <section className="section_4">
-        <div className="text_section" id="Prototype">
-          <h3 className="titulo_section">Moodboard oliVino</h3>
-          <div>
-            <img
-              src="padresensync_Imagenes.png"
-              alt="Moodboard_padresensync"
-              style={{ width: "90%", height: "auto" }}
-            />
-          </div>
-        </div>
-      </section>
+   
 
       <section className="section_5">
             <h3 className="titulo_section">Structure</h3>

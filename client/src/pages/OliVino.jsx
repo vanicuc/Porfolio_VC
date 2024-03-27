@@ -92,10 +92,17 @@ export default function OliVino() {
 
       <section className="section_4">
         <div className="text_section" id="Prototype">
-          <div className="Moodboard_olivino">
+          {/* <div className="Moodboard_olivino"> */}
           <h2 className="titulo_section">Moodboard</h2>
+          <img
+            src="./Moodboard_olivino.png"
+            alt="olivino"
+            className="card__logo"
+            style={{ width: "100%", height: "90xp" }}
+          /> 
+
       
-          </div>
+          {/* </div> */}
         </div>
       </section>
       
@@ -110,6 +117,7 @@ export default function OliVino() {
                 <tr className="Empathize_inf">
                   
                    <td className="Empathize">
+
                    <figure className="imghvr-zoom-out-up">
                   <img src="laidy6.jpeg" alt="pld woman" className="hover-image" />
                   <figcaption className="hover-text">
@@ -211,7 +219,7 @@ export default function OliVino() {
               <div className="parallax-image" style={{backgroundImage: "url('./laidy4.png')"}}></div>
             </div>  */}
 
-              <div className="Define_img">
+              <div className="Define_img_olivino">
                 <img src="laidy 1.png" alt="pld woman" />
                 <img src="laidy 2.png" alt="pld woman" />
                 <img src="laidy 3.png" alt="pld woman" />

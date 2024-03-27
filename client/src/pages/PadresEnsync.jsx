@@ -190,9 +190,9 @@ export default function PadresEnsync() {
                           </p>
                           <br></br>
                           <img
-                              src="padres.jpg"
+                              src="fliapadres.png"
                               alt="padres"
-                              style={{ width: "20%", height: "auto" }}
+                              style={{ width: "30%", height: "auto" }}
                             />
 
                         </td>
@@ -202,11 +202,111 @@ export default function PadresEnsync() {
                 </section>
 
 
+                <section className="section_mvp">
+  <div className="mvp_container">
+    {/* <!-- MVP 1.0 --> */}
+    <div className="mvp">
+      <h3 className="titulo_section_mvp">MVP 1.0</h3>
+      <figure>
+        <img src="movil_padres.png" alt="foto familia" className="imghvr-mvp-zoom-up" />
+        <figcaption className="hover-text-mvp">
+          <div className="card-info-mvp">
+            <h4>Expense</h4>
+            <ul className="box-explication-mvp">
+              <li>Date</li>
+              <li>Expense Description</li>
+              <li>Amount</li>
+              <li>Approval</li>
+              <li>Delete Expense</li>
+              <li>Payment Responsible</li>
+            </ul>
+          </div>
+          <div className="card-info-mvp">
+            <h4>Detail</h4>
+            <ul className="box-explication-mvp">
+              <li>Approval</li>
+              <li>Expense Zoom</li>
+              <li>Different URL</li>
+            </ul>
+          </div>
+          <div className="card-info-mvp">
+            <h4>Form</h4>
+            <ul className="box-explication-mvp">
+              <li>Description</li>
+              <li>Date</li>
+              <li>Total</li>
+              <li>Payment Responsible</li>
+              <li>Add</li>
+            </ul>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+    
+    {/* <!-- MVP 1.1 --> */}
+    <div className="mvp">
+      <h3 className="titulo_section_mvp">MVP 1.1</h3>
+      <figure>
+        <img src="movil_padres.png" alt="foto familia" className="imghvr-mvp-zoom-up" />
+        <figcaption className="hover-text-mvp">
+          <div className="card-info-mvp">
+            <h4>Expense</h4>
+            <ul className="box-explication-mvp">
+              <li>Display only 15 expenses</li>
+              <li>Enable pagination to scroll and view all expenses</li>
+              <li>Cannot delete an expense that is approved or paid, deletion requires approval from both users</li>
+            </ul>
+          </div>
+          <div className="card-info-mvp">
+            <h4>Navigation bar</h4>
+            <ul className="box-explication-mvp">
+              <li>Custody: Connects with the calendar to indicate who has custody on a particular day</li>
+              <li>Minor: Connects with the minor's profile to display their name</li>
+            </ul>
+          </div>
+          <div className="card-info-mvp">
+            <h4>Details</h4>
+            <ul className="box-explication-mvp">
+              <li>Display the amount the other user has to pay, indicating if it's 50% for equal sharing</li>
+            </ul>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+    
+    {/* <!-- MVP 1.2 --> */}
+    <div className="mvp">
+      <h3 className="titulo_section_mvp">MVP 1.2</h3>
+      <figure>
+        <img src="movil_padres.png" alt="foto familia" className="imghvr-mvp-zoom-up" />
+        <figcaption className="hover-text-mvp">
+          <div className="card-info-mvp">
+            <h4>Expense</h4>
+            <ul className="box-explication-mvp">
+              <li>Display in a different color once the other user has paid</li>
+              <li>Define how the payment responsibility will be displayed and how the other user will demonstrate the payment of the outstanding amount. Consider leaving a space to connect with a bank card for direct payment through the bank once accepted.</li>
+            </ul>
+          </div>
+          <div className="card-info-mvp">
+            <h4>Balance</h4>
+            <ul className="box-explication-mvp">
+              <li>Create an expense balance for different activities: clothing, school, extracurricular activities, medical expenses, and miscellaneous, for each child. This provides a monthly and yearly control of expenditures</li>
+              <li>Ability to divide the balance between children and show the total for the entire family</li>
+            </ul>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+    
+ 
+    
+  </div>
+</section>
 
 
-
-        <section className="section_3">
+        {/* <section className="section_3">
           <div className="text_section" id="Define">
+          
 
                <tr className="Empathize_inf">
               <td className="Empathize">
@@ -340,7 +440,7 @@ export default function PadresEnsync() {
               </td>
               </tr>
            </div>
-        </section>
+        </section> */}
 
       <section className="section_6">
         <div className="text_section" id="Ideate">

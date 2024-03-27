@@ -75,62 +75,19 @@ export default function Contacto() {
               creative collaborations, or if you are looking for new talents for
               your team, I would love to hear from you!
             </p>
-            <img src="porfolio.jpeg" width={350} />
+
+            <li>
+            <a href="mailto:vanicuc@gmail.com" target="_blank">
+              <img src="email.png" alt="Icono de Mail" />
+            </a>
+          </li>
+
+
+            <img src="porfolio.jpeg" width={350} className="porfolio_img" />
           </div>
         </div>
 
-         <form action="" className="form_contact" onSubmit={handleSubmit}>
-          <h2>Send a message</h2>
-          <div className="user_info">
-            <label htmlFor="name">Name *</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={formData.name}
-              onChange={handleInputChange}
-              required
-            />
-
-            <label htmlFor="phone">Mobile</label>
-            <input
-              type="text"
-              id="phone"
-              name="phone"
-              value={formData.phone}
-              onChange={handleInputChange}
-              required
-            />
-
-            <label htmlFor="email">Email *</label>
-            <input
-              type="text"
-              id="email"
-              name="email"
-              value={formData.email}
-              onChange={handleInputChange}
-              required
-            />
-
-            <label htmlFor="message">Message *</label>
-            <textarea
-              id="message"
-              name="message"
-              value={formData.message}
-              onChange={handleInputChange}
-              required
-            ></textarea>
-            <input type="submit" value="Submit" id="btnSend" />
-          </div>
-        </form> 
-      </div>
-
-
-
-
-
-
-        {/* <form action="" className="form_contact" onSubmit={handleSubmit}>
+         {/* <form action="" className="form_contact" onSubmit={handleSubmit}>
           <h2>Send a message</h2>
           <div className="user_info">
             <label htmlFor="name">Name *</label>
@@ -174,6 +131,12 @@ export default function Contacto() {
             <input type="submit" value="Submit" id="btnSend" />
           </div>
         </form>  */}
+      </div>
+
+   
+
+
+
     </>
   );
 }

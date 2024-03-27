@@ -118,3 +118,11 @@ form.form_contact input[type="submit"] {
   display: flex; /* Utiliza el modelo de caja flexible */
   align-items: center; /* Centra verticalmente los elementos secundarios */
 }
+
+
+@media (max-width: 600px) {
+  .porfolio_img{
+    display: none;
+  }
+  
+  }

@@ -445,14 +445,163 @@ video {
 .imghvr-zoom-out-up:hover .hover-text {
   opacity: 1;
 }
+.hover-text {
+  overflow-y: auto; /* Añade un desplazamiento vertical si es necesario */
+  max-height: 300px; /* Ajusta este valor según tus necesidades */
+}
+ /* Para dispositivos con un ancho de pantalla menor o igual a 600px */
+@media (max-width: 600px) {
+  .box_Empathize {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flujo a vertical */
+    align-items: center; /* Centra los elementos horizontalmente */
+  }
+
+  .Empathize {
+    margin-bottom: 20px; /* Añade un margen inferior para separar las imágenes */
+  }
+
+  .imghvr-zoom-out-up {
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes */
+  }
+
+  .hover-text {
+    position: static; /* Restaura la posición estática para el texto */
+    opacity: 1; /* Asegura que el texto sea visible */
+    max-height: none; /* Elimina la altura máxima */
+    text-align: center; /* Centra el texto */
+  }
+
+  .hover-image {
+    transition: none; /* Elimina la transición en dispositivos móviles */
+  }
+
+  /* Opcional: Elimina el desplazamiento vertical en el texto */
+  .hover-text {
+    overflow-y: hidden;
+  }
+}
+
+
+
+/* para padres en sinc mvp */
+
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+  .section_mvp {
+    display: none; /* Oculta la sección en dispositivos con un ancho de pantalla menor o igual a 600px */
+  }
+}
+
+/* Estilos para dispositivos de escritorio */
+
+/* Estilos para dispositivos de escritorio */
+@media (min-width: 601px) {
+  .section_mvp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Cambia la dirección del flujo a vertical */
+  }
+
+  .mvp_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que los MVPs se envuelvan si no caben en una sola fila */
+    gap: 20px; /* Añade espacio entre los MVPs */
+  }
+
+  .mvp {
+    text-align: center;
+    position: relative; /* Establece la posición relativa para el contenedor de cada MVP */
+  }
+
+  .titulo_section_mvp {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .imghvr-mvp-zoom-up {
+    width: 100%;
+    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+    transition: transform 0.3s ease; /* Añade una transición suave */
+  }
+
+  .imghvr-mvp-zoom-up:hover {
+    transform: scale(1.1); /* Escala ligeramente la imagen al pasar el cursor sobre ella */
+  }
+
+  .hover-text-mvp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.96); /* Fondo semitransparente para el texto */
+    opacity: 0; /* Inicialmente oculto */
+    transition: opacity 0.5s ease; /* Transición suave */
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Añade espacio alrededor del texto */
+    box-sizing: border-box; /* Incluye el padding en el cálculo del tamaño */
+    font-size: 10px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    line-height: 1.5; /* Altura de línea */
+  }
+
+  .mvp:hover .hover-text-mvp {
+    opacity: 1; /* Muestra el texto cuando el MVP tiene el cursor encima */
+  }
+
+  .hover-text-mvp ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 350px
+  }
+
+  .hover-text-mvp li {
+    margin-bottom: 5px;
+    word-wrap: break-word; 
+  }
+}
+
+
+/* //////////////////max-width: 600px//////////////// */
+
+
 @media (max-width: 600px) {
   .hover-text {
     font-size: 14px; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
   }
-}
-.hover-text {
-  overflow-y: auto; /* Añade un desplazamiento vertical si es necesario */
-  max-height: 300px; /* Ajusta este valor según tus necesidades */
+
+  .contenedor_design {
+    display: none;
+  }
+
+  .imagen_logo {
+    display: none;
+  }
+
+  .Define_img_olivino{
+    display: none;
+  }
+
+  .contenedor_design_padres{
+    display: none;
+
+  }
+  .img_logo_project_padreEnsync{
+    display: none;
+
+  }
+  
 }
 
 

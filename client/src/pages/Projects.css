@@ -776,7 +776,3 @@ video {
   margin: 0 auto; /* Esto centra el contenedor en la página */
   flex-direction: column;
 }
-
-.storytell_roll {
-  /* No es necesario aplicar estilos adicionales si el texto está dentro de un <h2> */
-}

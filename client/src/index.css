@@ -130,7 +130,7 @@ nav .Links img {
   width: 25px; /* Ajusta el tamaño de los íconos según tus necesidades */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   /* Estilos para pantallas más pequeñas si es necesario */
  
    /* Estilo específico para el select "Work" */

@@ -36,7 +36,7 @@ export default function Home() {
             <a href="/OliVino" className="card">
               <div className="card__background"></div>
               <div className="card__content">
-                <p className="card__category">group project</p>
+                <p className="card__category">Group Project</p>
                 <h4 className="card__heading"> OliVino</h4>
               </div>
             </a>

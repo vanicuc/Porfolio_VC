@@ -3,7 +3,10 @@
 body {
   font-family: "Roboto", sans-serif;
  
-} 
+  overflow-y: scroll; /* Habilita el desplazamiento vertical suave */
+  -webkit-overflow-scrolling: touch; /* Habilita el desplazamiento suave en dispositivos iOS */
+}
+
 h1, h2, 
  h3 {
   font-family: "Roboto", sans-serif;

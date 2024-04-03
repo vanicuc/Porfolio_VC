@@ -88,11 +88,20 @@ export default function OliVino() {
           />
         </div>
       </section>
+      
+      <section className="section_4 parallax_section">
+  <div className="text_section" id="Prototype">
+    <div className="Moodboard_olivino">
+      <h2 className="titulo_section">Moodboard</h2>
+    </div>
+  </div>
+</section>
 
+{/* 
 
       <section className="section_4">
         <div className="text_section" id="Prototype">
-          {/* <div className="Moodboard_olivino"> */}
+          <div className="Moodboard_olivino">
           <h2 className="titulo_section">Moodboard</h2>
           <img
             src="./Moodboard_olivino.png"
@@ -102,9 +111,9 @@ export default function OliVino() {
           /> 
 
       
-          {/* </div> */}
+          </div>
         </div>
-      </section>
+      </section> */}
       
       <section className="section_2">
         <div className="text_section" id="Empathize">

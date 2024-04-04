@@ -611,43 +611,43 @@ video {
 
 /* Estilos para dispositivos de escritorio */
 @media (min-width: 601px) {
-  /* .section_mvp {
+   .section_mvp {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-  } */
+  } 
 
-  /* .mvp_container {
+  .mvp_container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
     gap: 20px; 
-  } */
+  } 
 
-  /* .mvp {
+   .mvp {
     text-align: center;
     position: relative; 
-  } */
+  } 
 
-  /* .titulo_section_mvp {
+  .titulo_section_mvp {
     color: #333;
     font-size: 24px;
     font-weight: bold;
-  } */
+  }
 
-  /* .imghvr-mvp-zoom-up {
+  .imghvr-mvp-zoom-up {
     width: 100%;
     cursor: pointer; 
     transition: transform 0.3s ease; 
-  } */
+  }
 
-  /* .imghvr-mvp-zoom-up:hover {
+  .imghvr-mvp-zoom-up:hover {
     transform: scale(1.1); 
-  } */
+  } 
 
-  /* .hover-text-mvp {
+   .hover-text-mvp {
     position: absolute;
     top: 0;
     left: 0;
@@ -681,9 +681,9 @@ video {
   .hover-text-mvp li {
     margin-bottom: 5px;
     word-wrap: break-word; 
-  } */
+  } 
 }
-
+}
 
 
 

@@ -88,16 +88,16 @@ export default function OliVino() {
           />
         </div>
       </section>
-      
-      <section className="section_4 parallax_section">
-  <div className="text_section" id="Prototype">
-    <div className="Moodboard_olivino">
-      <h2 className="titulo_section">Moodboard</h2>
-    </div>
-  </div>
-</section>
 
-{/* 
+      <section className="section_4 parallax_section">
+        <div className="text_section" id="Prototype">
+          <div className="Moodboard_olivino">
+            <h2 className="titulo_section">Moodboard</h2>
+          </div>
+        </div>
+      </section>
+
+      {/* 
 
       <section className="section_4">
         <div className="text_section" id="Prototype">
@@ -114,109 +114,114 @@ export default function OliVino() {
           </div>
         </div>
       </section> */}
-      
+
       <section className="section_2">
         <div className="text_section" id="Empathize">
           <div className="box_Empathize">
-
-        <h3 className="titulo_section">Empathize</h3>
+            <h3 className="titulo_section">Empathize</h3>
             <table>
               <tbody>
-                
                 <tr className="Empathize_inf">
-                  
-                   <td className="Empathize">
+                  <td className="Empathize">
+                    <figure className="imghvr-zoom-out-up">
+                      <img
+                        src="laidy6.jpeg"
+                        alt="pld woman"
+                        className="hover-image"
+                      />
+                      <figcaption className="hover-text">
+                        <h2>Problem</h2>
+                        <h3>
+                          Many older individuals currently grapple with the
+                          challenge of loneliness. The lack of social activities
+                          and limited interaction with peers of their age
+                          significantly contribute to a sense of isolation.
+                        </h3>
+                      </figcaption>
+                    </figure>
+                  </td>
 
-                   <figure className="imghvr-zoom-out-up">
-                  <img src="laidy6.jpeg" alt="pld woman" className="hover-image" />
-                  <figcaption className="hover-text">
-                    <h2>Problem</h2>
-                     <h3>
-                     Many older individuals currently grapple with the challenge
-                    of loneliness. The lack of social activities and limited
-                    interaction with peers of their age significantly contribute
-                    to a sense of isolation.
-                    </h3>
-                  </figcaption>
-                </figure>
-                </td> 
+                  <td className="Empathize">
+                    <figure className="imghvr-zoom-out-up">
+                      <img
+                        src="laidy5.jpeg"
+                        alt="pld woman"
+                        className="hover-image"
+                      />
+                      <figcaption className="hover-text">
+                        <h2>Objective</h2>
+                        <h3>
+                          Our primary goal is to tackle the challenge of
+                          loneliness by creating a platform that provides a
+                          diverse range of local and virtual events, customized
+                          to cater to the interests of the elderly population.
+                          The overarching aim is to turn isolation into
+                          companionship, fostering authentic and meaningful
+                          connections through an app, and consequently,
+                          improving the overall quality of life for older
+                          adults.
+                        </h3>
+                      </figcaption>
+                    </figure>
+                  </td>
 
-
-                <td className="Empathize">
-                   <figure className="imghvr-zoom-out-up">
-                  <img src="laidy5.jpeg" alt="pld woman" className="hover-image" />
-                  <figcaption className="hover-text">
-                  <h2>Objective</h2>
-                     <h3>
-                      Our primary goal is to tackle the challenge of loneliness by
-                      creating a platform that provides a diverse range of local
-                      and virtual events, customized to cater to the interests of
-                      the elderly population. The overarching aim is to turn
-                      isolation into companionship, fostering authentic and
-                      meaningful connections through an app, and consequently,
-                      improving the overall quality of life for older adults.
-                    </h3>
-                  </figcaption>
-                </figure>
-                </td>
-
-
-                <td className="Empathize">
-                   <figure className="imghvr-zoom-out-up">
-                  <img src="feliz.jpeg" alt="pld woman" className="hover-image" />
-                  <figcaption className="hover-text">
-                  <h2>Solution</h2>
-                     <h3>
-                     Olívino is an app designed with a user-centric and inclusive
-                    approach. The platform offers a variety of local and online
-                    events tailored to the interests of the older population.
-                    The user-friendly interface and accessibility features
-                    ensure seamless participation for everyone. Olívino
-                    facilitates the formation of new friendships by connecting
-                    people with similar interests, creating a space where
-                    loneliness transforms into an opportunity to build
-                    meaningful relationships and enjoy the company of others in
-                    the golden years of life.
-                    </h3>
-                  </figcaption>
-                </figure>
-                </td>
-              </tr>
-
+                  <td className="Empathize">
+                    <figure className="imghvr-zoom-out-up">
+                      <img
+                        src="feliz.jpeg"
+                        alt="pld woman"
+                        className="hover-image"
+                      />
+                      <figcaption className="hover-text">
+                        <h2>Solution</h2>
+                        <h3>
+                          Olívino is an app designed with a user-centric and
+                          inclusive approach. The platform offers a variety of
+                          local and online events tailored to the interests of
+                          the older population. The user-friendly interface and
+                          accessibility features ensure seamless participation
+                          for everyone. Olívino facilitates the formation of new
+                          friendships by connecting people with similar
+                          interests, creating a space where loneliness
+                          transforms into an opportunity to build meaningful
+                          relationships and enjoy the company of others in the
+                          golden years of life.
+                        </h3>
+                      </figcaption>
+                    </figure>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
         </div>
       </section>
 
-
-      
       <section className="section_3">
         <div className="text_section" id="Define">
           <h3 className="titulo_section">Storytelling </h3>
           <div>
-       
-          <p className="box_Explication_project">
-            Laia, a woman with a vibrant and cheerful spirit, found herself
-            alone in her home after the loss of her husband. Solitude settled in
-            like a shadow, dimming the laughter that once filled every corner of
-            her life. One day, she discovered Olívino, an app designed to weave
-            connections among lonely hearts. With doubts but with the hope of
-            rediscovering joy, Laia immersed herself in the platform. As she
-            explored local and virtual events, she realized that Olívino was not
-            just an app but a beacon lighting her path to companionship and
-            friendship. Captivated by the diversity of activities and the warmth
-            of interactions, Laia began attending events and chats. Soon,
-            conversations turned into shared laughter, and events became regular
-            gatherings that filled her calendar and her heart. Olívino not only
-            gave Laia the chance to make new friends but also brought music back
-            into her home. Solitude gradually faded away, replaced by the
-            symphony of laughter and friendships that blossomed in her life
-            thanks to Olívino. Discover the magic of connection in every
-            encounter, as Laia did, and let Olívino be the melody that
-            transforms solitude into companionship.
-          </p>
-          {/* <div className="parallax-container"></div> */}
+            <p className="box_Explication_project">
+              Laia, a woman with a vibrant and cheerful spirit, found herself
+              alone in her home after the loss of her husband. Solitude settled
+              in like a shadow, dimming the laughter that once filled every
+              corner of her life. One day, she discovered Olívino, an app
+              designed to weave connections among lonely hearts. With doubts but
+              with the hope of rediscovering joy, Laia immersed herself in the
+              platform. As she explored local and virtual events, she realized
+              that Olívino was not just an app but a beacon lighting her path to
+              companionship and friendship. Captivated by the diversity of
+              activities and the warmth of interactions, Laia began attending
+              events and chats. Soon, conversations turned into shared laughter,
+              and events became regular gatherings that filled her calendar and
+              her heart. Olívino not only gave Laia the chance to make new
+              friends but also brought music back into her home. Solitude
+              gradually faded away, replaced by the symphony of laughter and
+              friendships that blossomed in her life thanks to Olívino. Discover
+              the magic of connection in every encounter, as Laia did, and let
+              Olívino be the melody that transforms solitude into companionship.
+            </p>
+            {/* <div className="parallax-container"></div> */}
 
             {/* <div className="parallax-container">
               <div className="parallax-image" style={{backgroundImage: "url('./laidy1.png')"}}></div>
@@ -228,13 +233,12 @@ export default function OliVino() {
               <div className="parallax-image" style={{backgroundImage: "url('./laidy4.png')"}}></div>
             </div>  */}
 
-              <div className="Define_img_olivino">
-                <img src="laidy 1.png" alt="pld woman" />
-                <img src="laidy 2.png" alt="pld woman" />
-                <img src="laidy 3.png" alt="pld woman" />
-                <img src="laidy 4.png" alt="pld woman" />
-              </div>
-
+            <div className="Define_img_olivino">
+              <img src="laidy 1.png" alt="pld woman" />
+              <img src="laidy 2.png" alt="pld woman" />
+              <img src="laidy 3.png" alt="pld woman" />
+              <img src="laidy 4.png" alt="pld woman" />
+            </div>
           </div>
         </div>
       </section>
@@ -251,8 +255,6 @@ export default function OliVino() {
           </div> 
          </div>
       </section> */}
-
-    
 
       {/* 
       <section className="section_5">
@@ -289,27 +291,22 @@ export default function OliVino() {
 
       {/* </section> */}
 
-
       <div>
-          <br></br>
-        </div>
+        <br></br>
+      </div>
 
       <section className="section_5">
         <div className="sectionPlay">
-
           {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/W2eh8uhy8YM?si=tEZJ55M3jhLelOAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
 
-          
           <iframe
             title="Vimeo Video"
             src="https://player.vimeo.com/video/912167217?autoplay=1&loop=1"
-
             frameBorder="0"
             width="100%"
             height="700px"
             muted
           ></iframe>
-
         </div>
 
         <div>

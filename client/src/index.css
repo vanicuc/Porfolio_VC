@@ -132,7 +132,15 @@ nav .Links div {
 nav .Links img {
   width: 25px; /* Ajusta el tamaño de los íconos según tus necesidades */
 }
+@media (max-width: 769px){
+  #work-experience-dropdown p a  {
+    text-align: right;
 
+}
+select#work-experience-dropdown{
+text-align: right;
+}
+}
 @media (max-width: 600px) {
   /* Estilos para pantallas más pequeñas si es necesario */
  
@@ -145,13 +153,7 @@ nav .Links img {
     justify-content: flex-start;
     position: initial;
   }
-   #work-experience-dropdown p a  {
-        text-align: right;
-    
-  }
-  select#work-experience-dropdown{
-    text-align: right;
-  }
+   
   
 }
 

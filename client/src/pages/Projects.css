@@ -79,8 +79,9 @@ video {
 }
 
 .section_1_rigth {
-  width: 50%;
+  width: 60%;
 }
+
 
 /* .img_box_logo_padres{
   display: flex;
@@ -399,11 +400,6 @@ video {
 }
 
 
-/* You can add more styles based on your design preferences */
-/* .storytelling-image-row p {
-  padding-left: 2%;
-  padding-right: 2%;
-} */
 
 .storytelling-image-row {
   text-align: center; /* Centra el contenido horizontalmente */
@@ -448,6 +444,36 @@ video {
  }
 
 
+ .Moodboard_padreEnsync{
+  background-image: url("../../public/padresensync_Imagenes.png");
+   height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+ }
+
+ .Moodboard_Rollxperience{
+  background-image: url("../../public/moock-roll.png");
+   height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+ }
+ .Moodboard_biker{
+  background-image: url("../../public/bicycle-3045580_1280.jpg");
+   height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+ }
+
+
  /* empathis efecto  */
 .imghvr-zoom-out-up {
   position: relative;
@@ -480,6 +506,31 @@ video {
 }
  /* Para dispositivos con un ancho de pantalla menor o igual a 600px */
 @media (max-width: 600px) {
+  
+.section_1_rigth {
+  width: 100%;
+}
+
+.Moodboard_olivino {
+  background-attachment: scroll; /* Hacer la imagen estática */
+  background-size: 350px; /* Tamaño más pequeño */
+}
+
+.Moodboard_padreEnsync {
+  background-attachment: scroll; /* Hacer la imagen estática */
+  background-size: 350px; /* Tamaño más pequeño */
+}
+.Moodboard_Rollxperience {
+  background-attachment: scroll; /* Hacer la imagen estática */
+  background-size: 350px; /* Tamaño más pequeño */
+}
+.Moodboard_biker {
+  background-attachment: scroll; /* Hacer la imagen estática */
+  background-size: 350px; /* Tamaño más pequeño */
+}
+
+
+
   .box_Empathize {
     display: flex;
     flex-direction: column; /* Cambia la dirección del flujo a vertical */
@@ -509,103 +560,14 @@ video {
   .hover-text {
     overflow-y: hidden;
   }
-}
 
-
-
-/* para padres en sinc mvp */
-
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 600px) {
+  /* para padres en sinc mvp */
   .section_mvp {
     display: none; /* Oculta la sección en dispositivos con un ancho de pantalla menor o igual a 600px */
   }
-}
-
-/* Estilos para dispositivos de escritorio */
-
-/* Estilos para dispositivos de escritorio */
-@media (min-width: 601px) {
-  .section_mvp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; /* Cambia la dirección del flujo a vertical */
-  }
-
-  .mvp_container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Permite que los MVPs se envuelvan si no caben en una sola fila */
-    gap: 20px; /* Añade espacio entre los MVPs */
-  }
-
-  .mvp {
-    text-align: center;
-    position: relative; /* Establece la posición relativa para el contenedor de cada MVP */
-  }
-
-  .titulo_section_mvp {
-    color: #333;
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  .imghvr-mvp-zoom-up {
-    width: 100%;
-    cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
-    transition: transform 0.3s ease; /* Añade una transición suave */
-  }
-
-  .imghvr-mvp-zoom-up:hover {
-    transform: scale(1.1); /* Escala ligeramente la imagen al pasar el cursor sobre ella */
-  }
-
-  .hover-text-mvp {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    max-width: 400px;
-    background-color: rgba(255, 255, 255, 0.96); /* Fondo semitransparente para el texto */
-    opacity: 0; /* Inicialmente oculto */
-    transition: opacity 0.5s ease; /* Transición suave */
-    display: flex;
-   
-    justify-content: center;
-    align-items: center;
-    padding: 20px; /* Añade espacio alrededor del texto */
-    box-sizing: border-box; /* Incluye el padding en el cálculo del tamaño */
-    font-size: 10px; /* Tamaño de fuente */
-    color: #333; /* Color del texto */
-    text-align: center; /* Alineación del texto */
-    line-height: 1.5; /* Altura de línea */
-  }
-
-  .mvp:hover .hover-text-mvp {
-    opacity: 1; /* Muestra el texto cuando el MVP tiene el cursor encima */
-  }
-
-  .hover-text-mvp ul {
-    list-style-type: none;
-    padding: 0;
-    max-width: 350px
-  }
-
-  .hover-text-mvp li {
-    margin-bottom: 5px;
-    word-wrap: break-word; 
-  }
-}
 
 
-/* //////////////////max-width: 600px//////////////// */
 
-
-@media (max-width: 600px) {
   .hover-text {
     font-size: 14px; /* Ajusta el tamaño de la fuente para pantallas pequeñas */
   }
@@ -630,25 +592,101 @@ video {
     display: none;
 
   }
-  
 }
 
 
- /* empathis efecto  */
 
- /* paralace fotos conjuntas efecto  */
 
- /* .parallax-container {
-  background-image: url(./mujeres_cambio_estado.png);
-  height: 250px;
-  width: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover; /* Añade esta línea }*/
+@media (max-width: 850px) {
+  .Empathize_inf td {
+    text-align: left; /* Alinea el texto a la izquierda */
+  }
 
-  
- 
+  .Empathize,
+  .Empathize_inf {
+    flex-direction: column; /* Cambia la dirección del flujo a vertical */
+    align-items: center; /* Centra los elementos horizontalmente */
+  }
+}
+
+/* Estilos para dispositivos de escritorio */
+@media (min-width: 601px) {
+  /* .section_mvp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+  } */
+
+  /* .mvp_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 20px; 
+  } */
+
+  /* .mvp {
+    text-align: center;
+    position: relative; 
+  } */
+
+  /* .titulo_section_mvp {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+  } */
+
+  /* .imghvr-mvp-zoom-up {
+    width: 100%;
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
+  } */
+
+  /* .imghvr-mvp-zoom-up:hover {
+    transform: scale(1.1); 
+  } */
+
+  /* .hover-text-mvp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.96); 
+    opacity: 0;
+    transition: opacity 0.5s ease; 
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    box-sizing: border-box; 
+    font-size: 10px; 
+    color: #333;
+    text-align: center; 
+    line-height: 1.5; 
+  }
+
+  .mvp:hover .hover-text-mvp {
+    opacity: 1;
+
+  .hover-text-mvp ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 350px
+  }
+
+  .hover-text-mvp li {
+    margin-bottom: 5px;
+    word-wrap: break-word; 
+  } */
+}
+
+
+
+
 
 
 /* /// para mvp bike /// */

@@ -71,7 +71,15 @@ export default function ROLLXPerience() {
         
       </section>
 
-      <section className="section_4">
+      <section className="section_4 parallax_section">
+        <div className="text_section" id="Prototype">
+          <div className="Moodboard_Rollxperience">
+            <h2 className="titulo_section">Moodboard</h2>
+          </div>
+        </div>
+      </section>
+
+      {/* <section className="section_4">
         <div className="text_section" id="Prototype">
           <h3 className="titulo_section">Moodboard ROLLXPerence</h3>
           <div>
@@ -82,7 +90,7 @@ export default function ROLLXPerience() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       <div className="box_storytell_roll">
         <h2>To tell through a fictional story </h2>

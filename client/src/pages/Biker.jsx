@@ -68,7 +68,15 @@ export default function Biker() {
         
       </section>
 
-      <section className="section_4">
+      <section className="section_4 parallax_section">
+        <div className="text_section" id="Prototype">
+          <div className="Moodboard_biker">
+            <h2 className="titulo_section">Moodboard</h2>
+          </div>
+        </div>
+      </section>
+
+      {/* <section className="section_4">
         <div className="text_section" id="Prototype">
           <h3 className="titulo_section">Moodboard oliVino</h3>
           <div>
@@ -79,7 +87,7 @@ export default function Biker() {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="section_8">
         <div className="text_section" id="Ideate">

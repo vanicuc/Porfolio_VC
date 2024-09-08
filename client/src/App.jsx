@@ -74,7 +74,7 @@ function App() {
             </a>
           </li>
           <li>
-            <a href="CV  vanina cucchietti.pdf" target="_blank">
+            <a href="vanina cucchietti -Desarroladora full stack.pdf" target="_blank">
               <img src="cv.png" alt="Icono de cv" />
             </a>
           </li>
